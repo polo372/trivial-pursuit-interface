@@ -1,10 +1,10 @@
 const questions = {
-    1: { question: "Quelle est la capitale de la France ?", answer: "Paris" },
-    2: { question: "Combien de couleurs y a-t-il dans un arc-en-ciel ?", answer: "Sept" },
-    3: { question: "Quelle est la formule chimique de l'eau ?", answer: "H2O" },
-    4: { question: "Quelle est la vitesse de la lumière ?", answer: "299,792,458 mètres par seconde" },
-    5: { question: "Quel est le plus grand océan sur Terre ?", answer: "Océan Pacifique" },
-    6: { question: "Quelle est la langue la plus parlée au monde ?", answer: "Mandarin" }
+    INC: { question: "Quelle est la capitale de la France ?", answer: "Paris" },
+    SAP: { question: "Combien de couleurs y a-t-il dans un arc-en-ciel ?", answer: "Sept" },
+    PPABE: { question: "Quelle est la formule chimique de l'eau ?", answer: "H2O" },
+    FDF: { question: "Quelle est la vitesse de la lumière ?", answer: "299,792,458 mètres par seconde" },
+    GOG: { question: "Quel est le plus grand océan sur Terre ?", answer: "Océan Pacifique" },
+    CAD: { question: "Quelle est la langue la plus parlée au monde ?", answer: "Mandarin" }
 };
 
 let currentQuestionLevel = null;
