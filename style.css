@@ -40,6 +40,37 @@ h1 {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
+/* Specific colors for each button */
+.red {
+    background-color: red;
+    color: white;
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
+
+.brown {
+    background-color: brown;
+    color: white;
+}
+
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+}
+
 #question, #answer {
     margin: 20px 0;
     font-size: 18px;
