@@ -7,15 +7,26 @@ const questions = {
     6: { question: "Quelle est la langue la plus parlée au monde ?", answer: "Mandarin" }
 };
 
+let currentQuestionLevel = null;
+
 function showQuestion(level) {
     const questionElement = document.getElementById('question');
     const answerElement = document.getElementById('answer');
     
     if (questions[level]) {
         questionElement.textContent = questions[level].question;
-        answerElement.textContent = questions[level].answer;
+        answerElement.textContent = "";
+        currentQuestionLevel = level;
     } else {
         questionElement.textContent = "Pas de questions disponibles pour ce niveau.";
         answerElement.textContent = "";
+        currentQuestionLevel = null;
+    }
+}
+
+function showAnswer() {
+    if (currentQuestionLevel !== null && questions[currentQuestionLevel]) {
+        const answerElement = document.getElementById('answer');
+        answerElement.textContent = questions[currentQuestionLevel].answer;
     }
 }
