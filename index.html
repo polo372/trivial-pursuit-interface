@@ -10,14 +10,15 @@
     <div class="container">
         <h1>Trivial Pursuit Interface</h1>
         <div class="buttons">
-            <button class="card-button" onclick="showQuestion(1)">INC</button>
-            <button class="card-button" onclick="showQuestion(2)">SAP</button>
-            <button class="card-button" onclick="showQuestion(3)">PPABE</button>
-            <button class="card-button" onclick="showQuestion(4)">FDF</button>
-            <button class="card-button" onclick="showQuestion(5)">GOG</button>
-            <button class="card-button" onclick="showQuestion(6)">CAD</button>
+            <button class="card-button" onclick="showQuestion('INC')">INC</button>
+            <button class="card-button" onclick="showQuestion('SAP')">SAP</button>
+            <button class="card-button" onclick="showQuestion('PPABE')">PPABE</button>
+            <button class="card-button" onclick="showQuestion('FDF')">FDF</button>
+            <button class="card-button" onclick="showQuestion('GOG')">GOG</button>
+            <button class="card-button" onclick="showQuestion('CAD')">CAD</button>
         </div>
         <button id="show-answer" class="answer-button" onclick="showAnswer()">Réponse</button>
+        <button id="reset" class="reset-button" onclick="reset()">Encore ?</button>
         <div id="question"></div>
         <div id="answer"></div>
     </div>

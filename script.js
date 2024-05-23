@@ -30,3 +30,11 @@ function showAnswer() {
         answerElement.textContent = questions[currentQuestionLevel].answer;
     }
 }
+
+function reset() {
+    const questionElement = document.getElementById('question');
+    const answerElement = document.getElementById('answer');
+    questionElement.textContent = "";
+    answerElement.textContent = "";
+    currentQuestionLevel = null;
+}
