@@ -39,6 +39,9 @@ function flipCard(cardElement, level) {
             questionElement.textContent = usedQuestions[level][currentQuestionIndex].question;
             cardElement.classList.add('flipped');
 
+            // Log the question to check if it's correct
+            console.log(`Showing question: ${usedQuestions[level][currentQuestionIndex].question}`);
+
             // Remove the question from the usedQuestions array
             usedQuestions[level].splice(currentQuestionIndex, 1);
 
@@ -55,6 +58,9 @@ function showAnswer() {
     if (currentQuestionLevel !== null && questions[currentQuestionLevel] && questions[currentQuestionLevel].length > 0) {
         const answerElement = document.getElementById('answer');
         answerElement.textContent = questions[currentQuestionLevel][currentQuestionIndex].answer;
+
+        // Log the answer to check if it's correct
+        console.log(`Showing answer: ${questions[currentQuestionLevel][currentQuestionIndex].answer}`);
     }
 }
 
@@ -66,4 +72,7 @@ function reset() {
     document.querySelectorAll('.card').forEach(card => card.classList.remove('flipped'));
     usedQuestions = JSON.parse(JSON.stringify(questions)); // Reset usedQuestions for a new session
     currentFlippedCard = null; // Reset current flipped card
+
+    // Log to indicate reset
+    console.log('Game reset');
 }
