@@ -37,12 +37,12 @@ h1 {
     transform-style: preserve-3d;
 }
 
-.card.red { background-color: red; }
-.card.green { background-color: green; }
-.card.blue { background-color: blue; }
-.card.brown { background-color: brown; }
-.card.purple { background-color: purple; }
-.card.yellow { background-color: yellow; }
+.card.red .card-front, .card.red .card-back { background-color: red; }
+.card.green .card-front, .card.green .card-back { background-color: green; }
+.card.blue .card-front, .card.blue .card-back { background-color: blue; }
+.card.brown .card-front, .card.brown .card-back { background-color: brown; }
+.card.purple .card-front, .card.purple .card-back { background-color: purple; }
+.card.yellow .card-front, .card.yellow .card-back { background-color: yellow; }
 
 .card-front, .card-back {
     position: absolute;
@@ -60,13 +60,10 @@ h1 {
 }
 
 .card-front {
-    background-color: white;
-    color: black;
+    transform: rotateY(0deg);
 }
 
 .card-back {
-    background-color: #333;
-    color: white;
     transform: rotateY(180deg);
 }
 
