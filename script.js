@@ -1,4 +1,5 @@
 let questions = {};
+let usedQuestions = {}; // Object to track used questions
 
 document.getElementById('file-input').addEventListener('change', function(event) {
     const file = event.target.files[0];
@@ -13,6 +14,7 @@ document.getElementById('file-input').addEventListener('change', function(event)
                 acc[category].push({ question: row.question, answer: row.answer });
                 return acc;
             }, {});
+            usedQuestions = JSON.parse(JSON.stringify(questions)); // Initialize usedQuestions
             console.log('Questions loaded:', questions);
         }
     });
@@ -28,12 +30,15 @@ function flipCard(cardElement, level) {
     }
 
     const questionElement = cardElement.querySelector('.card-back');
-    
-    if (questions[level] && questions[level].length > 0) {
+
+    if (usedQuestions[level] && usedQuestions[level].length > 0) {
         currentQuestionLevel = level;
-        currentQuestionIndex = Math.floor(Math.random() * questions[level].length);
-        questionElement.textContent = questions[level][currentQuestionIndex].question;
+        currentQuestionIndex = Math.floor(Math.random() * usedQuestions[level].length);
+        questionElement.textContent = usedQuestions[level][currentQuestionIndex].question;
         cardElement.classList.add('flipped');
+
+        // Remove the question from the usedQuestions array
+        usedQuestions[level].splice(currentQuestionIndex, 1);
     } else {
         questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
         cardElement.classList.add('flipped');
@@ -54,4 +59,5 @@ function reset() {
     currentQuestionLevel = null;
     currentQuestionIndex = 0;
     document.querySelectorAll('.card').forEach(card => card.classList.remove('flipped'));
+    usedQuestions = JSON.parse(JSON.stringify(questions)); // Reset usedQuestions for a new session
 }
