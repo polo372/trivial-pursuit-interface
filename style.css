@@ -52,12 +52,12 @@ h1 {
     transform: rotateY(180deg);
 }
 
-.red .card-front .card-back { background-color: red; }
-.green .card-front .card-back { background-color: green; }
-.blue .card-front .card-back { background-color: blue; }
-.brown .card-front .card-back { background-color: brown; }
-.purple .card-front .card-back { background-color: purple; }
-.yellow .card-front .card-back { background-color: yellow; color: black; }
+.red .card-front { background-color: red; }
+.green .card-front { background-color: green; }
+.blue .card-front { background-color: blue; }
+.brown .card-front { background-color: brown; }
+.purple .card-front { background-color: purple; }
+.yellow .card-front { background-color: yellow; color: black; }
 
 .card.flip .card-front {
     transform: rotateY(180deg);
