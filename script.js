@@ -21,18 +21,22 @@ document.getElementById('file-input').addEventListener('change', function(event)
 let currentQuestionLevel = null;
 let currentQuestionIndex = 0;
 
-function showQuestion(level) {
-    const questionElement = document.getElementById('question');
-    const answerElement = document.getElementById('answer');
+function flipCard(cardElement, level) {
+    if (cardElement.classList.contains('flipped')) {
+        cardElement.classList.remove('flipped');
+        return;
+    }
+
+    const questionElement = cardElement.querySelector('.card-back');
     
     if (questions[level] && questions[level].length > 0) {
         currentQuestionLevel = level;
         currentQuestionIndex = Math.floor(Math.random() * questions[level].length);
         questionElement.textContent = questions[level][currentQuestionIndex].question;
-        answerElement.textContent = "";
+        cardElement.classList.add('flipped');
     } else {
         questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
-        answerElement.textContent = "";
+        cardElement.classList.add('flipped');
         currentQuestionLevel = null;
     }
 }
@@ -45,10 +49,9 @@ function showAnswer() {
 }
 
 function reset() {
-    const questionElement = document.getElementById('question');
     const answerElement = document.getElementById('answer');
-    questionElement.textContent = "";
     answerElement.textContent = "";
     currentQuestionLevel = null;
     currentQuestionIndex = 0;
+    document.querySelectorAll('.card').forEach(card => card.classList.remove('flipped'));
 }
