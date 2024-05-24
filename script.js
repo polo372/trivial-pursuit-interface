@@ -1,56 +1,46 @@
-let questions = {};
-let usedQuestions = {}; // Object to track used questions
-let currentFlippedCard = null; // Track the currently flipped card
-
-document.getElementById('file-input').addEventListener('change', function(event) {
-    const file = event.target.files[0];
-    Papa.parse(file, {
-        header: true,
-        complete: function(results) {
-            questions = results.data.reduce((acc, row) => {
-                const category = row.category;
-                if (!acc[category]) {
-                    acc[category] = [];
-                }
-                acc[category].push({ question: row.question, answer: row.answer });
-                return acc;
-            }, {});
-            usedQuestions = JSON.parse(JSON.stringify(questions)); // Initialize usedQuestions
-            console.log('Questions loaded:', questions);
-        }
-    });
-});
+const questions = {
+    INC: [
+        { question: "Quelle est la capitale de la France ?", answer: "Paris" },
+        { question: "Quelle est la monnaie de la France ?", answer: "Euro" }
+    ],
+    SAP: [
+        { question: "Combien de couleurs y a-t-il dans un arc-en-ciel ?", answer: "Sept" },
+        { question: "Quel est le symbole chimique du sodium ?", answer: "Na" }
+    ],
+    PPABE: [
+        { question: "Quelle est la formule chimique de l'eau ?", answer: "H2O" },
+        { question: "Quelle est la planète la plus proche du soleil ?", answer: "Mercure" }
+    ],
+    FDF: [
+        { question: "Quelle est la vitesse de la lumière ?", answer: "299,792,458 mètres par seconde" },
+        { question: "Quelle est l'unité de mesure de la force ?", answer: "Newton" }
+    ],
+    GOG: [
+        { question: "Quel est le plus grand océan sur Terre ?", answer: "Océan Pacifique" },
+        { question: "Quelle est la montagne la plus haute du monde ?", answer: "Mont Everest" }
+    ],
+    CAD: [
+        { question: "Quelle est la langue la plus parlée au monde ?", answer: "Mandarin" },
+        { question: "Quel est le pays le plus peuplé du monde ?", answer: "Chine" }
+    ]
+};
 
 let currentQuestionLevel = null;
 let currentQuestionIndex = 0;
 
-function flipCard(cardElement, level) {
-    if (currentFlippedCard && currentFlippedCard !== cardElement) {
-        currentFlippedCard.classList.remove('flipped');
-        currentFlippedCard = null;
-    }
-
-    if (!cardElement.classList.contains('flipped')) {
-        const questionElement = cardElement.querySelector('.card-back');
-
-        if (usedQuestions[level] && usedQuestions[level].length > 0) {
-            currentQuestionLevel = level;
-            currentQuestionIndex = Math.floor(Math.random() * usedQuestions[level].length);
-            questionElement.textContent = usedQuestions[level][currentQuestionIndex].question;
-            cardElement.classList.add('flipped');
-
-            // Log the question to check if it's correct
-            console.log(`Showing question: ${usedQuestions[level][currentQuestionIndex].question}`);
-
-            // Remove the question from the usedQuestions array
-            usedQuestions[level].splice(currentQuestionIndex, 1);
-
-            currentFlippedCard = cardElement; // Set the current flipped card
-        } else {
-            questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
-            cardElement.classList.add('flipped');
-            currentQuestionLevel = null;
-        }
+function showQuestion(level) {
+    const questionElement = document.getElementById('question');
+    const answerElement = document.getElementById('answer');
+    
+    if (questions[level] && questions[level].length > 0) {
+        currentQuestionLevel = level;
+        currentQuestionIndex = Math.floor(Math.random() * questions[level].length);
+        questionElement.textContent = questions[level][currentQuestionIndex].question;
+        answerElement.textContent = "";
+    } else {
+        questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
+        answerElement.textContent = "";
+        currentQuestionLevel = null;
     }
 }
 
@@ -58,21 +48,14 @@ function showAnswer() {
     if (currentQuestionLevel !== null && questions[currentQuestionLevel] && questions[currentQuestionLevel].length > 0) {
         const answerElement = document.getElementById('answer');
         answerElement.textContent = questions[currentQuestionLevel][currentQuestionIndex].answer;
-
-        // Log the answer to check if it's correct
-        console.log(`Showing answer: ${questions[currentQuestionLevel][currentQuestionIndex].answer}`);
     }
 }
 
 function reset() {
+    const questionElement = document.getElementById('question');
     const answerElement = document.getElementById('answer');
+    questionElement.textContent = "";
     answerElement.textContent = "";
     currentQuestionLevel = null;
     currentQuestionIndex = 0;
-    document.querySelectorAll('.card').forEach(card => card.classList.remove('flipped'));
-    usedQuestions = JSON.parse(JSON.stringify(questions)); // Reset usedQuestions for a new session
-    currentFlippedCard = null; // Reset current flipped card
-
-    // Log to indicate reset
-    console.log('Game reset');
 }
