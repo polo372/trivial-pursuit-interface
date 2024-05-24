@@ -21,11 +21,55 @@ h1 {
     margin: 20px 0;
 }
 
-.card-button, .answer-button, .reset-button {
+.card {
+    perspective: 1000px;
     width: 150px;
     height: 200px;
     margin: 10px;
-    padding: 20px;
+}
+
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border: 1px solid #333;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    transition: transform 0.6s;
+}
+
+.card-front {
+    background-color: white;
+    color: black;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+
+.red .card-front .card-back { background-color: red; }
+.green .card-front .card-back { background-color: green; }
+.blue .card-front .card-back { background-color: blue; }
+.brown .card-front .card-back { background-color: brown; }
+.purple .card-front .card-back { background-color: purple; }
+.yellow .card-front .card-back { background-color: yellow; color: black; }
+
+.card.flip .card-front {
+    transform: rotateY(180deg);
+}
+
+.card.flip .card-back {
+    transform: rotateY(0deg);
+}
+
+.answer-button, .reset-button {
+    margin: 10px;
+    padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
     border: 1px solid #333;
@@ -35,39 +79,9 @@ h1 {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.card-button:hover, .answer-button:hover, .reset-button:hover {
+.answer-button:hover, .reset-button:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.red {
-    background-color: red;
-    color: white;
-}
-
-.green {
-    background-color: green;
-    color: white;
-}
-
-.blue {
-    background-color: blue;
-    color: white;
-}
-
-.brown {
-    background-color: brown;
-    color: white;
-}
-
-.purple {
-    background-color: purple;
-    color: white;
-}
-
-.yellow {
-    background-color: yellow;
-    color: black;
 }
 
 #question, #answer {

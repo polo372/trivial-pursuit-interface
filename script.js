@@ -27,6 +27,7 @@ const questions = {
 
 let currentQuestionLevel = null;
 let currentQuestionIndex = 0;
+let countdownTimer = null;
 
 function showQuestion(level) {
     const questionElement = document.getElementById('question');
@@ -35,8 +36,22 @@ function showQuestion(level) {
     if (questions[level] && questions[level].length > 0) {
         currentQuestionLevel = level;
         currentQuestionIndex = Math.floor(Math.random() * questions[level].length);
-        questionElement.textContent = questions[level][currentQuestionIndex].question;
+        const question = questions[level][currentQuestionIndex].question;
+        const cardBack = document.getElementById(`${level}-back`);
+        cardBack.textContent = question;
+
+        // Flip the card
+        const card = document.querySelector(`.card.${level}`);
+        card.classList.add('flip');
+
+        // Reset the answer
         answerElement.textContent = "";
+
+        // Start a 20-second countdown to show the answer automatically
+        if (countdownTimer) {
+            clearTimeout(countdownTimer);
+        }
+        countdownTimer = setTimeout(showAnswer, 20000);
     } else {
         questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
         answerElement.textContent = "";
@@ -58,4 +73,13 @@ function reset() {
     answerElement.textContent = "";
     currentQuestionLevel = null;
     currentQuestionIndex = 0;
+
+    // Remove the flip class from all cards
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => card.classList.remove('flip'));
+
+    // Clear the countdown timer
+    if (countdownTimer) {
+        clearTimeout(countdownTimer);
+    }
 }
