@@ -1,5 +1,6 @@
 let questions = {};
 let usedQuestions = {}; // Object to track used questions
+let currentFlippedCard = null; // Track the currently flipped card
 
 document.getElementById('file-input').addEventListener('change', function(event) {
     const file = event.target.files[0];
@@ -24,25 +25,29 @@ let currentQuestionLevel = null;
 let currentQuestionIndex = 0;
 
 function flipCard(cardElement, level) {
-    if (cardElement.classList.contains('flipped')) {
-        cardElement.classList.remove('flipped');
-        return;
+    if (currentFlippedCard && currentFlippedCard !== cardElement) {
+        currentFlippedCard.classList.remove('flipped');
+        currentFlippedCard = null;
     }
 
-    const questionElement = cardElement.querySelector('.card-back');
+    if (!cardElement.classList.contains('flipped')) {
+        const questionElement = cardElement.querySelector('.card-back');
 
-    if (usedQuestions[level] && usedQuestions[level].length > 0) {
-        currentQuestionLevel = level;
-        currentQuestionIndex = Math.floor(Math.random() * usedQuestions[level].length);
-        questionElement.textContent = usedQuestions[level][currentQuestionIndex].question;
-        cardElement.classList.add('flipped');
+        if (usedQuestions[level] && usedQuestions[level].length > 0) {
+            currentQuestionLevel = level;
+            currentQuestionIndex = Math.floor(Math.random() * usedQuestions[level].length);
+            questionElement.textContent = usedQuestions[level][currentQuestionIndex].question;
+            cardElement.classList.add('flipped');
 
-        // Remove the question from the usedQuestions array
-        usedQuestions[level].splice(currentQuestionIndex, 1);
-    } else {
-        questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
-        cardElement.classList.add('flipped');
-        currentQuestionLevel = null;
+            // Remove the question from the usedQuestions array
+            usedQuestions[level].splice(currentQuestionIndex, 1);
+
+            currentFlippedCard = cardElement; // Set the current flipped card
+        } else {
+            questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
+            cardElement.classList.add('flipped');
+            currentQuestionLevel = null;
+        }
     }
 }
 
@@ -60,4 +65,5 @@ function reset() {
     currentQuestionIndex = 0;
     document.querySelectorAll('.card').forEach(card => card.classList.remove('flipped'));
     usedQuestions = JSON.parse(JSON.stringify(questions)); // Reset usedQuestions for a new session
+    currentFlippedCard = null; // Reset current flipped card
 }
