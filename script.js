@@ -30,9 +30,6 @@ let currentQuestionIndex = 0;
 let countdownTimer = null;
 
 function showQuestion(level) {
-    const questionElement = document.getElementById('question');
-    const answerElement = document.getElementById('answer');
-    
     if (questions[level] && questions[level].length > 0) {
         currentQuestionLevel = level;
         currentQuestionIndex = Math.floor(Math.random() * questions[level].length);
@@ -44,36 +41,25 @@ function showQuestion(level) {
         const card = document.querySelector(`.card.${level}`);
         card.classList.add('flip');
 
-        // Reset the answer
-        answerElement.textContent = "";
-
         // Start a 20-second countdown to show the answer automatically
         if (countdownTimer) {
             clearTimeout(countdownTimer);
         }
         countdownTimer = setTimeout(showAnswer, 20000);
     } else {
-        questionElement.textContent = "Pas de questions disponibles pour cette catégorie.";
-        answerElement.textContent = "";
+        alert("Pas de questions disponibles pour cette catégorie.");
         currentQuestionLevel = null;
     }
 }
 
 function showAnswer() {
     if (currentQuestionLevel !== null && questions[currentQuestionLevel] && questions[currentQuestionLevel].length > 0) {
-        const answerElement = document.getElementById('answer');
-        answerElement.textContent = questions[currentQuestionLevel][currentQuestionIndex].answer;
+        const cardBack = document.getElementById(`${currentQuestionLevel}-back`);
+        cardBack.textContent += `\nRéponse : ${questions[currentQuestionLevel][currentQuestionIndex].answer}`;
     }
 }
 
 function reset() {
-    const questionElement = document.getElementById('question');
-    const answerElement = document.getElementById('answer');
-    questionElement.textContent = "";
-    answerElement.textContent = "";
-    currentQuestionLevel = null;
-    currentQuestionIndex = 0;
-
     // Remove the flip class from all cards
     const cards = document.querySelectorAll('.card');
     cards.forEach(card => card.classList.remove('flip'));

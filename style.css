@@ -26,6 +26,7 @@ h1 {
     width: 150px;
     height: 200px;
     margin: 10px;
+    position: relative;
 }
 
 .card-front, .card-back {
@@ -41,23 +42,24 @@ h1 {
     font-size: 18px;
     color: white;
     transition: transform 0.6s;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .card-front {
-    background-color: white;
-    color: black;
+    transform: rotateY(0deg);
 }
 
 .card-back {
     transform: rotateY(180deg);
 }
 
-.red .card-front { background-color: red; }
-.green .card-front { background-color: green; }
-.blue .card-front { background-color: blue; }
-.brown .card-front { background-color: brown; }
-.purple .card-front { background-color: purple; }
-.yellow .card-front { background-color: yellow; color: black; }
+.red .card-front, .red .card-back { background-color: red; }
+.green .card-front, .green .card-back { background-color: green; }
+.blue .card-front, .blue .card-back { background-color: blue; }
+.brown .card-front, .brown .card-back { background-color: brown; }
+.purple .card-front, .purple .card-back { background-color: purple; }
+.yellow .card-front, .yellow .card-back { background-color: yellow; color: black; }
 
 .card.flip .card-front {
     transform: rotateY(180deg);
