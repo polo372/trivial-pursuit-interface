@@ -21,56 +21,23 @@ h1 {
     margin: 20px 0;
 }
 
-.card {
-    perspective: 1000px;
+.btn {
     width: 150px;
-    height: 200px;
+    height: 50px;
     margin: 10px;
-    position: relative;
-}
-
-.card-inner {
-    width: 100%;
-    height: 100%;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    position: relative;
-}
-
-.card-front, .card-back {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    backface-visibility: hidden;
-    border: 1px solid #333;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 18px;
+    border: none;
+    border-radius: 10px;
     color: white;
-    padding: 10px;
-    box-sizing: border-box;
+    cursor: pointer;
 }
 
-.card-front {
-    transform: rotateY(0deg);
-}
-
-.card-back {
-    transform: rotateY(180deg);
-}
-
-.red .card-front, .red .card-back { background-color: red; }
-.green .card-front, .green .card-back { background-color: green; }
-.blue .card-front, .blue .card-back { background-color: blue; }
-.brown .card-front, .brown .card-back { background-color: brown; }
-.purple .card-front, .purple .card-back { background-color: purple; }
-.yellow .card-front, .yellow .card-back { background-color: yellow; color: black; }
-
-.card.flip .card-inner {
-    transform: rotateY(180deg);
-}
+.red { background-color: red; }
+.green { background-color: green; }
+.blue { background-color: blue; }
+.brown { background-color: brown; }
+.purple { background-color: purple; }
+.yellow { background-color: yellow; color: black; }
 
 .answer-button, .reset-button {
     margin: 10px;
