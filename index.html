@@ -22,6 +22,33 @@
         <button id="show-answer" class="answer-button" onclick="showAnswer()">Réponse</button>
         <button id="reset" class="reset-button" onclick="reset()">Encore ?</button>
     </div>
+
+    <div class="admin">
+        <h2>Ajouter une question</h2>
+        <form id="add-question-form" onsubmit="addQuestion(event)">
+            <label for="category">Catégorie :</label>
+            <select id="category">
+                <option value="INC">INC</option>
+                <option value="SAP">SAP</option>
+                <option value="PPABE">PPABE</option>
+                <option value="FDF">FDF</option>
+                <option value="GOG">GOG</option>
+                <option value="CAD">CAD</option>
+            </select>
+            <br>
+            <label for="question">Question :</label>
+            <input type="text" id="question-input" required>
+            <br>
+            <label for="answer">Réponse :</label>
+            <input type="text" id="answer-input" required>
+            <br>
+            <label for="password">Mot de passe :</label>
+            <input type="password" id="password-input" required>
+            <br>
+            <button type="submit">Ajouter</button>
+        </form>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
