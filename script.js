@@ -38,7 +38,7 @@ function showQuestion(level) {
         cardBack.textContent = question;
 
         // Flip the card
-        const card = document.querySelector(`.card.${level}`);
+        const card = document.querySelector(`.card.${level} .card-inner`);
         card.classList.add('flip');
 
         // Start a 20-second countdown to show the answer automatically
@@ -61,7 +61,7 @@ function showAnswer() {
 
 function reset() {
     // Remove the flip class from all cards
-    const cards = document.querySelectorAll('.card');
+    const cards = document.querySelectorAll('.card-inner');
     cards.forEach(card => card.classList.remove('flip'));
 
     // Clear the countdown timer
