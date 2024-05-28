@@ -80,7 +80,7 @@
         "answer": "Un stress avec des effets jusqu'à un mois."
     },
     {
-        "category": "PREV",
+        "category": "PRV",
         "question": "Quel type d'ERP est classé N ?",
         "answer": "Les restaurants"
     },
@@ -100,17 +100,17 @@
         "answer": "Election tout les 5ans au suffrage universel direct."
     },
     {
-        "category": "PREV",
+        "category": "PRV",
         "question": "Quel ERP est classé Y ?",
         "answer": "Les musées."
     },
     {
-        "category": "PREV",
+        "category": "PRV",
         "question": "Quel ERP est classé S ?",
         "answer": "Les bibliothéques."
     },
     {
-        "category": "PREV",
+        "category": "PRV",
         "question": "Qu'est-ce que le PSR ?",
         "answer": "Le Plan Submersion Rapide."
     },
@@ -125,7 +125,7 @@
         "answer": "JSP 1-BLANC, JSP 2-JAUNE, JSP 3-ORANGE, JSP 4-VERT."
     },
     {
-        "category": "PREV",
+        "category": "PRV",
         "question": "Quel type d'ERP est classé L ?",
         "answer": "Les salles d'audition, de conférence, de spectacle."
     },
