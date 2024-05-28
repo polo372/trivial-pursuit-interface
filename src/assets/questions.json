@@ -528,7 +528,7 @@
         "answer": "Le degrés d'agitation moléculaire"
     },
     {
-        "category": "SR/FDF",
+        "category": "SR",
         "id" : 88,
         "question": "Quels sont les 5S ?",
         "answer": "<ul><li>Sécurisation du site</li><li>Sécurisation du véhicule</li><li>Secours à personne</li><li>Sécurisation de la technique de désincarcération</li><li>Sortie de victime</li></ul>"
@@ -912,13 +912,13 @@
         "answer": "feu dont le developpement n'est plus maitrisé dans le temps ou l'espace."
     },
     {
-        "category": "SR/FDF",
+        "category": "SR",
         "id" : 152,
         "question": "Que signifie FAD ?",
         "answer": "Fiche d'aide à la décision"
     },
     {
-        "category": "SR/FDF",
+        "category": "SR",
         "id" : 153,
         "question": "Que signifie ERG ?",
         "answer": "Emergency response guide"
