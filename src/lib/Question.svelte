@@ -15,14 +15,14 @@
 <h3 class={category}>{category}</h3>
 {#if question && !showAnswer}
     <div class="question">
-        <h3>Question</h3>
-        <p>{question.question}</p>
+        <h3>Question #{question.id}</h3>
+        <p>{@html question.question}</p>
         <button on:click={() => showAnswer = true}>Afficher la réponse</button>
     </div>
 {:else if question && showAnswer}
     <div class="answer">
-        <h3>{question.question}</h3>
-        <p>{question.answer}</p>
+        <h3>{@html question.question}</h3>
+        <p>{@html question.answer}</p>
         <button on:click={() => getMewQuestion()}>Nouvelle question</button>
     </div>
 {:else}

@@ -6,6 +6,7 @@ export type Question = {
     question: string
     answer: string
     category: string
+    id: number
 }
 
 declare global {
