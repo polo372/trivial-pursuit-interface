@@ -97,251 +97,301 @@
     },
     {
         "category": "PRV",
+        "id" : 17,
         "question": "Quel type d'ERP est classé N ?",
         "answer": "Les restaurants"
     },
     {
         "category": "CAD",
+        "id" : 17,
         "question": "Quels batiments possède un plan bleu ?",
         "answer": "Les établissement médicaux sociaux."
     },
     {
         "category": "CAD",
+        "id" : 18,
         "question": "Quel technologie concerne la recherche d'avion civil ou militaire ?",
         "answer": "La radiogoniométrie d'aéronef en dètresse."
     },
     {
         "category": "CAD",
+        "id" : 19,
         "question": "Quels sont les caractéristiques des européennes ?",
         "answer": "Election tout les 5ans au suffrage universel direct."
     },
     {
         "category": "PRV",
+        "id" : 20,
         "question": "Quel ERP est classé Y ?",
         "answer": "Les musées."
     },
     {
         "category": "PRV",
+        "id" : 21,
         "question": "Quel ERP est classé S ?",
         "answer": "Les bibliothéques."
     },
     {
         "category": "PRV",
+        "id" : 22,
         "question": "Qu'est-ce que le PSR ?",
         "answer": "Le Plan Submersion Rapide."
     },
     {
         "category": "CAD",
+        "id" : 23,
         "question": "Quelles sont les devoirs du fonctionnaire ?",
         "answer": "Diginité, impartialité, intégrité, probité, neutralité, satisfaire aux demandes d'information aux public, secret professionel, discrétion professionel, devoir de réserve, obéissance hiérarchique, obligation de desintéressement."
     },
     {
         "category": "CAD",
+        "id" : 24,
         "question": "Quels sont les différents grade des JSP ?",
         "answer": "JSP 1-BLANC, JSP 2-JAUNE, JSP 3-ORANGE, JSP 4-VERT."
     },
     {
         "category": "PRV",
+        "id" : 25,
         "question": "Quel type d'ERP est classé L ?",
         "answer": "Les salles d'audition, de conférence, de spectacle."
     },
     {
         "category": "CAD",
+        "id" : 26,
         "question": "Quels sont les piliers de la loi Matras ?",
         "answer": "1.Consolider le modèle de sécurité civil, 2. Enrichir l'anticipation à la gestion de crise, 3. Renforcer la coproduction, 4. Valoriser l'engagement volontariat."
     },
     {
         "category": "CAD",
+        "id" : 27,
         "question": "Qui est la défenseuse des droits ?",
         "answer": "Claire Hedon"
     },
     {
         "category": "CAD",
+        "id" : 28,
         "question": "Combien y-a-t'il de député francais au parlement européen ?",
         "answer": "81"
     },
     {
         "category": "CAD",
+        "id" : 29,
         "question": "Combien y-a-t'il de député à l'assemblée nationale ?",
         "answer": "577"
     },
     {
         "category": "CAD",
+        "id" : 30,
         "question": "Qui est le président du sénat ?",
         "answer": "Gerard Larcher"
     },
     {
         "category": "CAD",
+        "id" : 31,
         "question": "Qui est le président de l'assemblée nationale ?",
         "answer": "Yael Braun-Pivet"
     },
     {
         "category": "CAD",
+        "id" : 32,
         "question": "Qui est le directeur de l'ANSC ?",
         "answer": "Casciola"
     },
     {
         "category": "CAD",
+        "id" : 33,
         "question": "Qui est le PUD du 37 ?",
         "answer": "Le lieutenant Lorillou"
     },
     {
         "category": "CAD",
+        "id" : 34,
         "question": "Qui est le président de la FNSPF ?",
         "answer": "Le lieutenant-Colonel Jean Paul Bosland"
     },
     {
         "category": "CAD",
+        "id" : 35,
         "question": "Qui est le directeur de l'ENSOSP ?",
         "answer": "Le Contrôleur général Gregory Allione"
     },
     {
         "category": "CAD",
+        "id" : 36,
         "question": "Qui gère le bureau des SPV à la DGSCGC ?",
         "answer": "La Colonel hors-classe Lamaire."
     },
     {
         "category": "CAD",
+        "id" : 37,
         "question": "Qui gère le bureau des SPP à la DGSCGC ?",
         "answer": "Jean Marc CAIRO"
     },
      {
         "category": "CAD",
+        "id" : 38,
         "question": "Qui est le directeur des SP à la DGSCGC ?",
         "answer": "Tiphaine Pinault"
     },
      {
         "category": "CAD",
+        "id" : 39,
         "question": "Qui est le directeur de la DGSCGC ?",
         "answer": "Julien Marion"
     },
      {
         "category": "CAD",
+        "id" : 40,
         "question": "Qui est le ministre des armées ?",
         "answer": "Sebastien Lecornu"
     },
      {
         "category": "CAD",
+        "id" : 41,
         "question": "Qui est le premier ministre ?",
         "answer": "Gabriel ATTAL"
     },
      {
         "category": "CAD",
+        "id" : 42,
         "question": "Qui est le prefet d'indre et loire ?",
         "answer": "Mr Latron"
     },
      {
         "category": "CAD",
+        "id" : 43,
         "question": "Que signifie DGSCGC ?",
         "answer": "Direction générale de sécurité civil et de gestion de crise"
     },
      {
         "category": "CAD",
+        "id" : 44,
         "question": "De quand date la Loi Mosc ?",
         "answer": "13 Aout 2004"
     },
      {
         "category": "CAD",
+        "id" : 45,
         "question": "Quels sont les 4 principes de la loi MOSC ?",
         "answer": "1. La sécurité affaire de tous, 2. La préparation aux risques, 3.Stabiliser les sdis, 4.Encourager la solidarité."
     },
      {
         "category": "CAD",
+        "id" : 46,
         "question": "De quand date la départementalisation ?",
         "answer": "1996"
     },
      {
         "category": "CAD",
+        "id" : 47,
         "question": "Que prévoit le décret du 6 mai 1988 ?",
         "answer": "L'organisation générale des sdis, ils sont gérés par le CASDIS."
     },
      {
         "category": "INC",
+        "id" : 48,
         "question": "Quels sont les différents type de jets ?",
         "answer": "1. Jet droit, 2. Jet brisé, 3. Jet diffusé d'attaque, 4. jet diffusé de protection, 5. Jet purge."
     },
      {
         "category": "INC",
+        "id" : 49,
         "question": "Quels sont les caractéristiques d'une impulsion longue ?",
         "answer": "100 à 300 L/Min, ouverture de 20 à 30°"
     },
      {
         "category": "INC",
+        "id" : 50,
         "question": "Quels sont les caractéristiques du Gaz cooling ?",
         "answer": "100 à 250 L/min, ouverture 30 à 60°"
     },
      {
         "category": "PRV",
+        "id" : 51,
         "question": "Quel est la dimension d'une baie accessible ?",
         "answer": "1,80 de haut par 0,90 de large."
     },
      {
         "category": "INC",
+        "id" : 52,
         "question": "Quel est la longueur d'une voie echelle ?",
         "answer": "10m"
     },
      {
         "category": "INC",
+        "id" : 53,
         "question": "Quel est la longueur d'une voie engin ?",
         "answer": "8m mini"
     },
      {
         "category": "CAD",
+        "id" : 54,
         "question": "Que signifie GSP ?",
         "answer": "Global positioning system"
     },
      {
         "category": "CAD",
+        "id" : 55,
         "question": "Que signifie UTM ?",
         "answer": "Transerve universelle de mercator"
     },
      {
         "category": "INC",
+        "id" : 56,
         "question": "Quel est la nomemclature d'une commande ?",
         "answer": "7mm de diamètre, 30m de longueur"
     },
      {
         "category": "SAP",
+        "id" : 57,
         "question": "Dans quels cas un secouriste peux recourir à la force ?",
         "answer": "1. Pour préserver sa prope intégrité, 2. Pour limiter un danger manifestement grave."
     },
      {
         "category": "SAP",
+        "id" : 58,
         "question": "Quels sont les différentes réaction d'un état de crise ?",
         "answer": "1.Réaction silencieuse 2. Réaction Bruyante"
     },
      {
         "category": "SAP",
+        "id" : 59,
         "question": "Qu'immobilise une écharpe oblique ?",
         "answer": "Un traumatisme de la clavicule ou de l'omoplate."
     },
      {
         "category": "SAP",
+        "id" : 60,
         "question": "Qu'immobilise une contre-écharpe ?",
         "answer": "Un traumatisme du bras."
     },
      {
         "category": "SAP",
+        "id" : 61,
         "question": "Qu'immobilise une écharpe simpe ?",
         "answer": "Un traumatisme de la main, du poignet ou de l'avant-bras."
     },
      {
         "category": "SAP",
+        "id" : 62,
         "question": "Qu'est ce qu'une Hématèmese ?",
         "answer": "Un vomie de sang rouge."
     },
      {
         "category": "SAP",
+        "id" : 63,
         "question": "Quels sont les signes d'une brûlure grave ?",
         "answer": "1. Une ou plusieurs cloques dont la surface totale est supérieur à la moitié de la paume de la main, 2.Une destruction plus profonde, 3.Une brûlure circulaire, 4. Une brûlure du visage, de la main, du cou, des articulations, proches des orifices naturels, 5. Une rougeur étendue chez l'enfant, 6. Une brûlure éléctrique ou radiologique."
     },
      {
         "category": "SAP",
+        "id" : 64,
         "question": "Quel est l'objectif de l'oxygénation ?",
         "answer": "94-98%"
     },
      {
         "category": "",
+        "id" : 0,
         "question": " ?",
         "answer": ""
     }
