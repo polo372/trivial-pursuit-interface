@@ -1,81 +1,97 @@
 [
     {
         "category": "CAD",
+        "id" : 1,
         "question": "Qu'est-ce que l'ARS ?",
         "answer": "Agence régional de la santé-création 2010-pilote le système de santé"
     },
     {
         "category": "CAD",
+        "id" : 2,
         "question": "Qu'est ce qu'une association ?",
         "answer": "C'est une réunion de deux personnes minimum-loi 1901 dit walbeck-rousseau "
     },
     {
         "category": "CAD",
+        "id" : 3,
         "question": "Qu'est-ce qu'une AAI ?",
         "answer": "Agence Administrative Indépendante"
     },
     {
         "category": "CAD",
+        "id" : 4,
         "question": "Qu'est-ce que la CNRACL ?",
         "answer": "Caisse Nationale de Retraite des Agents des Collectivités Locales"
     },
     {
         "category": "CAD",
+        "id" : 5,
         "question": "Quels sont les compétences de la commune ?",
         "answer": "La commune est compétente en matière d'urbanisme, logement, environnement, gestion des écoles préélémentaires et élémentaires."
     },{
         "category": "CAD",
+        "id" : 6,
         "question": "Quels sont les compétences du département ?",
-        "answer": "Le département est compétent en matière d'action  sociale, infrastructures, gestion des collèges, aide aux communes"
+        "answer": "Le département est compétent en matière : <ul><li>d'action  sociale</li><li>infrastructures</li><li>gestion des collèges</li><li>aide aux communes</li></ul>"
     },
     {
         "category": "CAD",
+        "id" : 7,
         "question": "Qui est le ministre de l'intéreur ?",
         "answer": "Gérald Darmanin"
     },
     {
         "category": "SAP",
+        "id" : 8,
         "question": "Quel type de BAVU utilisé pour un prématuré <2.5kg ?",
         "answer": "200 à 250ml"
     },
     {
         "category": "CAD",
+        "id" : 9,
         "question": "Combien y a t-il de sénateur ?",
         "answer": "348"
     },
     {
         "category": "SAP",
+        "id" : 10,
         "question": "Qu'est-ce que SAP 9 ?",
         "answer": "Ma réponse 9"
     },
     
     {
         "category": "INC",
+        "id" : 11,
         "question": "Quel est la largeur d'une voie echelle ?",
         "answer": "4M"
     },
     {
         "category": "INC",
+        "id" : 12,
         "question": "Quels sont les types de flammes ?",
         "answer": "Flammes de pré-mélange, Flammes de diffusion"
     },
     {
         "category": "PPABE",
+        "id" : 13,
         "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
         "answer": "Jaune"
     },
     {
         "category": "CAD",
+        "id" : 14,
         "question": "Quels sont les sanctions du 4eme groupe ?",
         "answer": "Mise à la retraite, révocation"
     },
     {
         "category": "CAD",
+        "id" : 15,
         "question": "Qui possède l'indicatif radio héracles ?",
         "answer": "Le médecin-chef du SAMU"
     },
     {
         "category": "SAP",
+        "id" : 16,
         "question": "Qu'est-ce qu'un trouble de stress aigu ?",
         "answer": "Un stress avec des effets jusqu'à un mois."
     },
