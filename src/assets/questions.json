@@ -1,103 +1,103 @@
 [
     {
         "category": "CAD",
-        "id" : 1,
+        "id" : 0,
         "question": "Qu'est-ce que l'ARS ?",
         "answer": "Agence régional de la santé-création 2010-pilote le système de santé"
     },
     {
         "category": "CAD",
-        "id" : 2,
+        "id" : 1,
         "question": "Qu'est ce qu'une association ?",
-        "answer": "C'est une réunion de deux personnes minimum-loi 1901 dit walbeck-rousseau "
+        "answer": "C'est une réunion de deux personnes minimum<br>loi 1901 dit walbeck-rousseau "
     },
     {
         "category": "CAD",
-        "id" : 3,
+        "id" : 2,
         "question": "Qu'est-ce qu'une AAI ?",
         "answer": "Agence Administrative Indépendante"
     },
     {
         "category": "CAD",
-        "id" : 4,
+        "id" : 3,
         "question": "Qu'est-ce que la CNRACL ?",
         "answer": "Caisse Nationale de Retraite des Agents des Collectivités Locales"
     },
     {
         "category": "CAD",
-        "id" : 5,
+        "id" : 4,
         "question": "Quels sont les compétences de la commune ?",
-        "answer": "La commune est compétente en matière d'urbanisme, logement, environnement, gestion des écoles préélémentaires et élémentaires."
+        "answer": "La commune est compétente en matière : <ul><li>d'urbanisme</li><li>logement</li><li>environnement</li><li>gestion des écoles préélémentaires et élémentaires.</li></ul>"
     },{
         "category": "CAD",
-        "id" : 6,
+        "id" : 5,
         "question": "Quels sont les compétences du département ?",
         "answer": "Le département est compétent en matière : <ul><li>d'action  sociale</li><li>infrastructures</li><li>gestion des collèges</li><li>aide aux communes</li></ul>"
     },
     {
         "category": "CAD",
-        "id" : 7,
+        "id" : 6,
         "question": "Qui est le ministre de l'intéreur ?",
         "answer": "Gérald Darmanin"
     },
     {
         "category": "SAP",
-        "id" : 8,
+        "id" : 7,
         "question": "Quel type de BAVU utilisé pour un prématuré <2.5kg ?",
         "answer": "200 à 250ml"
     },
     {
         "category": "CAD",
-        "id" : 9,
+        "id" : 8,
         "question": "Combien y a t-il de sénateur ?",
         "answer": "348"
     },
     {
         "category": "SAP",
-        "id" : 10,
+        "id" : 9,
         "question": "Quels sont les grands principes du bilan ?",
         "answer": "<ul><li>Commencer par une évaluation globale pour aller dans le détail.</li><li>Recherche en priorité ce qui tue en premier</li><li>Fonctionner en cercles de contrôle continu</li></ul>"
     },
     
     {
         "category": "INC",
-        "id" : 11,
+        "id" : 10,
         "question": "Quel est la largeur d'une voie echelle ?",
         "answer": "4M"
     },
     {
         "category": "INC",
-        "id" : 12,
+        "id" : 11,
         "question": "Quels sont les types de flammes ?",
-        "answer": "Flammes de pré-mélange, Flammes de diffusion"
+        "answer": "Flammes de pré-mélange<br>Flammes de diffusion"
     },
     {
         "category": "PPABE",
-        "id" : 13,
+        "id" : 12,
         "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
         "answer": "Jaune"
     },
     {
         "category": "CAD",
-        "id" : 14,
+        "id" : 13,
         "question": "Quels sont les sanctions du 4eme groupe ?",
-        "answer": "Mise à la retraite, révocation"
+        "answer": "Mise à la retraite<br>révocation"
     },
     {
         "category": "CAD",
-        "id" : 15,
+        "id" : 14,
         "question": "Qui possède l'indicatif radio héracles ?",
         "answer": "Le médecin-chef du SAMU"
     },
     {
         "category": "SAP",
-        "id" : 16,
+        "id" : 15,
         "question": "Qu'est-ce qu'un trouble de stress aigu ?",
         "answer": "Un stress avec des effets jusqu'à un mois."
     },
     {
         "category": "PRV",
-        "id" : 17,
+        "id" : 16,
         "question": "Quel type d'ERP est classé N ?",
         "answer": "Les restaurants"
     },
@@ -141,13 +141,13 @@
         "category": "CAD",
         "id" : 23,
         "question": "Quelles sont les devoirs du fonctionnaire ?",
-        "answer": "Diginité, impartialité, intégrité, probité, neutralité, satisfaire aux demandes d'information aux public, secret professionel, discrétion professionel, devoir de réserve, obéissance hiérarchique, obligation de desintéressement."
+        "answer": "<ul><li>Diginité, impartialité, intégrité, probité</li><li>neutralité</li><li>satisfaire aux demandes d'information aux public</li><li>secret professionel, discrétion professionel,devoir de réserve</li><li>obéissance hiérarchique</li><li>obligation de desintéressement</li></ul>"
     },
     {
         "category": "CAD",
         "id" : 24,
         "question": "Quels sont les différents grade des JSP ?",
-        "answer": "JSP 1-BLANC, JSP 2-JAUNE, JSP 3-ORANGE, JSP 4-VERT."
+        "answer": "<ul><li>JSP 1-BLANC</li><li>JSP 2-JAUNE</li><li>JSP 3-ORANGE</li><li>JSP 4-VERT</li></ul>"
     },
     {
         "category": "PRV",
@@ -159,7 +159,7 @@
         "category": "CAD",
         "id" : 26,
         "question": "Quels sont les piliers de la loi Matras ?",
-        "answer": "1.Consolider le modèle de sécurité civil, 2. Enrichir l'anticipation à la gestion de crise, 3. Renforcer la coproduction, 4. Valoriser l'engagement volontariat."
+        "answer": "<ol><li>Consolider le modèle de sécurité civil</li><li>Enrichir l'anticipation à la gestion de crise</li><li>Renforcer la coproduction</li><li>Valoriser l'engagement volontariat</li></ol>"
     },
     {
         "category": "CAD",
@@ -273,7 +273,7 @@
         "category": "CAD",
         "id" : 45,
         "question": "Quels sont les 4 principes de la loi MOSC ?",
-        "answer": "1. La sécurité affaire de tous, 2. La préparation aux risques, 3.Stabiliser les sdis, 4.Encourager la solidarité."
+        "answer": "<ol><li>La sécurité affaire de tous</li><li>La préparation aux risques</li><li>Stabiliser les sdis</li><li>Encourager la solidarité</li></ol>"
     },
      {
         "category": "CAD",
@@ -291,19 +291,19 @@
         "category": "INC",
         "id" : 48,
         "question": "Quels sont les différents type de jets ?",
-        "answer": "1. Jet droit, 2. Jet brisé, 3. Jet diffusé d'attaque, 4. jet diffusé de protection, 5. Jet purge."
+        "answer": "<ul><li>Jet droit</li><li>Jet brisé</li><li>Jet diffusé d'attaque</li><li>jet diffusé de protection</li><li>Jet purge</li></ul>"
     },
      {
         "category": "INC",
         "id" : 49,
         "question": "Quels sont les caractéristiques d'une impulsion longue ?",
-        "answer": "100 à 300 L/Min, ouverture de 20 à 30°"
+        "answer": "100 à 300 L/Min<br>ouverture de 20 à 30°"
     },
      {
         "category": "INC",
         "id" : 50,
         "question": "Quels sont les caractéristiques du Gaz cooling ?",
-        "answer": "100 à 250 L/min, ouverture 30 à 60°"
+        "answer": "100 à 250 L/min<br>ouverture 30 à 60°"
     },
      {
         "category": "PRV",
@@ -339,19 +339,19 @@
         "category": "INC",
         "id" : 56,
         "question": "Quel est la nomemclature d'une commande ?",
-        "answer": "7mm de diamètre, 30m de longueur"
+        "answer": "7mm de diamètre<br>30m de longueur"
     },
      {
         "category": "SAP",
         "id" : 57,
         "question": "Dans quels cas un secouriste peux recourir à la force ?",
-        "answer": "1. Pour préserver sa prope intégrité, 2. Pour limiter un danger manifestement grave."
+        "answer": "<ul><li>Pour préserver sa prope intégrité</li><li>Pour limiter un danger manifestement grave</li></ul>"
     },
      {
         "category": "SAP",
         "id" : 58,
         "question": "Quels sont les différentes réaction d'un état de crise ?",
-        "answer": "1.Réaction silencieuse 2. Réaction Bruyante"
+        "answer": "Réaction silencieuse ou Réaction Bruyante"
     },
      {
         "category": "SAP",
@@ -381,7 +381,7 @@
         "category": "SAP",
         "id" : 63,
         "question": "Quels sont les signes d'une brûlure grave ?",
-        "answer": "1. Une ou plusieurs cloques dont la surface totale est supérieur à la moitié de la paume de la main, 2.Une destruction plus profonde, 3.Une brûlure circulaire, 4. Une brûlure du visage, de la main, du cou, des articulations, proches des orifices naturels, 5. Une rougeur étendue chez l'enfant, 6. Une brûlure éléctrique ou radiologique."
+        "answer": "<ul><li>Une ou plusieurs cloques dont la surface totale est supérieur à la moitié de la paume de la main de la victime</li><li>Une destruction plus profonde</li><li>Une brûlure circulaire</li><li>Une brûlure du visage, de la main, du cou, des articulations, proches des orifices naturels</li><li>Une rougeur étendue chez l'enfant</li><li>Une brûlure éléctrique ou radiologique</li></ul>"
     },
      {
         "category": "SAP",
@@ -389,10 +389,661 @@
         "question": "Quel est l'objectif de l'oxygénation ?",
         "answer": "94-98%"
     },
-     {
-        "category": "",
-        "id" : 0,
-        "question": " ?",
-        "answer": ""
+    {
+        "category": "SAP",
+        "id" : 65,
+        "question": "Quels sont les techniques de stabilisation de l'état physiologique d'une victime ?",
+        "answer": "<ul><li>Focalisation attentionnel</li><li>Défocalisation attentionnel</li><li>Technique de respiration</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 66,
+        "question": "Qu'est ce qu'un traumatisme vicariant ?",
+        "answer": "C'est la conviction d'un monde dangeureux à force d'exposition répétée et chronique d'horreur."
+    },
+    {
+        "category": "SAP",
+        "id" : 67,
+        "question": "Qu'est ce que le stress post-traumatique ?",
+        "answer": "C'est un trouble qui persiste au delà d'un mois."
+    },
+    {
+        "category": "INC",
+        "id" : 68,
+        "question": "Comment est représentée une citerne aérienne ou enterré sur un plan DFCI ?",
+        "answer": "Un Rectangle bleu"
+    },
+    {
+        "category": "INC",
+        "id" : 69,
+        "question": "Comment est représentée un point d'aspiration aménagée sur un plan DFCI ?",
+        "answer": "Un triangle bleu"
+    },
+    {
+        "category": "INC",
+        "id" : 70,
+        "question": "Comment est représentée une bouche à incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
+        "answer": "Un carré bleu colorisé au 1/4"
+    },
+    {
+        "category": "INC",
+        "id" : 71,
+        "question": "Comment est représentée une bouche à incendie sur un plan DFCI ?",
+        "answer": "Un carré bleu"
+    },
+    {
+        "category": "INC",
+        "id" : 72,
+        "question": "Comment est représentée un poteau d'incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
+        "answer": "Un rond bleu colorié au 1/4"
+    },
+    {
+        "category": "INC",
+        "id" : 73,
+        "question": "Comment est représentée un poteau d'incendie sur un plan DFCI ?",
+        "answer": "Un rond bleu"
+    },
+    {
+        "category": "SAP",
+        "id" : 74,
+        "question": "Quelle est la conduite à tenir pour la réanimation d'un hypotherme ?",
+        "answer": "<ul><li>Recherche de signe de vie pendant 1 minute</li><li> 3 chocs maxi si la température de la victime est inférieur à 30°C</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 75,
+        "question": "Quelles sont les différentes phase de l'accouchement ?",
+        "answer": "<ul><li>Travail</li><li>Expulsion</li><li>Delivrance</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 76,
+        "question": "Quelles sont les différentes manoeuvres physiques ?",
+        "answer": "<ul><li>Accroupissement</li><li>Croisement des membres inférieurs</li><li>Crochetage des doigts et tension des membres supérieurs</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 77,
+        "question": "Quels sont les différents mode d'administration de médicaments ?",
+        "answer": "<ul><li>Sublinguale, buccale, orale, spray buccale</li><li>Dispositif auto-injectable</li><li>Spray nasal</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 78,
+        "question": "Quelles sont les étapes de l'écoute active ?",
+        "answer": "<ul><li>Recontextualisation</li><li>Reformulation</li><li>Renforcement</li><li>Résumer</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 79,
+        "question": "Quelle est la définition d'un phénomene thermique ?",
+        "answer": "Ensemble des progressions rapide de feu ayant pour conséquence directe une augmentation significative et/ou brutale de la pussance de l'incendie"
+    },
+    {
+        "category": "SAP",
+        "id" : 80,
+        "question": "Quelle est la fréquence cardiaque du nouveau-né ?",
+        "answer": "120-160"
+    },
+    {
+        "category": "SAP",
+        "id" : 81,
+        "question": "Quelle est la fréquence cardiaque du nourisson ?",
+        "answer": "100-160"
+    },
+    {
+        "category": "SAP",
+        "id" : 82,
+        "question": "Quelle est la fréquence cardiaque de l'enfant ?",
+        "answer": "70-140"
+    },
+    {
+        "category": "SAP",
+        "id" : 83,
+        "question": "Quelle est la fréquence cardiaque de l'adulte ?",
+        "answer": "60-100"
+    },
+    {
+        "category": "SAP",
+        "id" : 84,
+        "question": "Quelle est la valeur normal de glycémie ?",
+        "answer": "<ul><li><60mg/DL</li><li><3,3mmol/ml</li><li><0,6g/L</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 85,
+        "question": "Quelles sont les objectifs de la ventilation ?",
+        "answer": "<ul><li>Attaquer</li><li>Protéger</li><li>Désenfumer</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 86,
+        "question": "Dans quels cas le secret professionnel peut être levé ?",
+        "answer": "<ul><li>Sur demande de la justice</li><li>Pour témoigner en justice</li><li>Pour protéger une personne fragile</li><li>Pour dénonciation de crime et de délit</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 87,
+        "question": "Qu'est ce que mesure la température ?",
+        "answer": "Le degrés d'agitation moléculaire"
+    },
+    {
+        "category": "SR/FDF",
+        "id" : 88,
+        "question": "Quels sont les 5S ?",
+        "answer": "<ul><li>Sécurisation du site</li><li>Sécurisation du véhicule</li><li>Secours à personne</li><li>Sécurisation de la technique de désincarcération</li><li>Sortie de victime</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 89,
+        "question": "Quelles sont les étapes de la MGO Incendie ?",
+        "answer": "<ul><li>Placement de l'engin</li><li>Reconnaissance</li><li>Sauvetage ou mise en sécurité</li><li>Etablissement</li><li>Attaque</li><li>Protection</li><li>Ventilation</li><li>Déblai</li><li>Protection des traces des indices</li><li>Reconditionnement du personnel et du matériel</li><li>Surveillance</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 90,
+        "question": "Quelles sont les étapes de la MGO USAR ?",
+        "answer": "<ul><li>Reconnaissance et évaluation générale de la zone</li><li>Reconnaissance et évaluation du secteur</li><li>Opération de recherche et de sauvetage des victimes légèrement ensevelies</li><liOpération de recherche et de sauvetage des victimes en profondeur</li><li>Déblaiement généralisé</li><li>recherche des corps</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 91,
+        "question": "Quel est le gaz contenue dans une bouteile de couleur grise ?",
+        "answer": "Du dioxyde de carbone"
+    },
+    {
+        "category": "INC",
+        "id" : 92,
+        "question": "Que signifie NELAR ?",
+        "answer": "<ul><li>Nom</li><li>Engin</li><li>Localisation</li><li>Air restant</li><li>Renfort</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 93,
+        "question": "Que signifie SINUS ?",
+        "answer": "Systeme d'information numérique standardisé"
+    },
+    {
+        "category": "PPABE",
+        "id" : 94,
+        "question": "Quel est le risque principale d'une bouteile de gaz de couleur rouge ?",
+        "answer": "Risque inflammable"
+    },
+    {
+        "category": "INC",
+        "id" : 95,
+        "question": "Quelles sont les lois de perte de charge ?",
+        "answer": "<ul><li>Directement proportionnel à la longueur de l'établissement</li><li>Directement proportionnel au carré du débit</li><li>Inversement proportionnel au diamétre du tuyau</li><li>Indépendant de la pression seul le débit compte</li><li>Fonction de la rugosité du tuyau</li><li>Vari d'un bar pour 10m</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 96,
+        "question": "Qu'est ce que la chaleur ?",
+        "answer": "C'est le transfert d'énergie d'un objet à un autre."
+    },
+    {
+        "category": "INC",
+        "id" : 97,
+        "question": "Quels sont les différents types d'écoulement de flamme ?",
+        "answer": "Laminaire ou turbulent"
+    },
+    {
+        "category": "INC",
+        "id" : 98,
+        "question": "Quels sont les différents régime de contrôle du feu  ?",
+        "answer": "<ul><li>FLC</li><li>FLV</li><li>Controlé par la sous ventilation</li><li>controlé par la limitation diffusionnelle</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 99,
+        "question": "Que représente 1L d'eau en phase vapeur ?",
+        "answer": "1700L de vapeur ou 1,7m3 de vapeur"
+    },
+    {
+        "category": "INC",
+        "id" : 100,
+        "question": "Quelle est la définition d'un Embrassement généralisé ?",
+        "answer": "passage brutal d'un feu localisé à l'embrassement de l'ensemble des matériaux combustible"
+    },
+    {
+        "category": "INC",
+        "id" : 101,
+        "question": "Quelle est la définition du feu ?",
+        "answer": "processus de combustion autoentrenu assuré pour produire des effets utiles et dont le developpement est maitrisé dans le temps comme dans l'espace"
+    },
+    {
+        "category": "SAP",
+        "id" : 102,
+        "question": "Qu'est ce que la dyastol ?",
+        "answer": "valeur la plus basse, force exercé par le sang sur la paroi interne des arteres lors du relachement du coeur."
+    },
+    {
+        "category": "SAP",
+        "id" : 103,
+        "question": "Qu'est ce que la systol ?",
+        "answer": "valeur la plus haute, force exercée par le sang sur la paroi interne des arteres lors de la contraction du coeur."
+    },
+    {
+        "category": "SAP",
+        "id" : 104,
+        "question": "Quelles sont les caractéristiques de l'échelle EVENDOL ?",
+        "answer": "<ul><li>Elle s'applique aux enfants de 0 à 7ans</li><li>Il faut une prise en charge médicale des que l'on dépasse 4/15</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 105,
+        "question": "Quelles sont les caractéristiques de l'échelle des 6 visages ?",
+        "answer": "<ul><li>Elle s'applique aux enfants de 4 à 10 ans</li><li>Il faut une prise en charge médicale dès que l'on dépasse 4/10</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 106,
+        "question": "Quelles sont les caractéristiques de l'échelle EVA ?",
+        "answer": "Il s'agit de l'échelle verbale analogique, la prise en charge médicale ce fait dès 4/10"
+    },
+    {
+        "category": "SAP",
+        "id" : 107,
+        "question": "Quelles sont les caractéristiques de l'échelle numérique ?",
+        "answer": "Elle va de 0 à 10, la prise en charge médicale à lieu dès 4/10"
+    },
+    {
+        "category": "SAP",
+        "id" : 108,
+        "question": "Quelles sont les caractéristiques de l'échelle EVS ?",
+        "answer": "Elle va de 0 à 4, la prise en charge médicale à lieu dès 2/4"
+    },
+    {
+        "category": "INC",
+        "id" : 109,
+        "question": "Quels sont les différents risque courants ?",
+        "answer": "<ul><li>Faible</li><li>Ordinaire</li><li>Important</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 110,
+        "question": "Quelle est la capacité de la DECI pour un risque courant faible ?",
+        "answer": "30m3/H"
+    },
+    {
+        "category": "INC",
+        "id" : 111,
+        "question": "Quelle est la capacité de la DECI pour un risque courant ordinaire ?",
+        "answer": "<ul><li>ordinaire pi 100 60m²/H en 1h</li><li>instantanément, jusqu'a 120m²/H</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 112,
+        "question": "Quelle est la capacité de la DECI pour un risque courant important ?",
+        "answer": "pi 150 120m3/H"    
+    },
+    {
+        "category": "SAP",
+        "id" : 113,
+        "question": "Quelles sont les différentes échelles de mesure de la douleur ?",
+        "answer": "<ul><li>Echelle verbale simple</li><li>echelle numerique</li><li>echelle visuel analogique</li><li>echelle des six visages</li><li>echelle evendol</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 114,
+        "question": "Quelle est la valeur de sat d'un IRC ?",
+        "answer": "89%-94%"
+    },
+    {
+        "category": "SAP",
+        "id" : 115,
+        "question": "Quelle est la fréquence ventilatoire d'un nouveau-né ?",
+        "answer": "40 à 60"
+    },
+    {
+        "category": "SAP",
+        "id" : 116,
+        "question": "Quelle est la fréquence ventilatoire d'un nourrisson ?",
+        "answer": "30 à 40"
+    },
+    {
+        "category": "SAP",
+        "id" : 117,
+        "question": "Quelle est la fréquence ventilatoire d'un enfant ?",
+        "answer": "20 à 30"
+    },
+    {
+        "category": "SAP",
+        "id" : 118,
+        "question": "Quelle est la fréquence ventilatoire d'un adulte ?",
+        "answer": "12 à 20"
+    },
+    {
+        "category": "CAD",
+        "id" : 119,
+        "question": "Qu'est ce qu'un PPMS ?",
+        "answer": "Plan Particulier de Mise en sécurité"
+    },
+    {
+        "category": "INC",
+        "id" : 120,
+        "question": "Quelles sont les dimensions d'une aire d'aspiration pour un engin ?",
+        "answer": "8m x 4m"
+    },
+    {
+        "category": "INC",
+        "id" : 121,
+        "question": "Quelles sont les dimensions d'une aire d'aspiration pour une MPR ?",
+        "answer": "4m x 3m"
+    },
+    {
+        "category": "INC",
+        "id" : 122,
+        "question": "Qu'est ce que la pyrolyse ?",
+        "answer": "C'est la décomposition chimique d'un composé organique par une augmentation importante de sa température"
+    },
+    {
+        "category": "CAD",
+        "id" : 123,
+        "question": "Que signifie COGIC ?",
+        "answer": "centre opérationnel des gestion interministeriel de crise"
+    },
+    {
+        "category": "CAD",
+        "id" : 124,
+        "question": "Que signifie CIC ?",
+        "answer": "centre interministériel de crise"
+    },
+    {
+        "category": "INC",
+        "id" : 125,
+        "question": "Comment s'organise la reconnaissance à l'aide d'une ligne guide ?",
+        "answer": "L'équipier est longé sur la ligne de vie, le chef est longé sur l'équipier"
+    },
+    {
+        "category": "INC",
+        "id" : 126,
+        "question": "Quels sont les éléments de la balance évacuation/confinement ?",
+        "answer": "<ul><li>cheminement</li><li>victimes</li><li>environnement</li><li>temps</li><li>sauveteur/materiel</li><li>condition astrométéorologique</li><li>dispositif facilitant l'action des secours</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 127,
+        "question": "Quel est le risque d'une exposition à un courant éléctrique de 80mA ?",
+        "answer": "La fibrilation ventriculaire."
+    },
+    {
+        "category": "PPABE",
+        "id" : 128,
+        "question": "Quel est le risque d'une exposition à un courant éléctrique de 30mA ?",
+        "answer": "La tétanisation du muscle respiratoire."
+    },
+    {
+        "category": "PPABE",
+        "id" : 129,
+        "question": "Quel est le risque d'une exposition à un courant éléctrique de 1mA ?",
+        "answer": "Des picotements"
+    },
+    {
+        "category": "SAP",
+        "id" : 130,
+        "question": "Quels sont les différents types de blast ?",
+        "answer": "<ul><li>Le blast primaire</li><li>Le blast secondaire</li><li>Le blaste tertiaire</li><li>Le blast quaternaire</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 131,
+        "question": "Quels sont les effets du blast quaternaire ?",
+        "answer": "Brulures et intoxication"
+    },
+    {
+        "category": "SAP",
+        "id" : 132,
+        "question": "Quel est l'effet du blast tertiaire ?",
+        "answer": "La chute de la victime, risque de trauma"
+    },
+    {
+        "category": "SAP",
+        "id" : 133,
+        "question": "Quel est l'effet du blast secondaire ?",
+        "answer": "Les projections sur la victime, le criblage"
+    },
+    {
+        "category": "SAP",
+        "id" : 134,
+        "question": "Quel est l'effet du blast primaire ?",
+        "answer": "L'onde de choc sur les organes creux"
+    },
+    {
+        "category": "INC",
+        "id" : 135,
+        "question": "Quelles sont les différentes tactiques opérationnel en Incendie ?",
+        "answer": "<ul><li>repli sur position defensive</li><li>lutte contre les propag inter</li><li>lutte contre les propag externe</li><li>attaque feu naissant</li><li>attque en ventilation +</li><li>attaque en antiventilation</li><li>attaque de transition</li><li>attaque massive de l'exterieur</li><li>attaque en antiventilation depuis l'extérieur</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 136,
+        "question": "Quelles sont les différentes techniques d'extinction ?",
+        "answer": "<ul><li>refroidissement des fumées (gas cooling, impulsion courtes/longues)</li><li>extinction direct (pencilinge, painting, ricochet)</li><li>extinction indirect (production de vapeur d'eau par les parois)</li><li>combiné massive (TZO)</li><li>situation pré-backdraft</li><li>repli sous protection hydraulique</li><li>feu soumis aux effets du vent et effets chalumeau</li><li>attaque d'atténuation</li><li>utilisation des moyens portatifs de projection d'agent extincteur</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 137,
+        "question": "Quels sont les principes de maitrise et d'extinction du feu ?",
+        "answer": "<ul><li>controler l'arriver d'air</li><li>Agir sur la compo des fumée :<ul><li>&nbsp;-evacuer les fumées</li><li>&nbsp;-abaisser la temp° des fumées</li><li>-agir sur la compo des fumées (inertage)</li></ul></li><li>agir sur le combustible</li><li>interrompre la réaction en chaine</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 138,
+        "question": "Quels sont les actes réalisable par les SP après avis médicale ?",
+        "answer": "<ul><li>>Médicament pour l'asthme</li><li>Médicament pour la douleur</li><li>Médicament pour l'overdose</li><li>Traitement pour le choc anaphylactique</li><li>Traitement pour l'hypoglycémie</li><li>Réalisation d'un éléctrocardiogramme</li><li> Réalisation d'une hémoglobinémie</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 139,
+        "question": "Quels sont les actes réalisable par les SP sans avis médicale ?",
+        "answer": "<ul><li>prise de température,</li><li>pulsation cardiaque,</li><li>pression artériel</li><li>recueil glycémie</li><li>administration d'aerosol non médicamenteux</li><li>etablissment score de gravité</li><li>recueil sat</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 140,
+        "question": "Quel est le pourcentage de filtration d'un filtre P3 ?",
+        "answer": "99,95%"
+    },
+    {
+        "category": "PPABE",
+        "id" : 141,
+        "question": "Quel est le pourcentage de filtration d'un filtre P2 ?",
+        "answer": "94%"
+    },
+    {
+        "category": "PPABE",
+        "id" : 142,
+        "question": "Quel est le pourcentage de filtration d'un filtre P1 ?",
+        "answer": "80%"
+    },
+    {
+        "category": "INC",
+        "id" : 143,
+        "question": "Quels sont les points de la réglementation DECI ?",
+        "answer": "<ul><li>raccordés à un réseau sous pression pour fournir le debit pdt 2h pression</li><li>mini 1b</li><li>maxi 16b</li><li>être incongelable (1m sous terre)</li><li>visible et signalé</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 144,
+        "question": "Quels sont les caractéristiques techniques de l'échelle à crochet pliable?",
+        "answer": "<ul><li>Poids : 9kg</li><li>Longueur déployée : 4,25m</li><li>Longueur reployée : 2,40m</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 145,
+        "question": "Quels sont les caractéristiques techniques de l'échelle à coulisse petit modele ?",
+        "answer": "<ul><li>Poids : 20kg</li><li>Longueur déployée : 5,60m</li><li>Longueur reployée 3,60m</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 146,
+        "question": "Qu'est ce que la combustion ?",
+        "answer": "Une réaction chimique induisant la présence de réactif et la necessité d'un initiateur. réaction exothermique d'oxydoréduction"
+    },
+    {
+        "category": "INC",
+        "id" : 147,
+        "question": "Quels sont les dangers des fumées ?",
+        "answer": "<ul><li>inflammable, explosives</li><li>toxique, corrosif</li><li>emission de particule</li><li>opacité</li><li>rayonnement</li><li>envahissement, frein à la mobilité</li><li>chaleur</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 148,
+        "question": "Quelle est la définition de la fumée ?",
+        "answer": "ensemble visible des particules soides et ou liquides en suspension et des gaz resultants d'une combustion ou d'une pyrolyse."
+    },
+    {
+        "category": "INC",
+        "id" : 149,
+        "question": "Quelle est la définition de la convection ?",
+        "answer": "transfert d'energie par l'intermediaire d'un fluide en mouvement."
+    },
+    {
+        "category": "INC",
+        "id" : 150,
+        "question": "Quelle est la définition de la condution ?",
+        "answer": "transfert d'énergie dans le matériaux en lui meme de proche en proche."
+    },
+    {
+        "category": "INC",
+        "id" : 151,
+        "question": "Quelle est la définition d'un incendie' ?",
+        "answer": "feu dont le developpement n'est plus maitrisé dans le temps ou l'espace."
+    },
+    {
+        "category": "SR/FDF",
+        "id" : 152,
+        "question": "Que signifie FAD ?",
+        "answer": "Fiche d'aide à la décision"
+    },
+    {
+        "category": "SR/FDF",
+        "id" : 153,
+        "question": "Que signifie ERG ?",
+        "answer": "Emergency response guide"
+    },
+    {
+        "category": "INC",
+        "id" : 154,
+        "question": "Quelles sont les caractéristiques d'une bouche à incendie ?",
+        "answer": "<ul><li>colone montante incongelable 100mm</li><li>1000L/Min mini</li><li>douille rebord saillant</li><li>dispositif anti stationnement signalisation</li><li>Possibilité 2000L/Min jumellant deux bouches</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 155,
+        "question": "Quelle est la définition de la charge calorifique ?",
+        "answer": "sommes des energies calorifiques pouvant etre dégagée par la combustion complete de l'ensemble des matériaux incorporés dans la construction ou situés dans le local."
+    },
+    {
+        "category": "INC",
+        "id" : 156,
+        "question": "Quelle est la nomemclature de l'échelle à coulisse grand modele ?",
+        "answer": "<ul><li> Poids : 33kg</li><li>Longeur déployée 9m</li><li>Longueur reployée 5m</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 157,
+        "question": "Quel type de BAVU utilisé pour un enfant de  2.5kg à 25kg ?",
+        "answer": "400 à 500ml"
+    },
+    {
+        "category": "SAP",
+        "id" : 158,
+        "question": "Quel type de BAVU utilisé pour un adulte de plus de 25kg ?",
+        "answer": "1400 à 2500ml"
+    },
+    {
+        "category": "CAD",
+        "id" : 159,
+        "question": "Quand à eu lieu la décentralisation ?",
+        "answer": "1982"
+    },
+    {
+        "category": "INC",
+        "id" : 160,
+        "question": "Que signifie RDDECI ?",
+        "answer": "Réglement départemental de défense extérieur à l'incendie."
+    },
+    {
+        "category": "PPABE",
+        "id" : 161,
+        "question": "Que signifie ANTARES ?",
+        "answer": "Adaptation nationale des transmissions aux risques et aux secours"
+    },
+    {
+        "category": "CAD",
+        "id" : 162,
+        "question": "Quels sont les principes du commandement en opération ?",
+        "answer": "<ul><li>Je peux commander 4maxi</li><li>je commande mes subordonnées directs</li><li>je réponds à mon supérieur directs</li><li>controle l'execution des mes ordres</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 163,
+        "question": "Quels sont les éléments du compte rendu d'engagement ?",
+        "answer": "<ul><li>accés actuel et possible</li><li>parcours</li><li>niveau concernés/piece impactées ( j'ai vu )</li><li>actions réalisés ( j'ai fait )</li><li>proposition d'action ( je proposer )</li><li>évolution sinistre et conséquence ( je redoute)</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 164,
+        "question": "Quel est la définition de l'énergie calorifique ?",
+        "answer": "energie concrétement dégagée au cours de la combustion d'un matériau."
+    },
+    {
+        "category": "INC",
+        "id" : 165,
+        "question": "Quelle est la nomemclature d'une liaison personnelle ?",
+        "answer": "<ul><li>longueur 1,25 ou 6m</li><li>diam 4mm</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 166,
+        "question": "Quelle est la nomemclature d'une ligne guide ?",
+        "answer": "<ul><li>50 à 60m</li><li>diam 6 à 8mm</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 167,
+        "question": "Quelles sont les conditions du port de l'ARI ?",
+        "answer": "<ul><li>oxy inf à 17%</li><li>qlité air inconnu</li><li>presence toxique</li><li>CO</li><li>risque embrassement/explo</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 168,
+        "question": "Quelles sont les conditions du port de l'APRD ?",
+        "answer": "<ul><li>O² sup à 17%</li><li>&nbsp;polluant identifié et mesurer</li><li>concentration la plus élever connue</li><li>dispotif filtrant adapté au polluant</li><li>instabilité de l'atmosphere évalué</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 169,
+        "question": "Que signifie SDACR ?",
+        "answer": "schéma département d'analyse et de couverture des risques."
+    },
+    {
+        "category": "SAP",
+        "id" : 170,
+        "question": "Quelle doit-être la dépression de l'aspiration d'un nouveau né ?",
+        "answer": "120 à 150mmHg"
+    },
+    {
+        "category": "SAP",
+        "id" : 171,
+        "question": "Quelle doit-être la dépression de l'aspiration d'un nourrisson ?",
+        "answer": "200 à 250mmHg"
+    },
+    {
+        "category": "SAP",
+        "id" : 172,
+        "question": "Quelle doit-être la dépression de l'aspiration d'un enfant ?",
+        "answer": "200 à 250mmHg"
+    },
+    {
+        "category": "SAP",
+        "id" : 173,
+        "question": "Quelle doit-être la dépression de l'aspiration d'un adulte ?",
+        "answer": "300 à 500mmHg"
     }
 ]
+    
+    
+    
