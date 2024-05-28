@@ -1,62 +1,332 @@
 [
     {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP ?",
-        "answer": "Ma réponse"
+        "category": "CAD",
+        "question": "Qu'est-ce que l'ARS ?",
+        "answer": "Agence régional de la santé-création 2010-pilote le système de santé"
     },
     {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 1?",
-        "answer": "Ma réponse 1"
+        "category": "CAD",
+        "question": "Qu'est ce qu'une association ?",
+        "answer": "C'est une réunion de deux personnes minimum-loi 1901 dit "walbeck-rousseau" "
     },
     {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 2?",
-        "answer": "Ma réponse 2"
+        "category": "CAD",
+        "question": "Qu'est-ce qu'une AAI ?",
+        "answer": "Agence Administrative Indépendante"
     },
     {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 3?",
-        "answer": "Ma réponse 3"
+        "category": "CAD",
+        "question": "Qu'est-ce que la CNRACL ?",
+        "answer": "Caisse Nationale de Retraite des Agents des Collectivités Locales"
     },
     {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 4?",
-        "answer": "Ma réponse 4"
+        "category": "CAD",
+        "question": "Quels sont les compétences de la commune ?",
+        "answer": "La commune est compétente en matière d'urbanisme, logement, environnement, gestion des écoles préélémentaires et élémentaires."
     },{
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 5?",
-        "answer": "Ma réponse 5"
+        "category": "CAD",
+        "question": "Quels sont les compétences du département ?",
+        "answer": "Le département est compétent en matière d'action  sociale, infrastructures, gestion des collèges, aide aux communes"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le ministre de l'intéreur ?",
+        "answer": "Gérald Darmanin"
     },
     {
         "category": "SAP",
-        "question": "Qu'est-ce que SAP 6?",
-        "answer": "Ma réponse 6"
+        "question": "Quel type de BAVU utilisé pour un prématuré <2.5kg ?",
+        "answer": "200 à 250ml"
+    },
+    {
+        "category": "CAD",
+        "question": "Combien y a t-il de sénateur ?",
+        "answer": "348"
     },
     {
         "category": "SAP",
-        "question": "Qu'est-ce que SAP 7?",
-        "answer": "Ma réponse 7"
-    },
-    {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 8?",
-        "answer": "Ma réponse 8"
-    },
-    {
-        "category": "SAP",
-        "question": "Qu'est-ce que SAP 9?",
+        "question": "Qu'est-ce que SAP 9 ?",
         "answer": "Ma réponse 9"
     },
     
     {
         "category": "INC",
-        "question": "Qu'est-ce que INC 1?",
-        "answer": "Ma réponse 1"
+        "question": "Quel est la largeur d'une voie echelle ?",
+        "answer": "4M"
     },
     {
         "category": "INC",
-        "question": "Qu'est-ce que INC 2?",
-        "answer": "Ma réponse 2"
-    }
-]
+        "question": "Quels sont les types de flammes ?",
+        "answer": "Flammes de pré-mélange, Flammes de diffusion"
+    },
+    {
+        "category": "PPABE",
+        "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
+        "answer": "Jaune"
+    },
+    {
+        "category": "CAD",
+        "question": "Quels sont les sanctions du 4eme groupe ?",
+        "answer": "Mise à la retraite, révocation"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui possède l'indicatif radio héracles ?",
+        "answer": "Le médecin-chef du SAMU"
+    },
+    {
+        "category": "SAP",
+        "question": "Qu'est-ce qu'un trouble de stress aigu ?",
+        "answer": "Un stress avec des effets jusqu'à un mois."
+    },
+    {
+        "category": "PREV",
+        "question": "Quel type d'ERP est classé N ?",
+        "answer": "Les restaurants"
+    },
+    {
+        "category": "CAD",
+        "question": "Quels batiments possède un plan bleu ?",
+        "answer": "Les établissement médicaux sociaux."
+    },
+    {
+        "category": "CAD",
+        "question": "Quel technologie concerne la recherche d'avion civil ou militaire ?",
+        "answer": "La radiogoniométrie d'aéronef en dètresse."
+    },
+    {
+        "category": "CAD",
+        "question": "Quels sont les caractéristiques des européennes ?",
+        "answer": "Election tout les 5ans au suffrage universel direct."
+    },
+    {
+        "category": "PREV",
+        "question": "Quel ERP est classé Y ?",
+        "answer": "Les musées."
+    },
+    {
+        "category": "PREV",
+        "question": "Quel ERP est classé S ?",
+        "answer": "Les bibliothéques."
+    },
+    {
+        "category": "PREV",
+        "question": "Qu'est-ce que le PSR ?",
+        "answer": "Le Plan Submersion Rapide."
+    },
+    {
+        "category": "CAD",
+        "question": "Quelles sont les devoirs du fonctionnaire ?",
+        "answer": "Diginité, impartialité, intégrité, probité, neutralité, satisfaire aux demandes d'information aux public, secret professionel, discrétion professionel, devoir de réserve, obéissance hiérarchique, obligation de desintéressement."
+    },
+    {
+        "category": "CAD",
+        "question": "Quels sont les différents grade des JSP ?",
+        "answer": "JSP 1-BLANC, JSP 2-JAUNE, JSP 3-ORANGE, JSP 4-VERT."
+    },
+    {
+        "category": "PREV",
+        "question": "Quel type d'ERP est classé L ?",
+        "answer": "Les salles d'audition, de conférence, de spectacle."
+    },
+    {
+        "category": "CAD",
+        "question": "Quels sont les piliers de la loi Matras ?",
+        "answer": "1.Consolider le modèle de sécurité civil, 2. Enrichir l'anticipation à la gestion de crise, 3. Renforcer la coproduction, 4. Valoriser l'engagement volontariat."
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est la défenseuse des droits ?",
+        "answer": "Claire Hedon"
+    },
+    {
+        "category": "CAD",
+        "question": "Combien y-a-t'il de député francais au parlement européen ?",
+        "answer": "81"
+    },
+    {
+        "category": "CAD",
+        "question": "Combien y-a-t'il de député à l'assemblée nationale ?",
+        "answer": "577"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le président du sénat ?",
+        "answer": "Gerard Larcher"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le président de l'assemblée nationale ?",
+        "answer": "Yael Braun-Pivet"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le directeur de l'ANSC ?",
+        "answer": "Casciola"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le PUD du 37 ?",
+        "answer": "Le lieutenant Lorillou"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le président de la FNSPF ?",
+        "answer": "Le lieutenant-Colonel Jean Paul Bosland"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui est le directeur de l'ENSOSP ?",
+        "answer": "Le Contrôleur général Gregory Allione"
+    },
+    {
+        "category": "CAD",
+        "question": "Qui gère le bureau des SPV à la DGSCGC ?",
+        "answer": "La Colonel hors-classe Lamaire."
+    },
+    {
+        "category": "CAD",
+        "question": "Qui gère le bureau des SPP à la DGSCGC ?",
+        "answer": "Jean Marc CAIRO"
+    },
+     {
+        "category": "CAD",
+        "question": "Qui est le directeur des SP à la DGSCGC ?",
+        "answer": "Tiphaine Pinault"
+    },
+     {
+        "category": "CAD",
+        "question": "Qui est le directeur de la DGSCGC ?",
+        "answer": "Julien Marion"
+    },
+     {
+        "category": "CAD",
+        "question": "Qui est le ministre des armées ?",
+        "answer": "Sebastien Lecornu"
+    },
+     {
+        "category": "CAD",
+        "question": "Qui est le premier ministre ?",
+        "answer": "Gabriel ATTAL"
+    },
+     {
+        "category": "CAD",
+        "question": "Qui est le prefet d'indre et loire ?",
+        "answer": "Mr Latron"
+    },
+     {
+        "category": "CAD",
+        "question": "Que signifie DGSCGC ?",
+        "answer": "Direction générale de sécurité civil et de gestion de crise"
+    },
+     {
+        "category": "CAD",
+        "question": "De quand date la Loi Mosc ?",
+        "answer": "13 Aout 2004"
+    },
+     {
+        "category": "CAD",
+        "question": "Quels sont les 4 principes de la loi MOSC ?",
+        "answer": "1. La sécurité affaire de tous, 2. La préparation aux risques, 3.Stabiliser les sdis, 4.Encourager la solidarité."
+    },
+     {
+        "category": "CAD",
+        "question": "De quand date la départementalisation ?",
+        "answer": "1996"
+    },
+     {
+        "category": "CAD",
+        "question": "Que prévoit le décret du 6 mai 1988 ?",
+        "answer": "L'organisation générale des sdis, ils sont gérés par le CASDIS."
+    },
+     {
+        "category": "INC",
+        "question": "Quels sont les différents type de jets ?",
+        "answer": "1. Jet droit, 2. Jet brisé, 3. Jet diffusé d'attaque, 4. jet diffusé de protection, 5. Jet purge."
+    },
+     {
+        "category": "INC",
+        "question": "Quels sont les caractéristiques d'une impulsion longue ?",
+        "answer": "100 à 300 L/Min, ouverture de 20 à 30°"
+    },
+     {
+        "category": "INC",
+        "question": "Quels sont les caractéristiques du Gaz cooling ?",
+        "answer": "100 à 250 L/min, ouverture 30 à 60°"
+    },
+     {
+        "category": "PRV",
+        "question": "Quel est la dimension d'une baie accessible ?",
+        "answer": "1,80 de haut par 0,90 de large."
+    },
+     {
+        "category": "INC",
+        "question": "Quel est la longueur d'une voie echelle ?",
+        "answer": "10m"
+    },
+     {
+        "category": "INC",
+        "question": "Quel est la longueur d'une voie engin ?",
+        "answer": "8m mini"
+    },
+     {
+        "category": "CAD",
+        "question": "Que signifie GSP ?",
+        "answer": "Global positioning system"
+    },
+     {
+        "category": "CAD",
+        "question": "Que signifie UTM ?",
+        "answer": "Transerve universelle de mercator"
+    },
+     {
+        "category": "INC",
+        "question": "Quel est la nomemclature d'une commande ?",
+        "answer": "7mm de diamètre, 30m de longueur"
+    },
+     {
+        "category": "SAP",
+        "question": "Dans quels cas un secouriste peux recourir à la force ?",
+        "answer": "1. Pour préserver sa prope intégrité, 2. Pour limiter un danger manifestement grave."
+    },
+     {
+        "category": "SAP",
+        "question": "Quels sont les différentes réaction d'un état de crise ?",
+        "answer": "1.Réaction silencieuse 2. Réaction Bruyante"
+    },
+     {
+        "category": "SAP",
+        "question": "Qu'immobilise une écharpe oblique ?",
+        "answer": "Un traumatisme de la clavicule ou de l'omoplate."
+    },
+     {
+        "category": "SAP",
+        "question": "Qu'immobilise une contre-écharpe ?",
+        "answer": "Un traumatisme du bras."
+    },
+     {
+        "category": "SAP",
+        "question": "Qu'immobilise une écharpe simpe ?",
+        "answer": "Un traumatisme de la main, du poignet ou de l'avant-bras."
+    },
+     {
+        "category": "SAP",
+        "question": "Qu'est ce qu'une Hématèmese ?",
+        "answer": "Un vomie de sang rouge."
+    },
+     {
+        "category": "SAP",
+        "question": "Quels sont les signes d'une brûlure grave ?",
+        "answer": "1. Une ou plusieurs cloques dont la surface totale est supérieur à la moitié de la paume de la main, 2.Une destruction plus profonde, 3.Une brûlure circulaire, 4. Une brûlure du visage, de la main, du cou, des articulations, proches des orifices naturels, 5. Une rougeur étendue chez l'enfant, 6. Une brûlure éléctrique ou radiologique."
+    },
+     {
+        "category": "SAP",
+        "question": "Quel est l'objectif de l'oxygénation ?",
+        "answer": "94-98%"
+    },
+     {
+        "category": "",
+        "question": " ?",
+        "answer": ""
+    },
+    ]
