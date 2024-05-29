@@ -72,7 +72,7 @@
         "answer": "Flammes de pré-mélange<br>Flammes de diffusion"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 12,
         "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
         "answer": "Jaune"
@@ -528,7 +528,7 @@
         "answer": "Le degrés d'agitation moléculaire"
     },
     {
-        "category": "SR",
+        "category": "SR-FDF",
         "id" : 88,
         "question": "Quels sont les 5S ?",
         "answer": "<ul><li>Sécurisation du site</li><li>Sécurisation du véhicule</li><li>Secours à personne</li><li>Sécurisation de la technique de désincarcération</li><li>Sortie de victime</li></ul>"
@@ -540,13 +540,13 @@
         "answer": "<ul><li>Placement de l'engin</li><li>Reconnaissance</li><li>Sauvetage ou mise en sécurité</li><li>Etablissement</li><li>Attaque</li><li>Protection</li><li>Ventilation</li><li>Déblai</li><li>Protection des traces des indices</li><li>Reconditionnement du personnel et du matériel</li><li>Surveillance</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 90,
         "question": "Quelles sont les étapes de la MGO USAR ?",
         "answer": "<ul><li>Reconnaissance et évaluation générale de la zone</li><li>Reconnaissance et évaluation du secteur</li><li>Opération de recherche et de sauvetage des victimes légèrement ensevelies</li><liOpération de recherche et de sauvetage des victimes en profondeur</li><li>Déblaiement généralisé</li><li>recherche des corps</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 91,
         "question": "Quel est le gaz contenue dans une bouteile de couleur grise ?",
         "answer": "Du dioxyde de carbone"
@@ -564,7 +564,7 @@
         "answer": "Systeme d'information numérique standardisé"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 94,
         "question": "Quel est le risque principale d'une bouteile de gaz de couleur rouge ?",
         "answer": "Risque inflammable"
@@ -762,19 +762,19 @@
         "answer": "<ul><li>cheminement</li><li>victimes</li><li>environnement</li><li>temps</li><li>sauveteur/materiel</li><li>condition astrométéorologique</li><li>dispositif facilitant l'action des secours</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 127,
         "question": "Quel est le risque d'une exposition à un courant éléctrique de 80mA ?",
         "answer": "La fibrilation ventriculaire."
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 128,
         "question": "Quel est le risque d'une exposition à un courant éléctrique de 30mA ?",
         "answer": "La tétanisation du muscle respiratoire."
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 129,
         "question": "Quel est le risque d'une exposition à un courant éléctrique de 1mA ?",
         "answer": "Des picotements"
@@ -840,19 +840,19 @@
         "answer": "<ul><li>prise de température,</li><li>pulsation cardiaque,</li><li>pression artériel</li><li>recueil glycémie</li><li>administration d'aerosol non médicamenteux</li><li>etablissment score de gravité</li><li>recueil sat</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 140,
         "question": "Quel est le pourcentage de filtration d'un filtre P3 ?",
         "answer": "99,95%"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 141,
         "question": "Quel est le pourcentage de filtration d'un filtre P2 ?",
         "answer": "94%"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 142,
         "question": "Quel est le pourcentage de filtration d'un filtre P1 ?",
         "answer": "80%"
@@ -912,13 +912,13 @@
         "answer": "feu dont le developpement n'est plus maitrisé dans le temps ou l'espace."
     },
     {
-        "category": "SR",
+        "category": "SR-FDF",
         "id" : 152,
         "question": "Que signifie FAD ?",
         "answer": "Fiche d'aide à la décision"
     },
     {
-        "category": "SR",
+        "category": "SR-FDF",
         "id" : 153,
         "question": "Que signifie ERG ?",
         "answer": "Emergency response guide"
@@ -966,7 +966,7 @@
         "answer": "Réglement départemental de défense extérieur à l'incendie."
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 161,
         "question": "Que signifie ANTARES ?",
         "answer": "Adaptation nationale des transmissions aux risques et aux secours"
@@ -1236,7 +1236,7 @@
         "answer": "<ul><li>accédés</li><li>isoler</li><li>désenfumer</li><li>explorer</li><li>sauver / sortir</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 206,
         "question": "Que contient une bouteille de gaz blanche ?",
         "answer": "De l'oxygène"
@@ -1380,25 +1380,25 @@
         "answer": "<ul><li>porté pompier</li><li>porté dans les bras</li><li>porté sur le dos</li><li>bras dessus-bras dessous</li><li>porté à 4 mains</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 230,
         "question": "Quelle est la tension maximum supportée par le matériel d'une valise éléctrosecours ?",
         "answer": "25000 Volts"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 231,
         "question": "Quelle est la composition d'une valise éléctrosecours ?",
         "answer": "<ul><li>tabouret</li><li>bottes</li><li>gant</li><li>perche</li><li>coupe cable</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 232,
         "question": "Quelles sont les limites du LSPCC ?",
         "answer": "<ul><li>matériel insuffisant ou grimp</li><li>etat victime nécéssitant une prise en charge spécifique</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 233,
         "question": "Quelles sont les possibilitées d'utilisation du LSPCC ?",
         "answer": "<ul><li>sauvetage par ext</li><li>reco d'appart</li><li>sauvetage puits, fosse, excavation</li><li>abordage, securisation victime en peril</li><li>déplacement de victime insconsciente, invalide</li><li>évolution avec risque de chute</li></ul>"
@@ -1512,13 +1512,13 @@
         "answer": "Quantité d'énergie dégagée au cours de la combustion d'un matériau."
     },
     {
-        "category": "SR",
+        "category": "SR-FDF",
         "id" : 252,
         "question": "Qu'est ce que les 5I ?",
         "answer": "<ul><li>isoler</li><li>Interdire</li><li>inspecter</li><li>identifier</li><li>Immobilisier</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 253,
         "question": "Quel est le gaz contenue dans une bouteile de couleur marron ?",
         "answer": "De l'hélium."
@@ -1548,13 +1548,13 @@
         "answer": "Volume de mousse / volume de solution moussante"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 258,
         "question": "Comment calcul t-on le pied d'échelle en mode secours ?",
         "answer": "4 grands pas pour 1er etage, 5 grands pas pour le 2eme"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 259,
         "question": "Comment calcul t-on le pied d'échelle ?",
         "answer": "1/5ème de la hauteur déployée"
@@ -1662,25 +1662,25 @@
         "answer": "<ul><li>Debit</li><li>duree</li><li>distance</li><li>diffusion</li><li>direction</li></ul>"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 277,
         "question": "Quel est le gaz contenue dans une bouteile de couleur chatain ?",
         "answer": "L'acétylene"
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 278,
         "question": "A quel danger correspond une bouteille de couleur bleu ?",
         "answer": "Produit oxydant ou comburant."
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 279,
         "question": "A quel danger correspond une bouteille de couleur vert ?",
         "answer": "Produit inerte ou asphyxiant."
     },
     {
-        "category": "PPABE",
+        "category": "PPABE-RTN",
         "id" : 280,
         "question": "Quel est le gaz contenue dans une bouteile de couleur noire ?",
         "answer": "L'azote"
