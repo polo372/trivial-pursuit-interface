@@ -70,12 +70,12 @@ button:focus-visible {
 .CAD {
   background-color: orange;
 }
+.PRV {
+  background-color: black;
+}
 .PPABE-RTN {
   background-color: blue;
 }
 .SR-FDF {
   background-color: blueviolet;
-}
-.PRV {
-  background-color: black;
 }
