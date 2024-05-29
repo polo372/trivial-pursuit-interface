@@ -62,7 +62,7 @@
     {
         "category": "INC",
         "id" : 10,
-        "question": "Quel est la largeur d'une voie echelle ?",
+        "question": "Quel est la largeur d'une voie échelle ?",
         "answer": "4M"
     },
     {
@@ -314,7 +314,7 @@
      {
         "category": "INC",
         "id" : 52,
-        "question": "Quel est la longueur d'une voie echelle ?",
+        "question": "Quel est la longueur d'une voie échelle ?",
         "answer": "10m"
     },
      {
@@ -663,25 +663,25 @@
         "category": "INC",
         "id" : 110,
         "question": "Quelle est la capacité de la DECI pour un risque courant faible ?",
-        "answer": "30m3/H"
+        "answer": "Pi de 80mm à 30m3/H"
     },
     {
         "category": "INC",
         "id" : 111,
         "question": "Quelle est la capacité de la DECI pour un risque courant ordinaire ?",
-        "answer": "<ul><li>ordinaire pi 100 60m²/H en 1h</li><li>instantanément, jusqu'a 120m²/H</li></ul>"
+        "answer": "<ul><li>ordinaire pi 100mm 60m²/H en 1h</li><li>instantanément, jusqu'a 120m²/H</li></ul>"
     },
     {
         "category": "INC",
         "id" : 112,
         "question": "Quelle est la capacité de la DECI pour un risque courant important ?",
-        "answer": "pi 150 120m3/H"    
+        "answer": "pi 150mm 120m3/H"    
     },
     {
         "category": "SAP",
         "id" : 113,
         "question": "Quelles sont les différentes échelles de mesure de la douleur ?",
-        "answer": "<ul><li>Echelle verbale simple</li><li>echelle numerique</li><li>echelle visuel analogique</li><li>echelle des six visages</li><li>echelle evendol</li></ul>"
+        "answer": "<ul><li>échelle verbale simple</li><li>échelle numerique</li><li>échelle visuel analogique</li><li>échelle des six visages</li><li>échelle evendol</li></ul>"
     },
     {
         "category": "SAP",
@@ -1042,6 +1042,648 @@
         "id" : 173,
         "question": "Quelle doit-être la dépression de l'aspiration d'un adulte ?",
         "answer": "300 à 500mmHg"
+    },
+    {
+        "category": "SAP",
+        "id" : 174,
+        "question": "Quelle est le diamètre d'une sonde d'aspiration d'un nourrisson ?",
+        "answer": "4CH pour les préma, 6Ch pour les nourrisson"
+    },
+    {
+        "category": "SAP",
+        "id" : 175,
+        "question": "Quelle est le diamètre d'une sonde d'aspiration d'un enfant ?",
+        "answer": "8 à 12 CH"
+    },
+    {
+        "category": "SAP",
+        "id" : 176,
+        "question": "Quelle est le diamètre d'une sonde d'aspiration d'un adulte ?",
+        "answer": "18 à 26 CH"
+    },
+    {
+        "category": "INC",
+        "id" : 177,
+        "question": "Quelle est la définition d'un aérosol ?",
+        "answer": "Suspension dans un milieu gazeux de particule solide et ou liquide ayant une vitesse de chute negligeable."
+    },
+    {
+        "category": "INC",
+        "id" : 178,
+        "question": "Quelle est la consommation d'air pour un effort trés intense ?",
+        "answer": "Supérieur à 135L/min."
+    },
+    {
+        "category": "INC",
+        "id" : 179,
+        "question": "Quelle est la consommation d'air pour un effort intense ?",
+        "answer": "90 à 100L/min."
+    },
+    {
+        "category": "INC",
+        "id" : 180,
+        "question": "Quelle est la consommation d'air pour un effort modéré ?",
+        "answer": "40 à 70L/min."
+    },
+    {
+        "category": "INC",
+        "id" : 181,
+        "question": "Quelle est la consommation d'air pour une consommation économique ?",
+        "answer": "10 à 12L/min."
+    },
+    {
+        "category": "SAP",
+        "id" : 182,
+        "question": "Comment peut se faire la prise de température chez un enfant à partir de 5 ans ?",
+        "answer": "Buccale, axilaire, tymphanique ou frontal."
+    },
+    {
+        "category": "SAP",
+        "id" : 183,
+        "question": "Comment peut se faire la prise de température chez un enfant de 2 à 5 ans ?",
+        "answer": "Rectale, axilaire ou tymphanique."
+    },
+    {
+        "category": "SAP",
+        "id" : 184,
+        "question": "Comment peut se faire la prise de température chez un enfant de la naissance à 2 ans ?",
+        "answer": "Rectale ou axilaire."
+    },
+    {
+        "category": "INC",
+        "id" : 185,
+        "question": "Comment est composée une bouteille de type IV ?",
+        "answer": "En composite, liner plastique."
+    },
+    {
+        "category": "INC",
+        "id" : 186,
+        "question": "Comment est composée une bouteille de type III ?",
+        "answer": "En composite, liner métalique."
+    },
+    {
+        "category": "INC",
+        "id" : 187,
+        "question": "Comment est composée une bouteille de type II ?",
+        "answer": "En Métal renforcée."
+    },
+    {
+        "category": "INC",
+        "id" : 188,
+        "question": "Comment est composée une bouteille de type I ?",
+        "answer": "En Métal."
+    },
+    {
+        "category": "INC",
+        "id" : 189,
+        "question": "Qu'est ce que le rayonnement?",
+        "answer": "C'est le transfert d'energie par le biais d'onde éléctromagnétique."
+    },
+    {
+        "category": "INC",
+        "id" : 190,
+        "question": "Qu'est ce qu'une détonation'?",
+        "answer": "Une oxydation violente semblable à une onde de combustion explosive mais plus violente."
+    },
+    {
+        "category": "INC",
+        "id" : 191,
+        "question": "Qu'est ce qu'une déflagration'?",
+        "answer": "Une combustion rapide accompagnée d'un bruit plus ou moins fort dont la vitesse de propagation est inférieur à la vitesse du son."
+    },
+    {
+        "category": "INC",
+        "id" : 192,
+        "question": "Quelle est la nomemclature de l'échelle à crochet ?",
+        "answer": "<ul><li> Poids : 8 kg</li><li>Longeur déployée 4,25 m</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 193,
+        "question": "Quelle est la nomemclature de l'échelle à coulisse 3 plan ?",
+        "answer": "<ul><li> Poids : 75 kg</li><li>Longeur déployée 14,30 m</li><li>Longueur reployée 5,60 m</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 194,
+        "question": "Quels sont les différents états d'une victime après un classement médicale ?",
+        "answer": "<ul><li> UA</li><li>UR</li><li>Impliqué</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 195,
+        "question": "Quels sont les différents états d'une victime après un classement secouriste ?",
+        "answer": "<ul><li>Bléssé</li><li>Malade</li><li>Impliqué</li><li>DCD</li><li>Etat Grave</li><li>Etat léger</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 196,
+        "question": "Quels sont les signes d'une gelure du 4ème degrés ?",
+        "answer": "La zone atteinte est extensive, totalement insensible, bleutée et englobe la main ou l’avant-pied sans œdème. Après réchauffement, il n’apparaît pas de cloques, les tissus restent froids et insensibles et certains deviennent nécrotiques. L’amputation est malheureusement nécessaire."
+    },
+    {
+        "category": "SAP",
+        "id" : 197,
+        "question": "Quels sont les signes d'une gelure du 3ème degrés ?",
+        "answer": "La zone atteinte est insensible, bleuté ou noirâtre, remonte le plus souvent au-dessus des dernières phalanges sans atteindre la totalité de la main ou du pied. Après réchauffement, il persiste une anesthésie et il apparaît des cloques sanglantes(phlyctènes hématiques). L’irréversibilité de ces lésions impose le plus souvent une amputation de la zone la plus atteinte."
+    },
+    {
+        "category": "SAP",
+        "id" : 198,
+        "question": "Quels sont les signes d'une gelure du 2ème degrés ?",
+        "answer": "Zone atteinte localisée, insensible. rouge, œdémateuse, cloques remplies d’un liquide clair. Au réchauffement, la perte de sensibilité persiste etles dernières phalanges des doigts ou des orteils restent bleues ou violacées."
+    },
+    {
+        "category": "SAP",
+        "id" : 199,
+        "question": "Quels sont les signes d'une gelure du 1ème degrés ?",
+        "answer": "Gelure insensible, rouge sans cloque. se recolore apres rechauffement."
+    },
+    {
+        "category": "CAD",
+        "id" : 200,
+        "question": "Qui possède l'indicatif radio 'esculape' ?",
+        "answer": "Le médecin du sdis."
+    },
+    {
+        "category": "CAD",
+        "id" : 201,
+        "question": "Qui possède l'indicatif radio 'hippocrate' ?",
+        "answer": "Le médecin-chef du sdis."
+    },
+    {
+        "category": "CAD",
+        "id" : 202,
+        "question": "Qui possède l'indicatif radio 'merlin' ?",
+        "answer": "Le chef de centre."
+    },
+    {
+        "category": "CAD",
+        "id" : 203,
+        "question": "Qui possède l'indicatif radio 'lancelot' ?",
+        "answer": "Le DDSIS."
+    },
+    {
+        "category": "CAD",
+        "id" : 204,
+        "question": "Qui possède l'indicatif radio 'aramis' ?",
+        "answer": "Le prefet."
+    },
+    {
+        "category": "CAD",
+        "id" : 205,
+        "question": "Que signifie l'acronyme AIDES ?",
+        "answer": "<ul><li>accédés</li><li>isoler</li><li>désenfumer</li><li>explorer</li><li>sauver / sortir</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 206,
+        "question": "Que contient une bouteille de gaz blanche ?",
+        "answer": "De l'oxygène"
+    },
+    {
+        "category": "SAP",
+        "id" : 207,
+        "question": "En novi, quelle couleur portera une victime qui n'as pas de détresse et qui peux se déplacer ?",
+        "answer": "Vert"
+    },
+    {
+        "category": "SAP",
+        "id" : 208,
+        "question": "En novi, quelle couleur portera une victime qui n'as pas de détresse et qui ne peux pas se déplacer ?",
+        "answer": "Jaune"
+    },
+    {
+        "category": "SAP",
+        "id" : 209,
+        "question": "En novi, quelle couleur portera une victime qui présente une hémmoragie, une FC supérieur à 120bpm, une fréquence ventilatoire supérieur à 30 mvnt/min, est inconsciente,?",
+        "answer": "Rouge"
+    },
+    {
+        "category": "SAP",
+        "id" : 210,
+        "question": "En novi, quelle couleur portera une victime qui est en ACR ou est DCD ?",
+        "answer": "Noir"
+    },
+    {
+        "category": "CAD",
+        "id" : 211,
+        "question": "En alphabet phonétique comment épeler 9 ?",
+        "answer": "Cinq et quatre"
+    },
+    {
+        "category": "CAD",
+        "id" : 212,
+        "question": "En alphabet phonétique comment épeler 8 ?",
+        "answer": "Deux fois quatre"
+    },
+    {
+        "category": "CAD",
+        "id" : 213,
+        "question": "En alphabet phonétique comment épeler 7 ?",
+        "answer": "Quatre et trois"
+    },
+    {
+        "category": "CAD",
+        "id" : 214,
+        "question": "En alphabet phonétique comment épeler 6 ?",
+        "answer": "Deux fois trois"
+    },
+    {
+        "category": "CAD",
+        "id" : 215,
+        "question": "En alphabet phonétique comment épeler 5 ?",
+        "answer": "Trois et deux"
+    },
+    {
+        "category": "CAD",
+        "id" : 216,
+        "question": "En alphabet phonétique comment épeler 4 ?",
+        "answer": "Deux fois deux"
+    },
+    {
+        "category": "CAD",
+        "id" : 217,
+        "question": "En alphabet phonétique comment épeler 3 ?",
+        "answer": "Deux et un"
+    },
+    {
+        "category": "CAD",
+        "id" : 218,
+        "question": "En alphabet phonétique comment épeler 2 ?",
+        "answer": "Un et un"
+    },
+    {
+        "category": "CAD",
+        "id" : 219,
+        "question": "En alphabet phonétique comment épeler 1 ?",
+        "answer": "Un tout seul"
+    },
+    {
+        "category": "CAD",
+        "id" : 220,
+        "question": "En alphabet phonétique comment épeler 0 ?",
+        "answer": "Zéro sans rien"
+    },
+    {
+        "category": "SAP",
+        "id" : 221,
+        "question": "Quels sont les signes d'une atteinte au rachis ?",
+        "answer": "<ul><li>dlrs spontanné</li><li>dlrs à la mobilisation</li><li>raideur nuque</li><li>dlrs palpation</li><li>déformation</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 222,
+        "question": "Quels sont les signes d'une atteinte à la moelle épiniere ?",
+        "answer": "<ul><li>diminution de la force musculaire ou de la motricité</li><li>perte/diminution sensibilité</li><li>engourdissement, sensation décharge (paresthésie)</li><li>perte urine, matiere fecale</li><li>&nbsp;erection</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 223,
+        "question": "A quoi correspond le débit de pointe ?",
+        "answer": "C'est le débit maximum en phase d'inspiration et d'expiration."
+    },
+    {
+        "category": "INC",
+        "id" : 224,
+        "question": "Comment doit se faire l'engagement à vue en air non respirable ?",
+        "answer": "<ul><li>controleur + binome de secu</li><li>Locaux visité signalés</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 225,
+        "question": "Comment doit se faire l'engagement à vue à l'air libre ?",
+        "answer": "<ul><li>engagement en ZC ou ZS</li><li>masque ari en attente bouteille ouverte</li><li>balise armée</li><li>equipe enregistré</li><li>locaux visité signalés</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 226,
+        "question": "De quoi est obligatoirement composé une ARICO ?",
+        "answer": "<ul><li>reserve d'air</li><li>harnais+dossard</li><li>détendeur HP-MP</li><li>SAD</li><li>flexible MP</li><li>piece facial</li><li>Flexible HP</li><li>Siffle de fin de charge</li><li>Detecteur immobilité</li><li>manometre de pression</li></ul>"
+    },
+    {
+        "category": "PRV",
+        "id" : 227,
+        "question": "Quel type d'ERP est classé U ?",
+        "answer": "Les établissement de santé"
+    },
+    {
+        "category": "PRV",
+        "id" : 228,
+        "question": "Quel type d'ERP est classé J ?",
+        "answer": "Les structures d'accueil pour personnes agées ou handicapées"
+    },
+    {
+        "category": "INC",
+        "id" : 229,
+        "question": "Quelles sont les techniques pour déplacer une victime ?",
+        "answer": "<ul><li>porté pompier</li><li>porté dans les bras</li><li>porté sur le dos</li><li>bras dessus-bras dessous</li><li>porté à 4 mains</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 230,
+        "question": "Quelle est la tension maximum supportée par le matériel d'une valise éléctrosecours ?",
+        "answer": "25000 Volts"
+    },
+    {
+        "category": "PPABE",
+        "id" : 231,
+        "question": "Quelle est la composition d'une valise éléctrosecours ?",
+        "answer": "<ul><li>tabouret</li><li>bottes</li><li>gant</li><li>perche</li><li>coupe cable</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 232,
+        "question": "Quelles sont les limites du LSPCC ?",
+        "answer": "<ul><li>matériel insuffisant ou grimp</li><li>etat victime nécéssitant une prise en charge spécifique</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 233,
+        "question": "Quelles sont les possibilitées d'utilisation du LSPCC ?",
+        "answer": "<ul><li>sauvetage par ext</li><li>reco d'appart</li><li>sauvetage puits, fosse, excavation</li><li>abordage, securisation victime en peril</li><li>déplacement de victime insconsciente, invalide</li><li>évolution avec risque de chute</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 234,
+        "question": "Qu'est ce que le MEPC ?",
+        "answer": "Le mécanisme européen de protection civil."
+    },
+    {
+        "category": "CAD",
+        "id" : 235,
+        "question": "Qu'est ce que l'ERCC ?",
+        "answer": "L'européen response coordination center."
+    },
+    {
+        "category": "CAD",
+        "id" : 236,
+        "question": "Qu'est ce qu'un OCOPCTAC ?",
+        "answer": "Un opération de coordination opérationnel en poste de commandement tactiques."
+    },
+    {
+        "category": "CAD",
+        "id" : 237,
+        "question": "Qu'est ce qu'un OCO ?",
+        "answer": "Un opération de coordination opérationnel."
+    },
+    {
+        "category": "CAD",
+        "id" : 238,
+        "question": "Qu'est ce qu'un OTAU ?",
+        "answer": "Un opérateur de traiement des appels d'urgence."
+    },
+    {
+        "category": "CAD",
+        "id" : 239,
+        "question": "Quelles sont les différents styles de management ?",
+        "answer": "<ul><li>directif</li><li>Persuasif</li><li>délégatif</li><li>participatif</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 240,
+        "question": "Que signifie COTTRIM ?",
+        "answer": "Contrat territoriaux de reponse aux risque et aux effets de menace."
+    },
+    {
+        "category": "SAP",
+        "id" : 241,
+        "question": "Quelle est la température d'une hypothermie grave ?",
+        "answer": "Inférieur à 24°C."
+    },
+    {
+        "category": "SAP",
+        "id" : 242,
+        "question": "Quelle est la température d'une hypothermie sévére ?",
+        "answer": "Entre 24°C et 28°C."
+    },
+    {
+        "category": "SAP",
+        "id" : 243,
+        "question": "Quelle est la température d'une hypothermie modérée ?",
+        "answer": "Entre 28°C et 32°C."
+    },
+    {
+        "category": "SAP",
+        "id" : 244,
+        "question": "Quelle est la température d'une hypothermie légere ?",
+        "answer": "Entre 32°C et 35°C."
+    },
+    {
+        "category": "SAP",
+        "id" : 245,
+        "question": "Quelle est la valeur normal de la températurel ?",
+        "answer": "Entre 35°C et 37,5°C."
+    },
+    {
+        "category": "SAP",
+        "id" : 246,
+        "question": "Quelle est la température du coup de chaleur ?",
+        "answer": "Supérieur à 40°C."
+    },
+    {
+        "category": "INC",
+        "id" : 247,
+        "question": "Quelle est la définition du potentiel calorifique ?",
+        "answer": "Energie calorifique total qui peux etre dégagée par la combustion complete de l'ensemble des matériaux et par unité de surface."
+    },
+    {
+        "category": "INC",
+        "id" : 248,
+        "question": "Que signifie l'acronyme AAAEERTER ?",
+        "answer": "<ul><li>AIR</li><li>alarme</li><li>alerte</li><li>Economiser l'ai</li><li>Eclairer</li><li>rester pres du sol</li><li>taper</li><li>explorer</li><li>remonter la cagoule</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 249,
+        "question": "A quoi correspond un poteau d'incendie bleu ?",
+        "answer": "Un poteau d'aspiration."
+    },
+    {
+        "category": "INC",
+        "id" : 250,
+        "question": "A quoi correspond un poteau d'incendie jaune sur 50% de sa surface ?",
+        "answer": "Un poteau surpréssé et ou additivé."
+    },
+    {
+        "category": "INC",
+        "id" : 251,
+        "question": "Quelle est la définition du pouvoir calorifique ?",
+        "answer": "Quantité d'énergie dégagée au cours de la combustion d'un matériau."
+    },
+    {
+        "category": "SR",
+        "id" : 252,
+        "question": "Qu'est ce que les 5I ?",
+        "answer": "<ul><li>isoler</li><li>Interdire</li><li>inspecter</li><li>identifier</li><li>Immobilisier</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 253,
+        "question": "Quel est le gaz contenue dans une bouteile de couleur marron ?",
+        "answer": "De l'hélium."
+    },
+    {
+        "category": "INC",
+        "id" : 254,
+        "question": "Quel est le taux d'une foisonnement bas ?",
+        "answer": "0 à 20"
+    },
+    {
+        "category": "INC",
+        "id" : 255,
+        "question": "Quel est le taux d'une foisonnement moyen ?",
+        "answer": "20 à 200"
+    },
+    {
+        "category": "INC",
+        "id" : 256,
+        "question": "Quel est le taux d'une foisonnement haut ?",
+        "answer": "Supérieur à 200"
+    },
+    {
+        "category": "INC",
+        "id" : 257,
+        "question": "Quel est le calcul du foisonnement ?",
+        "answer": "Volume de mousse / volume de solution moussante"
+    },
+    {
+        "category": "PPABE",
+        "id" : 258,
+        "question": "Comment calcul t-on le pied d'échelle en mode secours ?",
+        "answer": "4 grands pas pour 1er etage, 5 grands pas pour le 2eme"
+    },
+    {
+        "category": "PPABE",
+        "id" : 259,
+        "question": "Comment calcul t-on le pied d'échelle ?",
+        "answer": "1/5ème de la hauteur déployée"
+    },
+    {
+        "category": "INC",
+        "id" : 260,
+        "question": "Qu'est ce qu'une flamme ?",
+        "answer": "C'est la zone de réaction ou combustible et comburant se rencontre pour interrargir et produire, chaleur, lumiere et produit de combustion."
+    },
+    {
+        "category": "INC",
+        "id" : 261,
+        "question": "Quels sont les actions de l'eau ?",
+        "answer": "<ul><li>Refroidissement</li><li>Etouffement</li><li>Dispersion</li><li>Inertage</li><li>Soufflage</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 262,
+        "question": "Quels sont les cas de réponses non fiables ?",
+        "answer": "<ul><li>detresse vital</li><li>alcool ou drogue</li><li>alteration conscience</li><li>atteinte traumatique severe (dlrs de distraction)</li><li>non coopération, difficulté de communication</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 263,
+        "question": "Quels sont les cas de mécanisme à haut risque ?",
+        "answer": "<ul><li>chute sur la tete sup 1m</li><li>sur les fesses sup 3m</li><li>passager vehicule accidenté à grande vitesse</li><li>absence port de ceinture+airbag déclenché</li><li>retournement véhicule</li><li>victime éjéctée</li><li>collision 2 roue</li><li>pieton renversé</li><li>accident véhicule loisir</li><li>chute de cheval</li></ul>"
+    },
+    {
+        "category": "SAP",
+        "id" : 264,
+        "question": "Lors de la prise en charge du nouveau né à la naissance, que faire si ca FC est supérieur à 100bpm ?",
+        "answer": "De la surveillance"
+    },
+    {
+        "category": "SAP",
+        "id" : 265,
+        "question": "Lors de la prise en charge du nouveau né à la naissance, que faire si ca FC est comprise ente 60 et 100bpm ?",
+        "answer": "Dès insufflation à l'air et de la surveillance"
+    },
+    {
+        "category": "SAP",
+        "id" : 266,
+        "question": "Lors de la prise en charge du nouveau né à la naissance, que faire si ca FC est inférieur à 60bpm ?",
+        "answer": "Une RCP en 3/1 avec O² sans DSA."
+    },
+    {
+        "category": "SAP",
+        "id" : 267,
+        "question": "Lors de la prise en charge du nouveau né à la naissance, que faire systématiquement s'il n'est pas en bonne santé ?",
+        "answer": "40 insufflations à l'air pendant 1 minute."
+    },
+    {
+        "category": "CAD",
+        "id" : 268,
+        "question": "Quelles sont les sanctions du 3ème groupe ?",
+        "answer": "<ul><li>retrogradation</li><li>Exclusion temporaire de 16jours à 2an</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 269,
+        "question": "Quelles sont les sanctions du 2ème groupe ?",
+        "answer": "<ul><li>radiation du tableau d'avancement</li><li>abaissement d'échelon</li><li>exclusion temporaire de 4 à 15 jours</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 270,
+        "question": "Quelles sont les sanctions du 1ème groupe ?",
+        "answer": "<ul><li>Avertissement</li><li>Blame</li><li>Exclusion temporaire de 3 jours maxi</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 271,
+        "question": "Que signifie DOI ?",
+        "answer": "Directeur des opérations internes"
+    },
+    {
+        "category": "CAD",
+        "id" : 272,
+        "question": "Qui est le DOS ?",
+        "answer": "Le maire ou le prefet"
+    },
+    {
+        "category": "INC",
+        "id" : 273,
+        "question": "Comment calcul t-on le rendement ?",
+        "answer": "Volume de mousse / Volume d'émulseur"
+    },
+    {
+        "category": "INC",
+        "id" : 274,
+        "question": "Comment calcul t-on la concentration ?",
+        "answer": "Volume d'émulseur / volume solution moussante"
+    },
+    {
+        "category": "INC",
+        "id" : 275,
+        "question": "Quelles sont les différentes techniques d'économie d'air ?",
+        "answer": "<ul><li>Reilly</li><li>5sec/5sec</li><li>2/4</li><li>Sauté une respiration</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 276,
+        "question": "A quoi correspond les 5D ?",
+        "answer": "<ul><li>Debit</li><li>duree</li><li>distance</li><li>diffusion</li><li>direction</li></ul>"
+    },
+    {
+        "category": "PPABE",
+        "id" : 277,
+        "question": "Quel est le gaz contenue dans une bouteile de couleur chatain ?",
+        "answer": "L'acétylene"
+    },
+    {
+        "category": "PPABE",
+        "id" : 278,
+        "question": "A quel danger correspond une bouteille de couleur bleu ?",
+        "answer": "Produit oxydant ou comburant."
+    },
+    {
+        "category": "PPABE",
+        "id" : 279,
+        "question": "A quel danger correspond une bouteille de couleur vert ?",
+        "answer": "Produit inerte ou asphyxiant."
+    },
+    {
+        "category": "PPABE",
+        "id" : 280,
+        "question": "Quel est le gaz contenue dans une bouteile de couleur noire ?",
+        "answer": "L'azote"
     }
 ]
     
