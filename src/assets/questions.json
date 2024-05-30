@@ -1686,9 +1686,33 @@
         "answer": "L'azote"
     },
     {
-        "category": "PRV-COD",
+        "category": "SAP",
         "id" : 281,
-        "question": "<img 
+        "question": "A quoi correspond l'acronyme TSU' ?",
+        "answer": "Technicien en soin d'urgence"
+    },
+    {
+        "category": "CAD",
+        "id" : 282,
+        "question": "Qu'est ce que la TSCA ?",
+        "answer": "La taxe spéciale sur les conventions d'assurances."
+    },
+    {
+        "category": "CAD",
+        "id" : 283,
+        "question": "Comment s'appelle la 1ère femme SPP ?",
+        "answer": "Francoise Mabille."
+    },
+    {
+        "category": "CAD",
+        "id" : 284,
+        "question": "Qu'est ce que le RDA ?",
+        "answer": "Le réseaux départemental d'alerte."
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 285,
+        "question": "<img
         scr="/home/codespace/trivial-pursuit-interface/src/assets/angle_dattaque.png"/>   
         Comment s'appelle l'angle de cette photo ?",
         "answer": "L'angle d'attaque"
