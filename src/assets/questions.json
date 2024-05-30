@@ -1684,6 +1684,14 @@
         "id" : 280,
         "question": "Quel est le gaz contenue dans une bouteile de couleur noire ?",
         "answer": "L'azote"
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 281,
+        "question": "<img 
+        scr="/home/codespace/trivial-pursuit-interface/src/assets/angle_dattaque.png"/>   
+        Comment s'appelle l'angle de cette photo ?",
+        "answer": "L'angle d'attaque"
     }
 ]
     
