@@ -51,5 +51,5 @@ export const getQuestionByCategory = (category: string) : Question | null => {
 }
 
 export const getCategories = (): string[] => {
-    return questionsFromFile.map(q => q.category).filter((value, index, self) => self.indexOf(value) === index);
+    return questionsFromFile.map(q => q.category).filter((value, index, self) => self.indexOf(value) === index).sort();
 }
