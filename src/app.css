@@ -48,19 +48,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-  .PRV-COD {
-    background-color: lightgray;
-  }
-}
-
 img {
   max-width: 90%;
 }
@@ -85,4 +72,18 @@ img {
 }
 .SR-FDF {
   background-color: rgb(62, 3, 118);
+}
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  .PRV-COD {
+    background-color: lightgray;
+  }
 }
