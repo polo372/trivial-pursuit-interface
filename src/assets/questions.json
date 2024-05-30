@@ -1712,12 +1712,13 @@
     {
         "category": "PRV-COD",
         "id" : 285,
-        "question": "<img
-        scr="/home/codespace/trivial-pursuit-interface/src/assets/angle_dattaque.png"/>   
-        Comment s'appelle l'angle de cette photo ?",
+        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/src/assets/angle_dattaque.png\"/>Comment s'appelle l'angle de cette photo ?",
         "answer": "L'angle d'attaque"
+    },
+    {
+        "category": "TEST",
+        "id" : 42000,
+        "question": "Quel est la plus belle photos du monde",
+        "answer": "<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' />"
     }
 ]
-    
-    
-    
