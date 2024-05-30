@@ -1720,5 +1720,11 @@
         "id" : 42000,
         "question": "Quel est la plus belle photos du monde",
         "answer": "<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' />"
+    },
+    {
+        "category": "TEST",
+        "id" : 42001,
+        "question": "Quel est la plus belle photos du monde en local",
+        "answer": "<img src=\"./test.jpg\" alt=\"Une jolie photo\" aria-hidden=\"true\"/>"
     }
 ]

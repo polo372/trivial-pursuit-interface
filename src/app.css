@@ -56,6 +56,13 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .PRV-COD {
+    background-color: lightgray;
+  }
+}
+
+img {
+  max-width: 90%;
 }
 
 /* Couleurs des catégories */
