@@ -96,7 +96,7 @@
         "answer": "Un stress avec des effets jusqu'à un mois."
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 16,
         "question": "Quel type d'ERP est classé N ?",
         "answer": "Les restaurants"
@@ -120,19 +120,19 @@
         "answer": "Election tout les 5ans au suffrage universel direct."
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 20,
         "question": "Quel ERP est classé Y ?",
         "answer": "Les musées."
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 21,
         "question": "Quel ERP est classé S ?",
         "answer": "Les bibliothéques."
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 22,
         "question": "Qu'est-ce que le PSR ?",
         "answer": "Le Plan Submersion Rapide."
@@ -150,7 +150,7 @@
         "answer": "<ul><li>JSP 1-BLANC</li><li>JSP 2-JAUNE</li><li>JSP 3-ORANGE</li><li>JSP 4-VERT</li></ul>"
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 25,
         "question": "Quel type d'ERP est classé L ?",
         "answer": "Les salles d'audition, de conférence, de spectacle."
@@ -306,7 +306,7 @@
         "answer": "100 à 250 L/min<br>ouverture 30 à 60°"
     },
      {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 51,
         "question": "Quel est la dimension d'une baie accessible ?",
         "answer": "1,80 de haut par 0,90 de large."
@@ -1362,13 +1362,13 @@
         "answer": "<ul><li>reserve d'air</li><li>harnais+dossard</li><li>détendeur HP-MP</li><li>SAD</li><li>flexible MP</li><li>piece facial</li><li>Flexible HP</li><li>Siffle de fin de charge</li><li>Detecteur immobilité</li><li>manometre de pression</li></ul>"
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 227,
         "question": "Quel type d'ERP est classé U ?",
         "answer": "Les établissement de santé"
     },
     {
-        "category": "PRV",
+        "category": "PRV-COD",
         "id" : 228,
         "question": "Quel type d'ERP est classé J ?",
         "answer": "Les structures d'accueil pour personnes agées ou handicapées"
