@@ -326,7 +326,7 @@
      {
         "category": "CAD",
         "id" : 54,
-        "question": "Que signifie GSP ?",
+        "question": "Que signifie GPS ?",
         "answer": "Global positioning system"
     },
      {
@@ -1716,21 +1716,219 @@
         "answer": "L'angle d'attaque"
     },
     {
-        "category": "TEST",
-        "id" : 42000,
-        "question": "Quel est la plus belle photos du monde",
-        "answer": "<img src='https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png' />"
+        "category": "PRV-COD",
+        "id" : 286,
+        "question": "<img src=\"./angle_dattaque.png\" alt=\"angle avant ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
+        "answer": "L'angle d'attaque"
     },
     {
-        "category": "TEST",
-        "id" : 42001,
-        "question": "Quel est la plus belle photos du monde en local",
-        "answer": "<img src=\"./test.jpg\" alt=\"Une jolie photo\" aria-hidden=\"true\"/>"
+        "category": "PPABE-RTN",
+        "id" : 287,
+        "question": "Quel est la plage d'explosimétrie de l'acetylene ?",
+        "answer": "2,30 - 83%"
+    },
+    {
+        "category": "CAD",
+        "id" : 288,
+        "question": "Quelle est la devise de l'ensosp ?",
+        "answer": "'Cultiver le passé, enfanter l'avenir, tel est notre présent.' <br>Nietzche"
+    },
+    {
+        "category": "CAD",
+        "id" : 289,
+        "question": "Que signifie CDG ?",
+        "answer": "Centre de Gestion"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 290,
+        "question": "De quoi se compose une équipe RCH ?",
+        "answer": "<ul><li>1 CU RCH3</li><li>1 Eq inter&nbsp;<ul><li>1 Chef d'equipe rch 2</li><li>2 equipier rch 2</li></ul></li><li>1 Eq reco<ul><li>1 Chef d'equipe Rch 1</li><li>2 Equipier rch 1</li></ul></li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 291,
+        "question": "Quel est le rôle du CODIS ?",
+        "answer": "<ul><li>assure une veille permanente de l'activité opérationnelle</li><li>permet la remontée d'info vers la dg</li></ul>"
     },
     {
         "category": "PRV-COD",
-        "id" : 286,
-        "question": "<img src=\"./angle_dattaque.png\" alt=\"angle avant ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle?",
-        "answer": "L'angle d'attaque"
+        "id" : 292,
+        "question": "Quelle est la dimension de l'angle d'attaque ?",
+        "answer": "35° minimum"
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 293,
+        "question": "Quelle est la dimension de l'angle de fuite ?",
+        "answer": "Supérieur ou égale à l'angle d'attaque."
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 294,
+        "question": "Quelle est la dimension de l'angle de franchissement ?",
+        "answer": "35° minimum"
+    },
+    {
+        "category": "CAD",
+        "id" : 295,
+        "question": "Quel document permet les conventions entre les pompiers et les ambulanciers privés ?",
+        "answer": "Le référentiel SAP-AMU."
+    },
+    {
+        "category": "CAD",
+        "id" : 296,
+        "question": "Dans quel document trouve-t-on l'organisation du CODIS ?",
+        "answer": "Le référentiel SIC"
+    },
+    {
+        "category": "CAD",
+        "id" : 297,
+        "question": "De quand date l'interconnexion entre le 15-17-18 ?",
+        "answer": "1997"
+    },
+    {
+        "category": "CAD",
+        "id" : 298,
+        "question": "Qui est la présidente du conseil départemental d'Indre et Loire ?",
+        "answer": "Nadege Arnault"
+    },
+    {
+        "category": "CAD",
+        "id" : 299,
+        "question": "Que retrouve t-on dans un message de renseignement ?",
+        "answer": "<ul><li>Je suis</li><li>Je vois</li><li>Je prévois</li><li>Je fais</li><li>Je demande</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 300,
+        "question": "Quels sont les piliers du Beauveau de la sécurité ?",
+        "answer": "<ul><li>maintenir la décentralisation</li><li>conserver binomage prefet / maire</li><li>préserver volontariat</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 301,
+        "question": "Combien existe-t-il de région francaise ?",
+        "answer": "18 régions"
+    },
+    {
+        "category": "CAD",
+        "id" : 302,
+        "question": "Combien existe-t-il de département francaise ?",
+        "answer": "101 départements"
+    },
+    {
+        "category": "CAD",
+        "id" : 303,
+        "question": "Quel est le rôle de la sous direction santé ?",
+        "answer": "<ol><li>La surveillance de la condition physique</li><li>L'exercice de la médecine professionnelle et d'aptitude</li><li>Le conseil en matière de médecine préventive, d'hygiène et de sécurité</li><li>Le soutien sanitaire des interventions</li><li>La participation à la formation</li><li>La surveillance de l'état de l'équipement médico-secouriste</li></ol>"
+    },
+    {
+        "category": "CAD",
+        "id" : 304,
+        "question": "Qu'est ce qu'un CPINI ?",
+        "answer": "<p>Centre de Première Intervention Non Intégré</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 305,
+        "question": "Qu'est ce qu'un SLIS ?",
+        "answer": "Service locaux d'incendie et de secours"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 306,
+        "question": "Comment est calculé le facteur de chute ?",
+        "answer": "<p>rapport entre la H et la longeur de corde qui amortit la chute</p><p>Sup à 1, interdit</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 307,
+        "question": "Qu'est ce que la régles des minimums ?",
+        "answer": "<ul><li>minimum de temps</li><li>sauveteur</li><li>risque</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 308,
+        "question": "Quels sont les 5 piliers de la conduite d'opération ?",
+        "answer": "<ol><li>doctrine</li><li>temps</li><li>espace</li><li>commandement</li><li>discipline</li></ol>"
+    },
+    {
+        "category": "INC",
+        "id" : 309,
+        "question": "Quels sont les éléments de la préparation opérationelle ?",
+        "answer": "<ol><li>La vérification des matériels et EPI</li><li>Le maintien d’une condition physique adaptée</li><li>Un entrainement opérationnel régulier et adapté pour rester efficace</li><li>La connaissance de secteur</li><li>L’utilisation d’outils opérationnels</li></ol>"
+    },
+    {
+        "category": "CAD",
+        "id" : 310,
+        "question": "Quelles sont les étapes de la BGED ?",
+        "answer": "<ol><li>Prise d'information</li><li>analyse</li><li>décision</li><li>action</li><li>controle</li></ol>"
+    },
+    {
+        "category": "INC",
+        "id" : 311,
+        "question": "Comment s'organise la décontamination des tenues de feu après une attaque dans un volume en feu ou reconnaissance de longue durée en milieu enfumé ou EPI qui présente toujours des traces visibles de souillures après brossage, souillure important ?",
+        "answer": "<ul><li>Isoler la tenue</li><li>remplacer selon procédure</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 312,
+        "question": "Comment s'organise la décontamination des tenues de feu après une attaque extérieure au contact des fumées, feux de VL, poubelles, déblai ou reconnaissance de faible durée en milieu enfumé, degrés de souillure moyen ?",
+        "answer": "<ul><li>Veste Surpantalon Gants = Brossage à sec +Aération à l’extérieur de la cabine</li><li>Bottes + Casque Brossage à l’eau</li></ul>au retour au cis<ul><li>Aération naturelle à l’extérieur des vestiaires</li><li>Nettoyage de la cagoule</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 313,
+        "question": "Comment s'organise la décontamination des tenues de feu après une exposition courte à un panache à l’air libre, degres souillure superficiel ?",
+        "answer": "<ul><li>Aération de la veste à l’extérieur de la cabine</li><li>Bottes + Casques = Brossage à l’eau</li></ul>retour au cis<ul><li>Nettoyage de la cagoule</li></ul>"
+    },
+    {
+        "category": "INC",
+        "id" : 314,
+        "question": "Que signifie HAP ?",
+        "answer": "hydrocarbures aromatiques polycycliques."
+    },
+    {
+        "category": "CAD",
+        "id" : 315,
+        "question": "Que signifie IMO ?",
+        "answer": "Indemnité de mobilité opérationnelle."
+    },
+    {
+        "category": "CAD",
+        "id" : 316,
+        "question": "Quelles sont les différentes médailles chez les SP ?",
+        "answer": "<ul><li>Ancienneté</li><li>Honneur-rosette</li><li>Sécurité intérieur</li><li>ACD</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 317,
+        "question": "Comment s'appelle le maire de tours ?",
+        "answer": "Emmanuel Denis"
+    },
+    {
+        "category": "CAD",
+        "id" : 318,
+        "question": "Citez un député d'indre et loire !",
+        "answer": "<ul><li>M. Charles Fournier</li><li>M. Charles Fournier</li><li>Daniel Labaronne</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 319,
+        "question": "Citez un sénateur d'indre et loire !",
+        "answer": "<ul><li>Pierre-Alain Roiron</li><li>Jean-Gérard Paumier</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 320,
+        "question": "Qui est le COZ Ouest ?",
+        "answer": "Mr Gustin"
+    },
+    {
+        "category": "INC",
+        "id" : 321,
+        "question": "Qu'est ce que la vaporisation ?",
+        "answer": "<p>passage état liquide à gazeux soit par :</p><ul><li>ébullition</li><li>évaporation</li></ul>"
     }
 ]
