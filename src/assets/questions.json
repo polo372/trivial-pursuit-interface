@@ -309,7 +309,7 @@
         "category": "PRV-COD",
         "id" : 51,
         "question": "Quel est la dimension d'une baie accessible ?",
-        "answer": "1,80 de haut par 0,90 de large."
+        "answer": "1,30 de haut par 0,90 de large."
     },
      {
         "category": "INC",
@@ -368,7 +368,7 @@
      {
         "category": "SAP",
         "id" : 61,
-        "question": "Qu'immobilise une écharpe simpe ?",
+        "question": "Qu'immobilise une écharpe simple ?",
         "answer": "Un traumatisme de la main, du poignet ou de l'avant-bras."
     },
      {
@@ -908,7 +908,7 @@
     {
         "category": "INC",
         "id" : 151,
-        "question": "Quelle est la définition d'un incendie' ?",
+        "question": "Quelle est la définition d'un incendie ?",
         "answer": "feu dont le developpement n'est plus maitrisé dans le temps ou l'espace."
     },
     {
@@ -963,7 +963,7 @@
         "category": "INC",
         "id" : 160,
         "question": "Que signifie RDDECI ?",
-        "answer": "Réglement départemental de défense extérieur à l'incendie."
+        "answer": "Réglement départemental de défense extérieur contre l'incendie."
     },
     {
         "category": "PPABE-RTN",
@@ -1196,7 +1196,7 @@
     {
         "category": "SAP",
         "id" : 199,
-        "question": "Quels sont les signes d'une gelure du 1ème degrés ?",
+        "question": "Quels sont les signes d'une gelure du 1er degrés ?",
         "answer": "Gelure insensible, rouge sans cloque. se recolore apres rechauffement."
     },
     {
@@ -1425,7 +1425,7 @@
         "category": "CAD",
         "id" : 237,
         "question": "Qu'est ce qu'un OCO ?",
-        "answer": "Un opération de coordination opérationnel."
+        "answer": "Un opérateur de coordination opérationnel."
     },
     {
         "category": "CAD",
@@ -1526,7 +1526,7 @@
     {
         "category": "INC",
         "id" : 254,
-        "question": "Quel est le taux d'une foisonnement bas ?",
+        "question": "Quel est le taux d'un foisonnement bas ?",
         "answer": "0 à 20"
     },
     {
@@ -1713,7 +1713,7 @@
         "category": "SR-FDF",
         "id" : 285,
         "question": "Comment s'appelle la manoeuvre ou les ccf entourent la VLTT pour la protéger d'un flux thermique ?",
-        "answer": "Manoeuvre défensive préparée"
+        "answer": "Manoeuvre d'autodéfense en carré"
     },
     {
         "category": "PRV-COD",
@@ -1767,7 +1767,7 @@
         "category": "PRV-COD",
         "id" : 294,
         "question": "Quelle est la dimension de l'angle de franchissement ?",
-        "answer": "35° minimum"
+        "answer": "120°"
     },
     {
         "category": "CAD",
@@ -1948,7 +1948,7 @@
     {
         "category": "PPABE-RTN",
         "id" : 324,
-        "question": "Qu'est ce que USNINAID ?",
+        "question": "Qu'est ce que USINAID ?",
         "answer": "<p>Un réseau de conseil en cas d'accident sur une substanche chimique</p>"
         
     },
@@ -2120,7 +2120,7 @@
     {
         "category": "INC",
         "id" : 352,
-        "question": "Que signifie réaction au feu ?",
+        "question": "Qu'est ce que la réaction au feu ?",
         "answer": "<p>Maniere dont va se comporter une matériau comme combustible</p>"   
     },
     {
@@ -2145,7 +2145,7 @@
         "category": "PRV-COD",
         "id" : 356,
         "question": "Quel ERP est classé W ?",
-        "answer": "<p>Banque</p>"   
+        "answer": "<p>Banque, Bureau, Administration</p>"   
     },
     {
         "category": "PRV-COD",
@@ -2366,7 +2366,7 @@
     {
         "category": "CAD",
         "id" : 393,
-        "question": "Qu'est ce que l'arrété Matzak ?",
+        "question": "Qu'est ce que l'arrêté Matzak ?",
         "answer": "<p>2018, la CJUE reconnait à un spv belge la qualification de travailleur</p><p>=&gt; Pourrait remettre en cause modele spv fr</p>"
     },
     {
