@@ -1710,10 +1710,10 @@
         "answer": "Le réseaux départemental d'alerte."
     },
     {
-        "category": "PRV-COD",
+        "category": "SR-FDF",
         "id" : 285,
-        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/src/assets/angle_dattaque.png\"/>Comment s'appelle l'angle de cette photo ?",
-        "answer": "L'angle d'attaque"
+        "question": "Comment s'appelle la manoeuvre ou les ccf entourent la VLTT pour la protéger d'un flux thermique ?",
+        "answer": "Manoeuvre défensive préparée"
     },
     {
         "category": "PRV-COD",
