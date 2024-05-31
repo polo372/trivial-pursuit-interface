@@ -1934,14 +1934,14 @@
     {
         "category": "PRV-COD",
         "id" : 322,
-        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/public/Angle_franchissement.png\"/>Comment s'appelle l'angle de cette photo ?",
+        "question": "<img src=\"./Angle_franchissement.png\" alt=\"angle milieu ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
         "answer": "L'angle de franchissement."
         
     },
     {
         "category": "PRV-COD",
         "id" : 323,
-        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/public/angle_fuite.png\"/>Comment s'appelle l'angle de cette photo ?",
+        "question": "<img src=\"./angle_fuite.png\" alt=\"angle arriere ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
         "answer": "L'angle de fuite."
         
     },
