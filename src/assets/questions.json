@@ -1930,5 +1930,473 @@
         "id" : 321,
         "question": "Qu'est ce que la vaporisation ?",
         "answer": "<p>passage état liquide à gazeux soit par :</p><ul><li>ébullition</li><li>évaporation</li></ul>"
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 322,
+        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/public/Angle_franchissement.png\"/>Comment s'appelle l'angle de cette photo ?",
+        "answer": "L'angle de franchissement."
+        
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 323,
+        "question": "<img src=\"/home/codespace/trivial-pursuit-interface/public/angle_fuite.png\"/>Comment s'appelle l'angle de cette photo ?",
+        "answer": "L'angle de fuite."
+        
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 324,
+        "question": "Qu'est ce que USNINAID ?",
+        "answer": "<p>Un réseau de conseil en cas d'accident sur une substanche chimique</p>"
+        
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 325,
+        "question": "Que signifie USAR ?",
+        "answer": "<p>Urban Search And Rescue.</p>"
+        
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 326,
+        "question": "Que signifie UVCE ?",
+        "answer": "<p>Unconfined Vapour Cloud Explosion.</p>"
+        
+    },
+    {
+        "category": "SAP",
+        "id" : 327,
+        "question": "Quels sont les critères du refus de transport ?",
+        "answer": "<ol><li>constement éclairé - en état d'exprimer sa volonté</li><li>connaissance du risque encouru</li><li>réel refus persistant</li></ol><p>=&gt; décharge de responsabilité apres bilan 15</p>"
+        
+    },
+    {
+        "category": "CAD",
+        "id" : 328,
+        "question": "Que signifie OCT ?",
+        "answer": "<p>Ordre complémentaire de transmission.</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 329,
+        "question": "Quel doit être le périmetre de sécurité en cas d'accident TMR ?",
+        "answer": "<p>2,5 microsylver/heure<br>50m</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 330,
+        "question": "Ou sont stationnés les moyens rad du département ?",
+        "answer": "<p>Chinon et SAG.</p>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 331,
+        "question": "Que signifie OPT ?",
+        "answer": "<p>Ordre particulier de transmission</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 332,
+        "question": "Comment se protège t-on fasse à un risque radiologique ?",
+        "answer": "<p>Temps-Ecran-Distance</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 333,
+        "question": "Qu'est ce que la contamination ?",
+        "answer": "<p>La présence indésirable de substance radioatif à la surface ou à l'intérieur d'un mileu quelconque.</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 334,
+        "question": "Qu'est ce que l'irradiation ?",
+        "answer": "<p>Exposition d'un corps à des rayonnements.</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 335,
+        "question": "Quels sont les différents rayonnements ?",
+        "answer": "<ul><li>Alpha</li><li>Beta</li><li>Gamma</li><li>X</li><li>Neutron</li></ul>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 336,
+        "question": "Que signifie OBNSIC ?",
+        "answer": "<p>Ordre de base nationale des systeme d'information et de communisation de la SC</p><p>decret 2009</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 337,
+        "question": "Qu'est ce que le CEDRE'  ?",
+        "answer": "<p>Centre de documentation de recherche et d'expérimentation sur les pollutions accidentelles des eaux</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 338,
+        "question": "Qui est le CTRAD en Indre et Loire ?",
+        "answer": "Le Commandant Foussard"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 339,
+        "question": "Qui est le CTRCH en Indre et Loire ?",
+        "answer": "Le Capitaine Dosseur"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 340,
+        "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
+        "answer": "Le MCB1 et le FH40"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 341,
+        "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
+        "answer": "Le MCB1 et le FH40"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 342,
+        "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
+        "answer": "Le MCB1 et le FH40"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 343,
+        "question": "Qu'est ce que le CEFIC ?",
+        "answer": "<p>Fédération européenne de l'industrie chimique</p><p>=&gt; Produit les eri-cartes</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 344,
+        "question": "Qu'est ce que le CASU ?",
+        "answer": "<p>Cellule d'appuie aux situations d'urgences</p><p>INERIS 24/24</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 345,
+        "question": "Qu'est ce que le TRANSAID ?",
+        "answer": "<p>Protocole d'aide aux service de secours en cas d'accident TMD</p><p>s'appuie sur le CASU</p><p>CEDRE</p><p>CEFIC</p>"   
+    },
+    {
+        "category": "INC",
+        "id" : 346,
+        "question": "Qu'est ce que la résistance au feu ?",
+        "answer": "<p>temps durant lequel un élément de construction conserve ses propriétés physiques et mécaniques.</p><ol><li>Résistance méca</li><li>étanchéité aux flammes et aux gaz chauds</li><li>isolation thermique</li></ol><p>&nbsp;</p>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 347,
+        "question": "Dans quel cas intervient la réquisition judiciare ?",
+        "answer": "<p>Recherche de cadavre-police judiciaire</p>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 348,
+        "question": "Dans quel cas intervient la réquisition administrative ?",
+        "answer": "<p>transport de personnes DCD, autorité de police adm</p>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 349,
+        "question": "Qu'est ce que la résilience ?",
+        "answer": "<p>Capacité à surmonter un traumatisme, à résister et à se reconstruire aprés un choc</p>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 350,
+        "question": "Quels sont les grands principes de la rémunération ?",
+        "answer": "<p>traitement qui dépend de l'indice majoré et des primes&nbsp;- cotisation salariales et patronales</p>"   
+    },
+    {
+        "category": "INC",
+        "id" : 351,
+        "question": "Que signifie RCCI ?",
+        "answer": "<p>Recherche des causes et circonstance d'un incendie</p>"   
+    },
+    {
+        "category": "INC",
+        "id" : 352,
+        "question": "Que signifie réaction au feu ?",
+        "answer": "<p>Maniere dont va se comporter une matériau comme combustible</p>"   
+    },
+    {
+        "category": "SAP",
+        "id" : 353,
+        "question": "Qu'est ce qu'à apporté le rapport Pourny ?",
+        "answer": "<p>2003-developpement de la culture H&amp;S chez SP</p>"   
+    },
+    {
+        "category": "INC",
+        "id" : 354,
+        "question": "Qu'est ce qu'un EAS' ?",
+        "answer": "<p>Espace d'attente sécurisé.</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 355,
+        "question": "Quel ERP est classé X ?",
+        "answer": "<p>Etablissement sportif couvert</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 356,
+        "question": "Quel ERP est classé W ?",
+        "answer": "<p>Banque</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 357,
+        "question": "Quel ERP est classé T ?",
+        "answer": "<p>Les salle d'exposition</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 358,
+        "question": "Quel ERP est classé R ?",
+        "answer": "<p>Les colonie de vacance</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 359,
+        "question": "Quel ERP est classé P ?",
+        "answer": "<p>Les salle de danse</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 360,
+        "question": "Quel ERP est classé O ?",
+        "answer": "<p>Les hotels</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 361,
+        "question": "Quel ERP est classé M ?",
+        "answer": "<p>Les magasins</p>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 362,
+        "question": "Quels sont les principes fondamentaux de la prévention ?",
+        "answer": "<ol><li>Eviter l'éclosion d'un incendie</li><li>limiter propagation</li><li>permettre l'évacuation</li><li>faciliter l'intervention des secours</li></ol>"   
+    },
+    {
+        "category": "PRV-COD",
+        "id" : 363,
+        "question": "Quels sont les principaux texte qui régissent la prévention ?",
+        "answer": "<ul><li>ERP 1980</li><li>batiment d'habitation 1986</li><li>IGH 2011</li><li>28m bureau 50m habitation ITGH 200m</li></ul>"   
+    },
+    {
+        "category": "CAD",
+        "id" : 364,
+        "question": "Qu'est ce que la NPFR ?",
+        "answer": "<p>Prestation de fidélisation et de reconnaissance nouvelle</p><p>2017 -&gt; SPV</p><p>20ans de service</p>"   
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 365,
+        "question": "Qu'est ce que la PVS ?",
+        "answer": "<p>Pression de Vapeur Saturante</p><p>&nbsp;pression à laquelle la phase gazeuse d'une substance est en équilibre avec sa phase liquide ou solide à une température donnée dans un système fermé"
+    },
+    {
+        "category": "CAD",
+        "id" : 366,
+        "question": "Qu'est ce qu'un PCO ?",
+        "answer": "<p>Poste de commandement opérationnel</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 367,
+        "question": "Qu'est ce que le point éclair ?",
+        "answer": "<p>T° à laquelle un liquide emet des vapeurs inflammable mais qui n'entretient pas de combustion au retrait de la flamme pilote.</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 368,
+        "question": "Qu'est ce que le point d'autoinflammation ?",
+        "answer": "<p>T° à partir de laquelle un gaz ou un liquide s'enflamme spontanément en l'absence de flamme pilote.</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 369,
+        "question": "Qu'est ce que le point d'inflammation ?",
+        "answer": "<p>T° à laquelle un liquide fournit suffisament de vapeur pour s'enflammer et donc la combustion s'entretient d'elle meme.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 370,
+        "question": "Qu'est ce qu'un OIV ?",
+        "answer": "<p>Opérateur d'importance vitale</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 371,
+        "question": "Qu'est ce que le plan SATER ?",
+        "answer": "<p>Plan de Sauvetage AeroTERrestre</p><p>Orsec sater</p><p>recherche d'aéronef</p><p>Prefet DOR Directeur des opérations de recherche terrestre</p><p>COR Commandant des opérations de recherche terreste</p><p>3 niv&nbsp; :</p><ul><li>sater alpha aéronef disparu</li><li>sater bravo zone de recherche probable</li><li>sater charlie zone définit</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 372,
+        "question": "Qu'est ce qu'un PPI ?",
+        "answer": "<p>Plan Particulier d'Intervention</p><p>Organisation des secours des que l'incident sort du POI</p><p>Prefet = DOS</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 373,
+        "question": "Qu'est ce qu'un PPRT ?",
+        "answer": "<p>Plan Particulier des Risques Technologiques</p><p>2003</p><p>prefet</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 374,
+        "question": "Qu'est ce qu'un PPRN ?",
+        "answer": "<p>Plan Particulier des Risques Naturels</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 375,
+        "question": "Qu'est ce qu'un PCS ?",
+        "answer": "<p>Un Plan Communale de Sauvegarde</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 376,
+        "question": "Qu'est signifie RRF ?",
+        "answer": "<p>Réseau Radio du Futur</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 377,
+        "question": "Qu'est que l'ACMOSS ?",
+        "answer": "<p>Agence des communications mobiles opértionnelles de sécurité et de secours</p><p>déploi le RRF</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 378,
+        "question": "Qu'est que qu'un PCA ?",
+        "answer": "<p>Un plan de continuité d'activité.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 379,
+        "question": "Que signifie PollMar ?",
+        "answer": "<p>Une pollution maritime.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 380,
+        "question": "Que signifie CAP ?",
+        "answer": "<p>Commission administrative paritaire.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 381,
+        "question": "Que signifie CST ?",
+        "answer": "<p>Comité social territorial.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 382,
+        "question": "Que signifie CCDSPV ?",
+        "answer": "<p>Comité consultatif départemental des spv.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 383,
+        "question": "Que signifie CATSIS ?",
+        "answer": "<p>Commission administrative et technique.</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 384,
+        "question": "Que signifie CASDIS ?",
+        "answer": "<p>Conseil d'administration du sdis</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 385,
+        "question": "Quels sont les organes et instance d'un sdis ?",
+        "answer": "<ul><li>CASDIS - Conseil d'Administration sdis</li><li>CATSIS - Comission Administrative et Technique sdis</li><li>CCDSPV - Comité Consultatf Départemental SPV</li><li>CST - Comité Social Territoriale</li><li>CAP - Commission administrative paritaire</li><li>F3SCT - Formation spécialisé en santé sécurité condition de travail</li><li>LDG - Ligne Directrice Gestion</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 386,
+        "question": "Quels sont les organes principaux et instance de la fonction publique et des pompiers ?",
+        "answer": "<ul><li>CCFP - Conseil Commun de la FP</li><li>CDFP - Conseil de Déontologie de la FP</li><li>CSFPT - Conseil Supérieur de la FPT</li><li>CNEN - Conseil National d'Evaluation des Normes</li><li>CNFPT - Centre National de la FPT</li><li>CNSIS - Conférence Nationale des SIS</li><li>CNSPV - Conseil Nationale des SPV</li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 387,
+        "question": "Qu'est ce que l'ODP ?",
+        "answer": "<p>Oeuvre des pupille</p><p>1926 commandant Guesnet</p><p>prise en charge des enfants dont les parents sont décédes hors service</p>"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 388,
+        "question": "Quelles sont les circulairs NRBCe ?",
+        "answer": "<ul><li>700 - action terro arme chim</li><li>750 - pli et colis suspect</li><li>800 - attentat rad</li></ul>"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 389,
+        "question": "Qu'est ce que NEXSIS ?",
+        "answer": "<p>Logiciel national pour les centre d'appel d'urgence qui permettra une gestion opérationnelle prenant en compte les nouveaux usages numériques tout en assurant l'interopérabilité</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 390,
+        "question": "Qu'est ce que VISOV ?",
+        "answer": "<p>Volontaire internationaux en soutien opérationnel virtuel</p><p>association qui participe au MSGU</p>"
+    },
+    {
+        "category": "CAD",
+        "id" : 391,
+        "question": "Qu'est ce que les MSGU ?",
+        "answer": "Les médias sociaux en gestion d'urgence"
+    },
+    {
+        "category": "CAD",
+        "id" : 392,
+        "question": "Quelles sont les missions des SDIS ?",
+        "answer": "<ul><li>mission propre<ul><li>prévention, protection et lutte contre incendie</li></ul></li><li>mssion partagés<ul><li>prévention, évaluation risque de SC</li><li>préparation mesure sauvegarde et organisation moyen secours</li><li>PPABE</li><li><p>Les secours et les soins d'urgence aux personnes ainsi que leur évacuation</p></li></ul></li></ul>"
+    },
+    {
+        "category": "CAD",
+        "id" : 393,
+        "question": "Qu'est ce que l'arrété Matzak ?",
+        "answer": "<p>2018, la CJUE reconnait à un spv belge la qualification de travailleur</p><p>=&gt; Pourrait remettre en cause modele spv fr</p>"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 394,
+        "question": "Qu'est ce qu'un ICPE ?",
+        "answer": "<p>Installation classé pour l'environnement&nbsp;</p><p>Exploitation industriel ou agricole - risque ou pollution / nuisance</p><ul><li>Non classé</li><li>déclaration</li><li>déclaration avec controle périodique</li><li>enregistrement</li><li>autorisation Seveso seuil Bas</li><li>autorisation avec servitude d'autorité publique Seveso Seuil Haut</li></ul>"
+    },
+    {
+        "category": "PPABE-RTN",
+        "id" : 395,
+        "question": "Quels sont les éléments d'une explosion de poussière ?",
+        "answer": "<ol><li>O²</li><li>poussiere</li><li>suspension</li><li>domaine d'explosivité</li><li>source d'inflammation</li><li>confinement</li></ol>"
+    },
+    {
+        "category": "INC",
+        "id" : 396,
+        "question": "Qu'est ce qu'un emusleur ?",
+        "answer": "<p>solution aqueuse saponifiante, permet de diminuer la tension superficiel de l'eau, et forme de la mousse apres brassage d'air.</p><p>polyvalent sur hydrocarbure 3% solvant 6%</p><p>retardant ou mouillant feu de foret ou déblai</p><p>&nbsp;</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 397,
+        "question": "Qu'est ce qu'un Bleve ?",
+        "answer": "<p>Boiling Liquid Expanding Vapour Explosion</p><p>Vaporisation explosive d'un liquide porté à ebulition</p><p>=&gt; Cocote minute</p>"
+    },
+    {
+        "category": "INC",
+        "id" : 398,
+        "question": "Qu'est ce qu'un boil-over ?",
+        "answer": "<p>Moussage brutal important impliquant des reservoir atmosphériques et resultant de la transformation d'eau liquide contenue dans un reservoir en feu en vapeur</p>"
     }
 ]
