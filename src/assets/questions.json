@@ -416,7 +416,7 @@
     {
         "category": "INC",
         "id" : 69,
-        "question": "Comment est représentée un point d'aspiration aménagée sur un plan DFCI ?",
+        "question": "Comment est représenté un point d'aspiration aménagé sur un plan DFCI ?",
         "answer": "Un triangle bleu"
     },
     {
@@ -981,7 +981,7 @@
         "category": "INC",
         "id" : 163,
         "question": "Quels sont les éléments du compte rendu d'engagement ?",
-        "answer": "<ul><li>accés actuel et possible</li><li>parcours</li><li>niveau concernés/piece impactées ( j'ai vu )</li><li>actions réalisés ( j'ai fait )</li><li>proposition d'action ( je proposer )</li><li>évolution sinistre et conséquence ( je redoute)</li></ul>"
+        "answer": "<ul><li>accés actuel et possible</li><li>parcours</li><li>niveau concernés/piece impactées ( j'ai vu )</li><li>actions réalisés ( j'ai fait )</li><li>proposition d'action ( je propose )</li><li>évolution sinistre et conséquence ( je redoute)</li></ul>"
     },
     {
         "category": "INC",
@@ -1347,7 +1347,7 @@
         "category": "INC",
         "id" : 224,
         "question": "Comment doit se faire l'engagement à vue en air non respirable ?",
-        "answer": "<ul><li>controleur + binome de secu</li><li>Locaux visité signalés</li></ul>"
+        "answer": "<ul><li>controleur + binome de secu</li><li>Locaux visités signalés</li></ul>"
     },
     {
         "category": "INC",
@@ -1431,7 +1431,7 @@
         "category": "CAD",
         "id" : 238,
         "question": "Qu'est ce qu'un OTAU ?",
-        "answer": "Un opérateur de traiement des appels d'urgence."
+        "answer": "Un opérateur de traitement des appels d'urgence."
     },
     {
         "category": "CAD",
@@ -1593,7 +1593,7 @@
         "category": "SAP",
         "id" : 265,
         "question": "Lors de la prise en charge du nouveau né à la naissance, que faire si ca FC est comprise ente 60 et 100bpm ?",
-        "answer": "Dès insufflation à l'air et de la surveillance"
+        "answer": "Des insufflation à l'air et de la surveillance"
     },
     {
         "category": "SAP",
@@ -1911,7 +1911,7 @@
         "category": "CAD",
         "id" : 318,
         "question": "Citez un député d'indre et loire !",
-        "answer": "<ul><li>M. Charles Fournier</li><li>M. Charles Fournier</li><li>Daniel Labaronne</li></ul>"
+        "answer": "<ul><li>M. Charles Fournier</li><li>Daniel Labaronne</li></ul>"
     },
     {
         "category": "CAD",
@@ -2007,7 +2007,7 @@
         "category": "PPABE-RTN",
         "id" : 333,
         "question": "Qu'est ce que la contamination ?",
-        "answer": "<p>La présence indésirable de substance radioatif à la surface ou à l'intérieur d'un mileu quelconque.</p>"   
+        "answer": "<p>La présence indésirable de substance radioactif à la surface ou à l'intérieur d'un milieu quelconque.</p>"   
     },
     {
         "category": "PPABE-RTN",
