@@ -60,16 +60,19 @@ img {
 
 .SAP {
   background-color: #0f0;
+  color: black;
 }
 
 .INC {
-  background-color: #f00;
+  background-color: #ff0000a1;
 }
 .CAD {
   background-color: orange;
+  color: black;
 }
 .PRV-COD {
   background-color: yellow;
+  color: black;
 }
 .PPABE-RTN {
   background-color: blue;
@@ -90,8 +93,8 @@ img {
   a {
     color: #2e5967;
   }
-  .PRV-COD {
-    background-color: lightgray;
+  .SR-FDF, .PPABE-RTN, .INC, .CAD {
+    color: white;
   }
 }
 
