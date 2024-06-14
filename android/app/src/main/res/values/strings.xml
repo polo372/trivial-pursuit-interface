@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Trivial Pursuit</string>
+    <string name="title_activity_main">Trivial Pursuit</string>
+    <string name="package_name">com.yatho</string>
+    <string name="custom_url_scheme">com.yatho</string>
+</resources>
