@@ -1,5 +1,6 @@
 <script lang="ts">
-  import Question from './lib/Question.svelte'
+  import Dice from './lib/Dice.svelte';
+import Question from './lib/Question.svelte'
   import { initQuestions, reloadGame, getCategories } from './lib/question'
   // Initialise les questions
   initQuestions()
@@ -10,11 +11,16 @@
   let categorySelected: string | null = null;
 </script>
 
-<main>
+<main> 
   {#if !!categorySelected}
-    <Question category={categorySelected} on:newQuestion={() => categorySelected = null}/>
-  {:else}
-    <button on:click={() => reloadGame()}>Recharger le jeu</button>
+  <Question category={categorySelected} on:newQuestion={() => categorySelected = null}/>
+    {:else}
+    <div class="setting">
+      <button on:click={() => reloadGame()}>Recharger le jeu</button>
+    </div>
+    <div>
+      <Dice />
+    </div>
     <h1>Choisissez une catégorie</h1>
     <ul>
       {#each categories as category}
@@ -35,5 +41,11 @@
     & > li {
       margin: 16px;
     }
+  }
+
+  div.setting {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 </style>

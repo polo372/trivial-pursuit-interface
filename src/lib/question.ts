@@ -33,6 +33,7 @@ export const initQuestions = () : void => {
 export const reloadGame = () : void => {
     localStorage.removeItem(QUESTIONS_LOCAL_STORAGE_KEY)
     initQuestions()
+    alert('Le jeu a été réinitialisé');
 }
 
 export const getQuestionByCategory = (category: string) : Question | null => {
