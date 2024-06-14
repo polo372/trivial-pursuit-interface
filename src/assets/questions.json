@@ -831,7 +831,7 @@
         "category": "SAP",
         "id" : 138,
         "question": "Quels sont les actes réalisable par les SP après avis médicale ?",
-        "answer": "<ul><li>>Médicament pour l'asthme</li><li>Médicament pour la douleur</li><li>Médicament pour l'overdose</li><li>Traitement pour le choc anaphylactique</li><li>Traitement pour l'hypoglycémie</li><li>Réalisation d'un éléctrocardiogramme</li><li> Réalisation d'une hémoglobinémie</li></ul>"
+        "answer": "<ul><li>Médicament pour l'asthme</li><li>Médicament pour la douleur</li><li>Médicament pour l'overdose</li><li>Traitement pour le choc anaphylactique</li><li>Traitement pour l'hypoglycémie</li><li>Réalisation d'un éléctrocardiogramme</li><li> Réalisation d'une hémoglobinémie</li></ul>"
     },
     {
         "category": "SAP",
