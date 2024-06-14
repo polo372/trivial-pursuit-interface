@@ -18,6 +18,8 @@ import Question from './lib/Question.svelte'
     <div class="setting">
       <button on:click={() => reloadGame()}>Recharger le jeu</button>
     </div>
+    <div class="regle">télécharge le plateau de jeu <a href="/home/codespace/trivial-pursuit-interface/public/Trivial-Pursuit-plateau-couleurs.png" download="Trivial-Pursuit-plateau-couleurs.png">ICI</a> !
+    <br>retrouve les règles <a href="/mnt/data/Trivial Pursuit pédagogique.pdf" download="Trivial_Pursuit_pédagogique.pdf">ici</a></div>
     <div>
       <Dice />
     </div>
