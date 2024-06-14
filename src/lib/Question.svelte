@@ -14,6 +14,7 @@
 
 <h3 class="title {category}">{category}</h3>
 {#if question}
+    <a href="mailto:plbd@laposte.net?subject=Retour question {question.id}&body=J'ai une suggestion de modification sur la question  > {question.question} :">Suggestion d'évolution de la question</a>
     <div class="question">
         <h3>Question #{question.id}</h3>
         <p>{@html question.question}</p>
@@ -33,5 +34,9 @@
 <style>
     h3.title {
         border-radius: 5px;
+    }
+
+    a {
+        font-size: 10px;
     }
 </style>
