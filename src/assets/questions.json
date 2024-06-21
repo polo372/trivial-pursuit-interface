@@ -2398,5 +2398,83 @@
         "id" : 398,
         "question": "Qu'est ce qu'un boil-over ?",
         "answer": "<p>Moussage brutal important impliquant des reservoir atmosphériques et resultant de la transformation d'eau liquide contenue dans un reservoir en feu en vapeur</p>"
+    },
+    {
+       "category": "SR-FDF",
+        "id" : 399,
+        "question": "Quels sont les quatre types principaux d'espaces naturels ?",
+        "answer": "<ul><li>Les espaces forestiers</li><li>les espaces agricoles</li><li>les espaces en déprise</li><li>les interfaces périurbaines ou bâties</li></ul>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 400,
+         "question": "Qu'est-ce que l'humus ?",
+         "answer": "<p>L'humus est constitué d'un mélange de matière minérale et organique et est parfois très épais.​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 401,
+         "question": "Quels sont les trois facteurs météorologiques qui influencent les incendies de végétation ?",
+         "answer": "<p>La température, l'humidité relative de l'air et le vent.​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 402,
+         "question": "Qu'est-ce que l'indice de combustible léger ?",
+         "answer": "<p>C'est un indicateur de la disponibilité des combustibles légers pour l'ignition et la propagation du feu.​​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 403,
+         "question": "Quelles sont les trois phases de combustion d'un feu de forêt ?",
+         "answer": "<p>L'ignition, la combustion active et la combustion résiduelle.​​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 404,
+         "question": "Quels sont les trois types de feux de végétation ?",
+         "answer": "<ul><li>Les feux de sols</li><li>les feux de surface</li><li>les feux de cimes</li></ul>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 405,
+         "question": "Quels sont les quatre modes de propagation des feux de végétation ?",
+         "answer": "<ul><li>La conduction</li><li>le rayonnement</li><li>la convection</li><li>les sautes de feu</li>​​​</ul>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 406,
+         "question": "Quelles sont les manœuvres tactiques défensives contre les feux de forêt ?",
+         "answer": "<ul><li>Création de pare-feu</li><li>utilisation de contre-feux</li><li>protection des infrastructures critiques</li></ul>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 407,
+         "question": "Qu'est-ce que le guet aérien armé retardant ?",
+         "answer": "<p>C'est une technique utilisant des avions pour larguer des retardants sur les zones à risque afin de ralentir la progression du feu.​​​​​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 408,
+         "question": "Quels sont les principaux types de camions-citerne utilisés dans la lutte contre les feux de forêts ?",
+         "answer": "<p>Les principaux types sont le camion-citerne feux de forêts léger (CCFL), le camion-citerne feux de forêts moyen (CCFM) et le camion-citerne feux de forêts super (CCFS).​</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 409,
+         "question": "Quelles unités organiques sont utilisées dans la lutte contre les feux de forêts ?",
+         "answer": "Les unités organiques incluent : <ul><li>l'unité d'intervention feux de forêts (UIFF)</li><li>l'unité feu d'espace naturel en montagne (UFEN)</li><li>le groupe d'intervention feux de forêts (GIFF)</li><li>les groupes de protection interface habitat-forêt, et la colonne d'intervention feux de forêts.</li></ul>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 410,
+         "question": "Quelles sont les mesures de sécurité collective pour les sapeurs-pompiers sur le terrain  ?",
+         "answer": "<p>Les mesures incluent des procédures de repli d'urgence, l'autoprotection des camions-citerne, et des stratégies d'autodéfense pour les unités organiques.</p>"
+    },
+    {
+        "category": "SR-FDF",
+         "id" : 411,
+         "question": "Qu'est-ce que la prévention passive dans le contexte des feux de forêts  ?",
+         "answer": "<p>La prévention passive inclut des actions comme le débroussaillage et la création de coupe-feux avant la saison des feux pour réduire les risques d'incendie.</p>"
     }
 ]
