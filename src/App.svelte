@@ -18,10 +18,7 @@ import Question from './lib/Question.svelte'
     <div class="setting">
       <button on:click={() => reloadGame()}>Recharger le jeu</button>
     </div>
-    <div class="telecharge">
-      <button ><a href="https://clic-et-declics.com/wp-content/uploads/2022/01/Trivial-Pursuit-plateau-couleurs.png" target="_blank">Télécharge le plateau de jeu</a></button>
-    </div>
-    <div class="dice">
+    <div>
       <Dice />
     </div>
     <h1>Choisissez une catégorie</h1>

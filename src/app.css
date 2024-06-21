@@ -22,13 +22,13 @@ body {
   min-height: 100vh;
 }
 
-
 #app {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -134,12 +134,4 @@ img {
   &.rolling {
     animation: rollDice 1s ease-in-out infinite;
   }
-}
-/* Style for the telecharge button */
-.telecharge{
-  margin: 10px;
-  display: block;
-  float: right;
-  vertical-align: top;
-  
 }
