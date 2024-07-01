@@ -18,12 +18,6 @@ import Question from './lib/Question.svelte'
     <div class="setting">
       <button on:click={() => reloadGame()}>Recharger le jeu</button>
     </div>
-    <div class="plateau">
-      <img src=\"./plateau.png\" alt=\"plateau jeu\"/>
-    </div>
-    <div class="regle">
-      <a href="" download="">Retrouve ici la regle du jeu</a>
-    </div>
     <div>
       <Dice />
     </div>
