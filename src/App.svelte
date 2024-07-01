@@ -19,7 +19,7 @@ import Question from './lib/Question.svelte'
       <button on:click={() => reloadGame()}>Recharger le jeu</button>
     </div>
     <div class="plateau">
-      <img src="<img src=\"./plateau.png\" alt=\"angle avant ccf\"/>"
+      <img src=\"./plateau.png\" alt=\"plateau jeu\"/>
     </div>
     <div class="regle">
       <a href="" download="">Retrouve ici la regle du jeu</a>
