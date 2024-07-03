@@ -24,7 +24,8 @@ Array.prototype.shuffle = function() {
 };
 
 export const initQuestions = () : void => {
-    if (localStorage.getItem(QUESTIONS_LOCAL_STORAGE_KEY) !== null) {
+    const storedQuestions = localStorage.getItem(QUESTIONS_LOCAL_STORAGE_KEY);
+    if (storedQuestions !== null && JSON.parse(storedQuestions).length !== questionsFromFile.length && !confirm('Les questions ont déjà été initialisées. Voulez-vous les recharger ?')) {
         return; // Les questions ont déjà été initialisées
     } 
     localStorage.setItem(QUESTIONS_LOCAL_STORAGE_KEY, JSON.stringify(questionsFromFile.shuffle()))
