@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -12,7 +12,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 body {
   margin: 0;
@@ -81,26 +80,6 @@ img {
   background-color: rgb(62, 3, 118);
 }
 
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-  a {
-    color: #2e5967;
-  }
-  .SR-FDF, .PPABE-RTN, .INC, .CAD {
-    color: white;
-  }
-}
-
-
-
-
 @keyframes rollDice {
   0% {
     transform: rotate(0deg) scale(1);
@@ -129,7 +108,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   &.rolling {
     animation: rollDice 1s ease-in-out infinite;
