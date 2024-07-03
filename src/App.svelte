@@ -31,7 +31,7 @@
       on:newQuestion={() => (categorySelected = null)}
     />
   {:else}
-    <div class="ressources">
+    <div class="setting">
       <button on:click={() => print("./plateau.png")}
         >Télécharger le plateau</button
       >
@@ -41,8 +41,6 @@
       <button
         ><a href="./regle.jpg" target="_blank">Consulter les règles</a></button
       >
-    </div>
-    <div class="setting">
       <button on:click={() => reloadGame()}>Recharger le jeu</button>
     </div>
     <div>
@@ -73,10 +71,21 @@
     }
   }
 
-  div.ressources {
-    position: absolute;
-    top: 0;
-    left: 0;
+  @media screen and (width > 700px) {
+    div.setting {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  @media screen and (width <= 700px) {
+    div.setting {
+      margin-bottom: 1em;
+    }
+  }
+
+  div.setting {
     display: flex;
     flex-direction: column;
 
@@ -84,11 +93,5 @@
       color: black;
       text-decoration: none;
     }
-  }
-
-  div.setting {
-    position: absolute;
-    top: 0;
-    right: 0;
   }
 </style>
