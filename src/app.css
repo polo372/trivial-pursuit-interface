@@ -39,6 +39,12 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
+/* contour bouton + espace autour d'eux en attente de validation
+  .setting button {
+  border: 1px solid white;
+  margin: 1%;
+  }
+*/
 button:hover {
   border-color: #646cff;
 }

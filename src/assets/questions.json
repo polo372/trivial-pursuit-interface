@@ -2079,7 +2079,7 @@
         "category": "PPABE-RTN",
         "id" : 345,
         "question": "Qu'est ce que le TRANSAID ?",
-        "answer": "<p>Protocole d'aide aux service de secours en cas d'accident TMD</p><p>s'appuie sur le CASU</p><p>CEDRE</p><p>CEFIC</p>"   
+        "answer": "<p>Protocole d'aide aux service de secours en cas d'accident TMD qui s'appuie sur : <ul><li>La CASU</li><li>Le CEDRE</li><li>Le CEFIC</li></ul>"   
     },
     {
         "category": "INC",
