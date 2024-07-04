@@ -3,13 +3,17 @@
   import Trivial from "./lib/Trivial.svelte";
 
   let selectedChoice: undefined | "game" | "study";
+
+  const handleReload = () => {
+    selectedChoice = undefined;
+  };
 </script>
 
 <main>
   {#if selectedChoice === "study"}
-    <Study />
+    <Study on:reload={handleReload} />
   {:else if selectedChoice === "game"}
-    <Trivial />
+    <Trivial on:reload={handleReload} />
   {:else}
     <button on:click={() => (selectedChoice = "game")}>Jouer</button>
     <button on:click={() => (selectedChoice = "study")}>Réviser</button>

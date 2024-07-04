@@ -2,6 +2,9 @@
   import Dice from "./Dice.svelte";
   import Question from "./Question.svelte";
   import { initQuestions, reloadGame, getCategories } from "./question";
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
+
   // Initialise les questions
   initQuestions();
   // Initialise les catégories
@@ -31,6 +34,7 @@
   />
 {:else}
   <div class="setting">
+    <button on:click={() => dispatch("reload")}>Retour</button>
     <button on:click={() => print("./plateau.png")}
       >Télécharger le plateau</button
     >

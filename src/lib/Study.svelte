@@ -1,6 +1,8 @@
 <script lang="ts">
   import Question from "./Question.svelte";
   import { initQuestions, getCategories } from "./question";
+  import { createEventDispatcher } from "svelte";
+  const dispatch = createEventDispatcher();
   // Initialise les questions
   initQuestions();
   // Initialise les catégories
@@ -17,6 +19,7 @@
     on:changeCategory={() => (categorySelected = null)}
   />
 {:else}
+  <button on:click={() => dispatch("reload")}>Retour</button>
   <h1>Choisissez une catégorie</h1>
   <ul>
     {#each categories as category}

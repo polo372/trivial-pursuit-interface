@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getQuestionByCategory } from "./question";
+  import { getQuestionByCategory, reloadQuestionsByCategory } from "./question";
   import { createEventDispatcher } from "svelte";
   const dispatch = createEventDispatcher();
 
@@ -13,6 +13,10 @@
     if (continueAfterAnswer) {
       showAnswer = false;
       question = getQuestionByCategory(category);
+      if (!question) {
+        reloadQuestionsByCategory(category);
+        question = getQuestionByCategory(category);
+      }
     }
   };
 
