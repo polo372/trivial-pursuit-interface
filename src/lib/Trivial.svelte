@@ -43,6 +43,7 @@
       ><a href="./regle.jpg" target="_blank">Consulter les règles</a></button
     >
     <button on:click={() => reloadGame()}>Recharger le jeu</button>
+    <button><a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377">Aidez-nous à nous améliorer</a></button>
   </div>
   <div>
     <Dice />

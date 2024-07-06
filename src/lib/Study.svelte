@@ -19,7 +19,10 @@
     on:changeCategory={() => (categorySelected = null)}
   />
 {:else}
+  <div class="setting">
+  <button><a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377">Aidez-nous à nous améliorer</a></button>
   <button on:click={() => dispatch("reload")}>Retour</button>
+  </div>
   <h1>Choisissez une catégorie</h1>
   <ul>
     {#each categories as category}
@@ -40,6 +43,15 @@
 
     & > li {
       margin: 16px;
+    }
+  }
+  div.setting {
+    display: flex;
+    flex-direction: column;
+
+    & button > a {
+      color: white;
+      text-decoration: none;
     }
   }
 </style>
