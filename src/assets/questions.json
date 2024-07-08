@@ -1719,7 +1719,7 @@
   {
     "category": "PRV-COD",
     "id": 286,
-    "question": "<img src=\"./angle_dattaque.png\" alt=\"angle avant ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
+    "question": "<img src=\"./angle_dattaque.png\" alt=\"angle avant ccf\" aria-hidden=\"true\"/><br> Quel est le nom de cette angle ?",
     "answer": "L'angle d'attaque"
   },
   {
@@ -1935,13 +1935,13 @@
   {
     "category": "PRV-COD",
     "id": 322,
-    "question": "<img src=\"./Angle_franchissement.png\" alt=\"angle milieu ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
+    "question": "<img src=\"./Angle_franchissement.png\" alt=\"angle milieu ccf\" aria-hidden=\"true\"/><br> Quel est le nom de cette angle ?",
     "answer": "L'angle de franchissement."
   },
   {
     "category": "PRV-COD",
     "id": 323,
-    "question": "<img src=\"./angle_fuite.png\" alt=\"angle arriere ccf\" aria-hidden=\"true\"/> Quel est le nom de cette angle ?",
+    "question": "<img src=\"./angle_fuite.png\" alt=\"angle arriere ccf\" aria-hidden=\"true\"/><br> Quel est le nom de cette angle ?",
     "answer": "L'angle de fuite."
   },
   {
@@ -2471,5 +2471,47 @@
     "id": 411,
     "question": "Qu'est-ce que la prévention passive dans le contexte des feux de forêts  ?",
     "answer": "<p>La prévention passive inclut des actions comme le débroussaillage et la création de coupe-feux avant la saison des feux pour réduire les risques d'incendie.</p>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 412,
+    "question": "Quels sont les différentes manœuvres tactiques offensives ?",
+    "answer": "<ul><li>L'attaque de flanc</li><li>L'attaque par percée de flancs</li><li>L'attaque de front</li></ul>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 413,
+    "question": "Quels sont les différentes manœuvres tactiques defensives ?",
+    "answer": "<ul><li>La défense de points sensibles</li><li>L'établissement de lignes d'appui</li></ul>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 414,
+    "question": "Comment se réalise une attaque de flanc ?",
+    "answer": "<p>Elle consiste à engager les moyens sur l’avant du flanc le plus défavorable, afin de le remonter jusqu’à la tête pour stopper la propagation.</p><br><img src=\"./attaque_flanc.png\" alt=\"attaque de flanc\" aria-hidden=\"true\"/>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 415,
+    "question": "Comment se réalise une attaque par percée de flancs ?",
+    "answer": "<p>cette manœuvre consiste à réaliser une trouée dans un flanc, puis progresser dans la zone brûlée, pour casser la tête du feu par l’intérieur.</p><br><img src=\"./percee_flanc.png\" alt=\"percee de flanc\" aria-hidden=\"true\"/>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 416,
+    "question": "Comment se réalise une attaque de front ?",
+    "answer": "<p>cette manœuvre consiste à casser la tête du feu (le front) par l’extérieur et progresser ensuite sur les flancs.</p><br><img src=\"./attaque_front.png\" alt=\"Une attaque de front\" aria-hidden=\"true\"/>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 417,
+    "question": "Comment se réalise une défense de point sensible ?",
+    "answer": "<p>Dans le cadre de ce type de manœuvres, les moyens de lutte prennent une position permettant d’attendre le feu et de mener une attaque dès son approche.</p><br><img src=\"./DPS.png\" alt=\"Une défense de point sensible\" aria-hidden=\"true\"/>"
+  },
+  {
+    "category": "SR-FDF",
+    "id": 418,
+    "question": "Comment se réalise une ligne d'appuie ?",
+    "answer": "<p>Destinée à combattre le sinistre sur une zone reconnue et préparée à l’avance, la ligne d’appui peut être statique ou dynamique.<ul><li>statique : les engins sont espacés sur ordre, en position statique, positionnés sur une zone préalablement choisie pour ses qualités naturelles favorisant l’arrêt du feu</li>li>dynamique : les engins progressent en colonne, espacés sur ordre, et utilisent les lances en roulant (lance canon ou lance depuis la cabine).</li></ul></p><br><img src=\"./ligne_appui.png\" alt=\"Une ligne d'appui\" aria-hidden=\"true\"/>"
   }
 ]
