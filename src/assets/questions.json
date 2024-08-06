@@ -4033,7 +4033,7 @@
         "category": "SR-FDF",
         "id" : 252,
         "question": "Qu'est ce que les 5I ?",
-        "answer": "<ul><li>isoler</li><li>Interdire</li><li>inspecter</li><li>identifier</li><li>Immobilisier</li></ul>"
+        "answer": "<ul><li>Isoler</li><li>Interdire</li><li>Inspecter</li><li>Identifier</li><li>Immobiliser</li></ul>"
     },
     {
         "category": "PPABE-RTN",
