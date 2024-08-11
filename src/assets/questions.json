@@ -50,7 +50,7 @@
   {
     "category": "CAD",
     "id": 8,
-    "question": "Combien y a t-il de sénateur ?",
+    "question": "Combien y a t-il de sénateurs ?",
     "answer": "348"
   },
   {
@@ -315,7 +315,7 @@
   {
     "category": "INC",
     "id": 52,
-    "question": "Quel est la longueur d'une voie échelle ?",
+    "question": "Quelle est la longueur d'une voie échelle ?",
     "answer": "10m"
   },
   {
@@ -657,7 +657,7 @@
   {
     "category": "INC",
     "id": 109,
-    "question": "Quels sont les différents risque courants ?",
+    "question": "Quels sont les différents risques courants ?",
     "answer": "<ul><li>Faible</li><li>Ordinaire</li><li>Important</li></ul>"
   },
   {
@@ -1420,13 +1420,13 @@
     "category": "CAD",
     "id": 236,
     "question": "Qu'est ce qu'un OCOPCTAC ?",
-    "answer": "Un opération de coordination opérationnel en poste de commandement tactiques."
+    "answer": "Un Opérateur de Coordination Opérationnel en Poste de Commandement Tactique."
   },
   {
     "category": "CAD",
     "id": 237,
     "question": "Qu'est ce qu'un OCO ?",
-    "answer": "Un opérateur de coordination opérationnel."
+    "answer": "Un Opérateur de Coordination Opérationnel."
   },
   {
     "category": "CAD",
@@ -1834,7 +1834,7 @@
     "category": "CAD",
     "id": 305,
     "question": "Qu'est ce qu'un SLIS ?",
-    "answer": "Service locaux d'incendie et de secours"
+    "answer": "<strong>S</strong>ervice <strong>L</strong>ocaux d'<strong>I</strong>ncendie et de <strong>S</strong>ecours"
   },
   {
     "category": "PPABE-RTN",
@@ -2020,13 +2020,13 @@
     "category": "CAD",
     "id": 336,
     "question": "Que signifie OBNSIC ?",
-    "answer": "<p>Ordre de base nationale des systeme d'information et de communisation de la SC</p><p>decret 2009</p>"
+    "answer": "<p><strong>O</strong>rdre de <strong>B</strong>ase <strong>N</strong>ationale des <strong>S</strong>ystemes d'<strong>I</strong>nformation et de <strong>C</strong>ommunisation de la SC</p><p>decret 2009</p>"
   },
   {
     "category": "PPABE-RTN",
     "id": 337,
     "question": "Qu'est ce que le CEDRE'  ?",
-    "answer": "<p>Centre de documentation de recherche et d'expérimentation sur les pollutions accidentelles des eaux</p>"
+    "answer": "<p><strong>CE</strong>ntre de <strong>D</strong>ocumentation de <strong>R</strong>echerche et d'<strong>E</strong>xpérimentation sur les pollutions accidentelles des eaux</p>"
   },
   {
     "category": "PPABE-RTN",
@@ -2038,7 +2038,7 @@
     "category": "PPABE-RTN",
     "id": 339,
     "question": "Qui est le CTRCH en Indre et Loire ?",
-    "answer": "Le Capitaine Dosseur"
+    "answer": "Le Commandant Dosseur"
   },
   {
     "category": "PPABE-RTN",
@@ -2049,14 +2049,14 @@
   {
     "category": "PPABE-RTN",
     "id": 341,
-    "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
-    "answer": "Le MCB1 et le FH40"
+    "question": "",
+    "answer": ""
   },
   {
     "category": "PPABE-RTN",
     "id": 342,
-    "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
-    "answer": "Le MCB1 et le FH40"
+    "question": "",
+    "answer": ""
   },
   {
     "category": "PPABE-RTN",
@@ -2284,19 +2284,19 @@
     "category": "CAD",
     "id": 380,
     "question": "Que signifie CAP ?",
-    "answer": "<p>Commission administrative paritaire.</p>"
+    "answer": "<p><strong>C</strong>ommission <strong>A</strong>dministrative <strong>P</strong>aritaire.</p>"
   },
   {
     "category": "CAD",
     "id": 381,
     "question": "Que signifie CST ?",
-    "answer": "<p>Comité social territorial.</p>"
+    "answer": "<p><strong>C</strong>omité <strong>S</strong>ocial <strong>T</strong>erritorial.</p>"
   },
   {
     "category": "CAD",
     "id": 382,
     "question": "Que signifie CCDSPV ?",
-    "answer": "<p>Comité consultatif départemental des spv.</p>"
+    "answer": "<p><strong>C</strong>omité <strong>C</strong>onsultatif <strong>D</strong>épartemental des <strong>SPV</strong>.</p>"
   },
   {
     "category": "CAD",
@@ -2313,8 +2313,8 @@
   {
     "category": "CAD",
     "id": 385,
-    "question": "Quels sont les organes et instance d'un sdis ?",
-    "answer": "<ul><li>CASDIS - Conseil d'Administration sdis</li><li>CATSIS - Comission Administrative et Technique sdis</li><li>CCDSPV - Comité Consultatf Départemental SPV</li><li>CST - Comité Social Territoriale</li><li>CAP - Commission administrative paritaire</li><li>F3SCT - Formation spécialisé en santé sécurité condition de travail</li><li>LDG - Ligne Directrice Gestion</li></ul>"
+    "question": "Quels sont les organes et instances d'un sdis ?",
+    "answer": "<ul><li><strong>CASDIS</strong> - Conseil d'Administration sdis</li><li><strong>CATSIS</strong> - Comission Administrative et Technique sdis</li><li><strong>CCDSPV</strong> - Comité Consultatf Départemental SPV</li><li><strong>CST</strong> - Comité Social Territoriale</li><li><strong>CAP</strong> - Commission administrative paritaire</li><li><strong>F3SCT</strong> - Formation spécialisé en santé sécurité condition de travail</li><li><strong>LDG</strong> - Ligne Directrice Gestion</li></ul>"
   },
   {
     "category": "CAD",
@@ -2344,7 +2344,7 @@
     "category": "CAD",
     "id": 390,
     "question": "Qu'est ce que VISOV ?",
-    "answer": "<p>Volontaire internationaux en soutien opérationnel virtuel</p><p>association qui participe au MSGU</p>"
+    "answer": "<p><strong>V</strong>olontaire <strong>I</strong>nternationaux en <strong>S</strong>outien <strong>O</strong>pérationnel <strong>V</strong>irtuel</p><p>VISOV est une association composée de citoyens qui sont tous bénévoles.</p><p>Le VISOV possède un rayon d’action qui repose sur trois axes :</p><ol><li>La diffusion de la culture de sécurité civile à travers les médias sociaux;</li><li>L’assistance aux sinistrés, en interface avec les autorités;</li><li>Le soutien aux autorités par le monitoring web et le cas échéant la réalisation de cartes collaboratives.</li></ol>"
   },
   {
     "category": "CAD",
@@ -2379,7 +2379,7 @@
   {
     "category": "INC",
     "id": 396,
-    "question": "Qu'est ce qu'un emusleur ?",
+    "question": "Qu'est ce qu'un emulseur ?",
     "answer": "<p>solution aqueuse saponifiante, permet de diminuer la tension superficiel de l'eau, et forme de la mousse apres brassage d'air.</p><p>polyvalent sur hydrocarbure 3% solvant 6%</p><p>retardant ou mouillant feu de foret ou déblai</p><p>&nbsp;</p>"
   },
   {
