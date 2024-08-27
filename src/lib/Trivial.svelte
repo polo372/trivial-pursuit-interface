@@ -9,13 +9,13 @@
   // Initialise les questions
   initQuestions();
   // Initialise les catégories
-  const categories = getCategories();
+  const categoriesPromise = getCategories();
 
   // Sélection d'une catégorie de question
   let categorySelected: string | null = null;
 
   function download(url: string, filename: string): void {
-    const link = document.createElement('a');
+    const link = document.createElement("a");
     link.href = url;
     link.download = filename;
     document.body.appendChild(link);
@@ -37,34 +37,49 @@
 */
 </script>
 
-{#if categorySelected}
-  <Question
-    category={categorySelected}
-    on:newQuestion={() => (categorySelected = null)}
-  />
-{:else}
-  <div class="setting">
-    <button on:click={() => dispatch("reload")}>Retour</button>
-    <button on:click={() => download("./plateau.png", "plateau.png")}>Télécharger le plateau</button>
-    <button on:click={() => download("./pions.jpg", "pions.jpg")}>Télécharger les pions</button>
-    <button><a href="./regle.jpg" target="_blank">Consulter les règles</a></button>
-    <button on:click={() => reloadGame()}>Recharger le jeu</button>
-    <button>
-      <a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377">Aidez-nous à nous améliorer</a>
-    </button>
-  </div>
-  <div>
-    <Dice />
-  </div>
-  <h1>Choisissez une catégorie</h1>
-  <ul>
-    {#each categories as category}
-      <li>
-        <button class={category} on:click={() => (categorySelected = category)}>{category}</button>
-      </li>
-    {/each}
-  </ul>
-{/if}
+{#await categoriesPromise}
+  Chargement en cours
+{:then categories}
+  {#if categorySelected}
+    <Question
+      category={categorySelected}
+      on:newQuestion={() => (categorySelected = null)}
+    />
+  {:else}
+    <div class="setting">
+      <button on:click={() => dispatch("reload")}>Retour</button>
+      <button on:click={() => download("./plateau.png", "plateau.png")}
+        >Télécharger le plateau</button
+      >
+      <button on:click={() => download("./pions.jpg", "pions.jpg")}
+        >Télécharger les pions</button
+      >
+      <button
+        ><a href="./regle.jpg" target="_blank">Consulter les règles</a></button
+      >
+      <button on:click={() => reloadGame()}>Recharger le jeu</button>
+      <button>
+        <a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377"
+          >Aidez-nous à nous améliorer</a
+        >
+      </button>
+    </div>
+    <div>
+      <Dice />
+    </div>
+    <h1>Choisissez une catégorie</h1>
+    <ul>
+      {#each categories as category}
+        <li>
+          <button
+            class={category}
+            on:click={() => (categorySelected = category)}>{category}</button
+          >
+        </li>
+      {/each}
+    </ul>
+  {/if}
+{/await}
 
 <style>
   ul {
@@ -101,15 +116,19 @@
     text-decoration: none;
   }
 
-  .setting button, .setting a {
+  .setting button,
+  .setting a {
     padding: 10px 20px;
     font-size: 1rem;
     border: none;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+    transition:
+      background 0.3s,
+      transform 0.2s;
   }
 
-  .setting button:hover, .setting a:hover {
+  .setting button:hover,
+  .setting a:hover {
     transform: scale(1.05);
   }
 </style>
