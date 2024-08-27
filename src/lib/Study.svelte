@@ -6,34 +6,41 @@
   // Initialise les questions
   initQuestions();
   // Initialise les catégories
-  const categories = getCategories();
+  const categoriesPromise = getCategories();
 
   // Selection d'une catégorie de question
   let categorySelected: string | null = null;
 </script>
 
-{#if !!categorySelected}
-  <Question
-    category={categorySelected}
-    continueAfterAnswer={true}
-    on:changeCategory={() => (categorySelected = null)}
-  />
-{:else}
-  <div class="setting">
-  <button><a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377">Aidez-nous à nous améliorer</a></button>
-  <button on:click={() => dispatch("reload")}>Retour</button>
-  </div>
-  <h1>Choisissez une catégorie</h1>
-  <ul>
-    {#each categories as category}
-      <li>
-        <button class={category} on:click={() => (categorySelected = category)}
-          >{category}</button
-        >
-      </li>
-    {/each}
-  </ul>
-{/if}
+{#await categoriesPromise then categories}
+  {#if !!categorySelected}
+    <Question
+      category={categorySelected}
+      continueAfterAnswer={true}
+      on:changeCategory={() => (categorySelected = null)}
+    />
+  {:else}
+    <div class="setting">
+      <button
+        ><a target="_blank" href="https://forms.gle/enz8CB7Qdb87GL377"
+          >Aidez-nous à nous améliorer</a
+        ></button
+      >
+      <button on:click={() => dispatch("reload")}>Retour</button>
+    </div>
+    <h1>Choisissez une catégorie</h1>
+    <ul>
+      {#each categories as category}
+        <li>
+          <button
+            class={category}
+            on:click={() => (categorySelected = category)}>{category}</button
+          >
+        </li>
+      {/each}
+    </ul>
+  {/if}
+{/await}
 
 <style>
   ul {

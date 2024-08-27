@@ -3,7 +3,8 @@ import questionsFromFile from "../assets/questions.json";
 const QUESTIONS_LOCAL_STORAGE_KEY = "questions_trivial_pursuit";
 
 const getSlugFromUrl = (): string => {
-  return window.location.pathname.split("/").pop() || "";
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.get("file") || "";
 };
 
 const getQuestionsLocalStorageKey = (): string => {

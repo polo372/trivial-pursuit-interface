@@ -37,9 +37,7 @@
 */
 </script>
 
-{#await categoriesPromise}
-  Chargement en cours
-{:then categories}
+{#await categoriesPromise then categories}
   {#if categorySelected}
     <Question
       category={categorySelected}
