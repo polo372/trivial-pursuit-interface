@@ -82,5 +82,100 @@
     "id": 14,
     "question": "Vous êtes en présence d’une substance pyrophorique. Elle est donc :",
     "answer": "Spontanément inflammable au contact de l’air"
+  },
+  {
+    "category": "DETECTION",
+    "id": 15,
+    "question": "Quelle est la différence y a-t-il entre un explosimètre et un catharomètre ?",
+    "answer": "<ul><li>Explosimètre : indique un pourcentage de la LIE du gaz étalon</li><li>Catharomètre : indique un pourcentage de gaz dans le volume d’air</li></ul>"
+  },
+  {
+    "category": "DETECTION",
+    "id": 16,
+    "question": "Que signifie AP2C ?",
+    "answer": "Appareil Portatif de Contrôle de la Contamination"
+  },
+  {
+    "category": "DETECTION",
+    "id": 17,
+    "question": "Que signifie S4PE ?",
+    "answer": "Système de Prélèvement des Produits Persistants par Evaporation"
+  },
+  {
+    "category": "DETECTION",
+    "id": 18,
+    "question": "Quels sont les paramètres globaux recherchés en pollution aquatique ?",
+    "answer": "<ul><li>Conductivité</li><li>Taux d’oxygène dissous</li><li>Température</li><li>Ph</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 19,
+    "question": "Dans le Guide SPG : à quoi correspond le 4ème carré de l’échelle de danger (blanc) ?",
+    "answer": "La réaction avec l’eau"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 20,
+    "question": "Dans le Guide SPG : à quoi correspond le 3ème carré de l’échelle de danger (jaune) ?",
+    "answer": "instabilité chimique à la chaleur"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 21,
+    "question": "Quel est le périmètre de sécurité, a priori, pour risque toxique ?",
+    "answer": "300m"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 22,
+    "question": "Quelles sont les conditions nécessaires pour la réussite d’une pose de barrage ?",
+    "answer": "<ul><li>produit polluant ayant une densité inférieure à l’eau</li><li>produit non miscible à l’eau</li><li>vitesse du courant inférieur à 1m/s</li></ul>"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 23,
+    "question": "Vous êtes en présence d’une flaque d’acide, quel produit utilisez vous pour la neutraliser ?",
+    "answer": "Le Trivorex"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 24,
+    "question": "Quelle est la différence entre épizootie et pandémie ?",
+    "answer": "<ul><li>Epizootie : contamination animale (grippe aviaire)</li><li>Pandémie : maladie humaine (épidémie à l’échelle mondiale)</li></ul>"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 25,
+    "question": "Quelle est le Temps d’exposition des valeurs ERPG ?",
+    "answer": " 60 min"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 26,
+    "question": "Quelle est la Définition d'AEGL1 ?",
+    "answer": "Acure Exposure Guideline Levels"
   }
 ]
+/*
+
+Concentration maximale dans l'air d'une substance au-dessus de laquelle il est prévu que la
+
+population en général, y compris les individus sensibles, pourrait éprouver une gêne notable,
+
+une irritation ou certains effets non sensoriels asymptomatiques.
+
+ 
+
+Définition SPEL = seuil des premiers effets létaux
+
+Concentration dans l’air, pour une durée d'exposition donnée, au
+
+dessus de laquelle on pourrait observer 1% de mortalité au sein de la population
+
+exposée.
+
+ 
+
+Le COS vous demande vous demande la VLCT d’un produit. Vous consultez : Les fiches INRS
+
+ 
