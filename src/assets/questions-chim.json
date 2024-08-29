@@ -1,8 +1,86 @@
 [
   {
-    "category": "TEST",
+    "category": "CHIMIE",
     "id": 1,
-    "question": "Fonctionnel",
-    "answer": "Test que ça fonctionne ?"
+    "question": "Quelle est la formule de calcul de la densité d’un gaz ? ",
+    "answer": "d = M/29"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 2,
+    "question": "Combien valent 298 °Kelvin (°K) en °Celsius (°C) ?",
+    "answer": " 25 ° C (T° C = T° K – 273,15)"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 3,
+    "question": "Comment s'appelle le changement d’état entre Solide-liquide ?",
+    "answer": "La Fusion"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 4,
+    "question": "Comment s'appelle le changement d’état entre Gaz - liquide ?",
+    "answer": "La liquéfaction"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 5,
+    "question": "Quelle est la définition du point éclair ?",
+    "answer": "Température minimale à laquelle un liquide émet suffisamment de vapeurs pour que celles-ci s’enflamment au contact d’une énergie d’activation, mais sans entretien du phénomène."
+  },
+  {
+    "category": "CHIMIE",
+    "id": 6,
+    "question": "Quelle est la définition de l'alcalin ?",
+    "answer": "se dit d’une substance : basique"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 7,
+    "question": "Qu'est ce qu'une substance hygroscopique ?",
+    "answer": "Une substance qui absorbe l’humidité de l’air "
+  },
+  {
+    "category": "CHIMIE",
+    "id": 8,
+    "question": "Quelle est la formule d’un alcane ?",
+    "answer": "Cn H2n+2"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 9,
+    "question": "Quelle est la masse molaire de l’ammoniac ?",
+    "answer": "NH3 > 14 + 3 = 17 g/mol"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 10,
+    "question": "De quoi le GPL est il un mélange ?",
+    "answer": "Propane et Butane"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 11,
+    "question": "Vous intervenez en présence d’engrais dits NPK. Que signifie ces lettres ?",
+    "answer": "Azote, Phosphore et Potassium"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 12,
+    "question": "Quel est le nom de la molécule d’eau de javel ?",
+    "answer": "hypochlorite de soude"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 13,
+    "question": "A partir de quand un produit est considéré comme très soluble dans l'eau ?",
+    "answer": "1000g/litre"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 14,
+    "question": "Vous êtes en présence d’une substance pyrophorique. Elle est donc :",
+    "answer": "Spontanément inflammable au contact de l’air"
   }
 ]
