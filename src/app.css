@@ -85,7 +85,9 @@ img {
 .SR-FDF {
   background-color: rgb(62, 3, 118);
 }
-
+.CHIMIE {
+  background-color: orange;
+}
 @keyframes rollDice {
   0% {
     transform: rotate(0deg) scale(1);
