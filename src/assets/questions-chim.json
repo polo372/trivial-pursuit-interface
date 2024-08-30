@@ -166,5 +166,124 @@
     "id": 28,
     "question": "Le COS vous demande vous demande la VLCT d’un produit. Quelle documentation consultez vous?",
     "answer": "Les fiches INRS"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 29,
+    "question": "Qu'est ce que le point d'ébullition?",
+    "answer": "C'est la température à partir de laquelle un produit passe de l'état liquide à l'état gazeux."
+  },
+  {
+    "category": "CHIMIE",
+    "id": 30,
+    "question": "Qu'est ce que la PVS?",
+    "answer": "Pression de Vapeur Saturante<br>c'est la pression à laquelle la phase gazeuse d'une substance est en équilibre avec sa phase liquide à une température donnée dans un système fermé."
+  },
+  {
+    "category": "DETECTION",
+    "id": 31,
+    "question": "Que permet de détecter le papier PDF1 ?",
+    "answer": "<p>Les agents neurotoxiques A et G et des agents vésicants</p><ul><li>La présence  de  GB  liquide  : Jaune</li><li>La présence  de  HD  liquide  : Rouge</li><li>La présence  de  VX liquide  : Vert  foncé</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 32,
+    "question": "Que signifie l’acronyme ZDI ?",
+    "answer": " Zone de danger immédiat"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 33,
+    "question": "Lors d'une fuite de propane où se fait la recherche de valeurs ?",
+    "answer": "En partie basse"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 34,
+    "question": "Que se passe t-il lors d'une projection d’eau sur du sodium ?",
+    "answer": "On observe une formation d’hydrogène."
+  },
+  {
+    "category": "MATERIELS",
+    "id": 35,
+    "question": "Quelle est la couleur  du Trivorex quand il est répandu sur une base ?",
+    "answer": "BLEU"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 36,
+    "question": "Quelle est la couleur  du Trivorex quand il est répandu sur un acide ?",
+    "answer": "ROSE"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 37,
+    "question": "Quelles sont les 5 voies (éléments détectés) par l’AP4C ?",
+    "answer": "<ul><li>Phosphore</li><li>Soufre</li><li>Arsenic</li><li>Composés azotés</li><li>Explosimétrie</li></ul>"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 38,
+    "question": "Quelles sont les cellules de l’ALTAIR 4X ?",
+    "answer": "<ul><li>O2</li><li>H2S</li><li>CO</li><li>LIE</li></ul>"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 39,
+    "question": "Quelles sont les Alarmes haute et basse de la cellule explo de l’ALTAIR 4X ?",
+    "answer": "10% LIE – 20% LIE"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 40,
+    "question": "Quelles sont les Alarmes haute et basse de la cellule CO de l’ALTAIR 4X ?",
+    "answer": "50 ppm – 200 ppm"
+  },
+  {
+    "category": "EPI",
+    "id": 41,
+    "question": "Quelles sont les 3 catégories des tenues ?",
+    "answer": "<ul><li>cat 1 = risque minime</li><li>cat 2 = risque intermédiaire</li><li>cat 3 = risque mortel ou grave</li></ul>"
+  },
+  {
+    "category": "EPI",
+    "id": 42,
+    "question": "Quel est le niveau de protection d’une tenue de type 1 ?",
+    "answer": "Etanche aux gaz"
+  },
+  {
+    "category": "EPI",
+    "id": 43,
+    "question": "Quel est le niveau de protection d’une tenue de type 3 ?",
+    "answer": "Etanche aux liquides"
+  },
+  {
+    "category": "EPI",
+    "id": 44,
+    "question": "Quel est le niveau de protection d’une tenue de type 5 ?",
+    "answer": "Etanche aux particules"
+  },
+  {
+    "category": "EPI",
+    "id": 45,
+    "question": "A quoi correspond les lettres ABEKHg sur cartouches filtrantes ?",
+    "answer": "<ul><li>A gaz et vapeur organique</li><li>B gaz et vapeur inorganiques</li><li>E acide chlorhydrique anhydride sulfureux</li><li>K ammoniac</li><li>Hg Mercure</li></ul>"
+  },
+  {
+    "category": "EPI",
+    "id": 46,
+    "question": "Que signifie VSTAF?",
+    "answer": "Valeurs Seuil de Toxicité Aigue Françaises"
+  },
+  {
+    "category": "EPI",
+    "id": 47,
+    "question": "Quelles sont les 4 valeurs toxicologiques françaises utilisées dans le cadre de la maîtrise de l’urbanisation autour des sites industriels ?",
+    "answer": "<ul><li>SER</li><li>SEI</li><li>SEPL</li><li>SELS</li></ul>"
   }
 ]
+ 
+
+ 
+
+
