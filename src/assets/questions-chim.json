@@ -140,8 +140,8 @@
   {
     "category": "TOXICOLOGIE",
     "id": 24,
-    "question": "Quelle est la différence entre épizootie et pandémie ?",
-    "answer": "<ul><li>Epizootie : contamination animale (grippe aviaire)</li><li>Pandémie : maladie humaine (épidémie à l’échelle mondiale)</li></ul>"
+    "question": "Qu'est ce qu'une Epizootie ?",
+    "answer": "Une contamination animale (grippe aviaire)"
   },
   {
     "category": "TOXICOLOGIE",
@@ -230,20 +230,20 @@
   {
     "category": "MATERIELS",
     "id": 39,
-    "question": "Quelles sont les Alarmes haute et basse de la cellule explo de l’ALTAIR 4X ?",
-    "answer": "10% LIE – 20% LIE"
+    "question": "Quelle est l'alarme basse de la cellule explo de l’ALTAIR 4X ?",
+    "answer": "10% LIE"
   },
   {
     "category": "MATERIELS",
     "id": 40,
-    "question": "Quelles sont les Alarmes haute et basse de la cellule CO de l’ALTAIR 4X ?",
-    "answer": "50 ppm – 200 ppm"
+    "question": "Quelle est l'alarme haute de la cellule CO de l’ALTAIR 4X ?",
+    "answer": "200 ppm"
   },
   {
     "category": "EPI",
     "id": 41,
-    "question": "Quelles sont les 3 catégories des tenues ?",
-    "answer": "<ul><li>cat 1 = risque minime</li><li>cat 2 = risque intermédiaire</li><li>cat 3 = risque mortel ou grave</li></ul>"
+    "question": "A quel rique correspond une tenue de catégorie 1 ?",
+    "answer": "Risque minime"
   },
   {
     "category": "EPI",
@@ -266,8 +266,8 @@
   {
     "category": "EPI",
     "id": 45,
-    "question": "A quoi correspond les lettres ABEKHg sur cartouches filtrantes ?",
-    "answer": "<ul><li>A gaz et vapeur organique</li><li>B gaz et vapeur inorganiques</li><li>E acide chlorhydrique anhydride sulfureux</li><li>K ammoniac</li><li>Hg Mercure</li></ul>"
+    "question": "A quoi correspond la lettre A sur cartouches filtrantes ?",
+    "answer": "Gaz et vapeur organique"
   },
   {
     "category": "EPI",
@@ -418,6 +418,708 @@
     "id": 69,
     "question": "Quels sont les éléments d'une explosion de poussière ?",
     "answer": "<ol><li>O²</li><li>poussiere</li><li>suspension</li><li>domaine d'explosivité</li><li>source d'inflammation</li><li>confinement</li></ol>"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 70,
+    "question": "Quelle est l'alarme haute de la cellule explo de l’ALTAIR 4X ?",
+    "answer": "20% LIE"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 71,
+    "question": "Qu'est ce qu'une pandémie ?",
+    "answer": "La propagation d'une maladie humaine (épidémie à l’échelle mondiale)"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 72,
+    "question": "Quelle est la Définition d'ERPG ?",
+    "answer": "Emergency Response Palnning Guidelines"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 73,
+    "question": "Quelle est la Définition d'AEGL2 ?",
+    "answer": "Acure Exposure Guideline Levels concentration produisants des effets empêchant de fuir"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 74,
+    "question": "Quelle est la Définition d'AEGL3 ?",
+    "answer": "Acure Exposure Guideline Levels concentration produisants des effets menaçant la vie et pouvant être mortels"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 75,
+    "question": "Quelle est l'alarme basse de la cellule CO de l’ALTAIR 4X ?",
+    "answer": "50 ppm"
+  },
+  {
+    "category": "EPI",
+    "id": 76,
+    "question": "A quel rique correspond une tenue de catégorie 2 ?",
+    "answer": "Risque intermédiaire"
+  },
+  {
+    "category": "EPI",
+    "id": 77,
+    "question": "A quel rique correspond une tenue de catégorie 3 ?",
+    "answer": "Risque mortel ou grave"
+  },
+  {
+    "category": "EPI",
+    "id": 78,
+    "question": "A quoi correspond la lettre B sur cartouches filtrantes ?",
+    "answer": "Gaz et vapeur inorganiques"
+  },
+  {
+    "category": "EPI",
+    "id": 79,
+    "question": "A quoi correspond la lettre E sur cartouches filtrantes ?",
+    "answer": "Acide chlorhydrique anhydride sulfureux"
+  },
+  {
+    "category": "EPI",
+    "id": 80,
+    "question": "A quoi correspond la lettre K sur cartouches filtrantes ?",
+    "answer": "Ammoniac"
+  },
+  {
+    "category": "EPI",
+    "id": 81,
+    "question": "A quoi correspond les lettres Hg sur cartouches filtrantes ?",
+    "answer": "Mercure"
+  },
+  {
+    "category": "MATERIELS",
+    "id": 82,
+    "question": "Qu'est ce que le Potentiel d'ionisation ?",
+    "answer": "le potentiel d'ionisation ou énergie d'ionisation d'un atome ou d'une molécule est l'énergie nécessaire pour lui arracher un électron."
+  },
+    {
+      "category": "DETECTION",
+      "id": 83,
+      "question": "A quoi correspond ce code danger 20 ?",
+      "answer": "Gaz asphyxiant ou qui ne présente pas de risque subsidiaire."
+    },
+    {
+      "category": "DETECTION",
+      "id": 84,
+      "question": "A quoi correspond ce code danger 22 ?",
+      "answer": "Gaz liquéfié réfrigéré, asphyxiant."
+    },
+    {
+      "category": "DETECTION",
+      "id": 85,
+      "question": "A quoi correspond ce code danger 223 ?",
+      "answer": "Gaz liquéfié réfrigéré, inflammable."
+    },
+    {
+      "category": "DETECTION",
+      "id": 86,
+      "question": "A quoi correspond ce code danger 225 ?",
+      "answer": "Gaz liquéfié réfrigéré, comburant (favorise l'incendie)."
+    },
+    {
+      "category": "DETECTION",
+      "id": 87,
+      "question": "A quoi correspond ce code danger 23 ?",
+      "answer": "Gaz inflammable."
+    },
+    {
+      "category": "DETECTION",
+      "id": 88,
+      "question": "A quoi correspond ce code danger 238 ?",
+      "answer": "Gaz inflammable et corrosif."
+    },
+    {
+      "category": "DETECTION",
+      "id": 89,
+      "question": "A quoi correspond ce code danger 239 ?",
+      "answer": "Gaz inflammable pouvant produire spontanément une réaction violente."
+    },
+    {
+      "category": "DETECTION",
+      "id": 90,
+      "question": "A quoi correspond ce code danger 25 ?",
+      "answer": "Gaz comburant (favorise l'incendie)."
+    },
+    {
+      "category": "DETECTION",
+      "id": 91,
+      "question": "A quoi correspond ce code danger 26 ?",
+      "answer": "Gaz toxique."
+    },
+    {
+      "category": "DETECTION",
+      "id": 92,
+      "question": "A quoi correspond ce code danger 263 ?",
+      "answer": "Gaz toxique et inflammable."
+    },
+    {
+      "category": "DETECTION",
+      "id": 93,
+      "question": "A quoi correspond ce code danger 265 ?",
+      "answer": "Gaz toxique et comburant (favorise l'incendie)."
+    },
+    {
+      "category": "DETECTION",
+      "id": 94,
+      "question": "A quoi correspond ce code danger 268 ?",
+      "answer": "Gaz toxique et corrosif."
+    },
+    {
+      "category": "DETECTION",
+      "id": 95,
+      "question": "A quoi correspond ce code danger 28 ?",
+      "answer": "Gaz corrosif."
+    },
+    {
+      "category": "DETECTION",
+      "id": 96,
+      "question": "A quoi correspond ce code danger 30 ?",
+      "answer": "Matière liquide inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises) ou matière solide à l'état fondu ayant un point d'éclair supérieur à 60 °C, chauffée à une température égale ou supérieure à son point d'éclair, ou matière liquide auto-échauffante."
+    },
+    {
+      "category": "DETECTION",
+      "id": 97,
+      "question": "A quoi correspond ce code danger 323 ?",
+      "answer": "Matière liquide inflammable réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 98,
+      "question": "A quoi correspond ce code danger X323 ?",
+      "answer": "Matière liquide inflammable réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 99,
+      "question": "A quoi correspond ce code danger 33 ?",
+      "answer": "Matière liquide très inflammable (point d'éclair inférieur à 23 °C)."
+    },
+  {
+      "category": "DETECTION",
+      "id": 100,
+      "question": "A quoi correspond ce code danger 333 ?",
+      "answer": "Matière liquide pyrophorique."
+  },
+  {
+      "category": "DETECTION",
+      "id": 101,
+      "question": "A quoi correspond ce code danger X333 ?",
+      "answer": "Matière liquide pyrophorique réagissant dangereusement avec l'eau."
+  },
+  {
+      "category": "DETECTION",
+      "id": 102,
+      "question": "A quoi correspond ce code danger 336 ?",
+      "answer": "Matière liquide très inflammable et toxique."
+   },
+   {
+      "category": "DETECTION",
+      "id": 103,
+      "question": "A quoi correspond ce code danger 338 ?",
+      "answer": "Matière liquide très inflammable et corrosive."
+    },
+    {
+      "category": "DETECTION",
+      "id": 104,
+      "question": "A quoi correspond ce code danger X338 ?",
+      "answer": "Matière liquide très inflammable et corrosive, réagissant dangereusement avec l'eau."
+    },
+    {
+      "category": "DETECTION",
+      "id": 105,
+      "question": "A quoi correspond ce code danger 339 ?",
+      "answer": "Matière liquide très inflammable, pouvant produire spontanément une réaction violente."
+    },
+    {
+      "category": "DETECTION",
+      "id": 106,
+      "question": "A quoi correspond ce code danger 36 ?",
+      "answer": "Matière liquide inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises), présentant un degré mineur de toxicité, ou matière liquide auto-échauffante et toxique."
+    },
+    {
+      "category": "DETECTION",
+      "id": 107,
+      "question": "A quoi correspond ce code danger 362 ?",
+      "answer": "Matière liquide inflammable, toxique, réagissant avec l'eau en émettant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 108,
+      "question": "A quoi correspond ce code danger X362 ?",
+      "answer": "Matière liquide inflammable, toxique, réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 109,
+      "question": "A quoi correspond ce code danger 368 ?",
+      "answer": "Matière liquide inflammable, toxique et corrosive."
+    },
+    {
+      "category": "DETECTION",
+      "id": 110,
+      "question": "A quoi correspond ce code danger 38 ?",
+      "answer": "Matière liquide inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises), présentant un degré mineur de corrosivité, ou matière liquide auto-échauffante et corrosive."
+    },
+    {
+      "category": "DETECTION",
+      "id": 111,
+      "question": "A quoi correspond ce code danger 382 ?",
+      "answer": "Matière liquide inflammable, corrosive, réagissant avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 112,
+      "question": "A quoi correspond ce code danger X382 ?",
+      "answer": "Matière liquide inflammable, corrosive, réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 113,
+      "question": "A quoi correspond ce code danger 39 ?",
+      "answer": "Liquide inflammable, pouvant produire spontanément une réaction violente."
+    },
+    {
+      "category": "DETECTION",
+      "id": 114,
+      "question": "A quoi correspond ce code danger 40 ?",
+      "answer": "Matière solide inflammable ou matière autoréactive ou matière autoéchauffante."
+    },
+    {
+      "category": "DETECTION",
+      "id": 115,
+      "question": "A quoi correspond ce code danger 423 ?",
+      "answer": "Matière solide réagissant avec l'eau en dégageant des gaz inflammables, ou matière solide inflammable réagissant avec l'eau en dégageant des gaz inflammables, ou matière solide auto-échauffante réagissant avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 116,
+      "question": "A quoi correspond ce code danger X423 ?",
+      "answer": "Matière solide réagissant dangereusement avec l'eau en dégageant des gaz inflammables, ou matière solide inflammable réagissant dangereusement avec l'eau en dégageant des gaz inflammables, ou matière solide auto-échauffante réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 117,
+      "question": "A quoi correspond ce code danger 43 ?",
+      "answer": "Matière solide spontanément inflammable (pyrophorique)."
+    },
+    {
+      "category": "DETECTION",
+      "id": 118,
+      "question": "A quoi correspond ce code danger X432 ?",
+      "answer": "Matière solide spontanément inflammable (pyrophorique), réagissant dangereusement avec l’eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 119,
+      "question": "A quoi correspond ce code danger 44 ?",
+      "answer": "Matière solide inflammable qui, à une température élevée, se trouve à l'état fondu."
+    },
+    {
+      "category": "DETECTION",
+      "id": 120,
+      "question": "A quoi correspond ce code danger 446 ?",
+      "answer": "Matière solide inflammable et toxique qui, à une température élevée, se trouve à l'état fondu."
+    },
+    {
+      "category": "DETECTION",
+      "id": 121,
+      "question": "A quoi correspond ce code danger 46 ?",
+      "answer": "Matière solide inflammable ou auto-échauffante, toxique."
+    },
+    {
+      "category": "DETECTION",
+      "id": 122,
+      "question": "A quoi correspond ce code danger 462 ?",
+      "answer": "Matière solide toxique, réagissant avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 123,
+      "question": "A quoi correspond ce code danger X462 ?",
+      "answer": "Matière solide, réagissant dangereusement avec l'eau, en dégageant des gaz toxiques."
+    },
+    {
+      "category": "DETECTION",
+      "id": 124,
+      "question": "A quoi correspond ce code danger 48 ?",
+      "answer": "Matière solide inflammable ou auto-échauffante, corrosive."
+    },
+    {
+      "category": "DETECTION",
+      "id": 125,
+      "question": "A quoi correspond ce code danger 482 ?",
+      "answer": "Matière solide corrosive, réagissant avec l'eau en dégageant des gaz inflammables."
+    },
+    {
+      "category": "DETECTION",
+      "id": 126,
+      "question": "A quoi correspond ce code danger X482 ?",
+      "answer": "Matière solide, réagissant dangereusement avec l'eau, en dégageant des gaz corrosifs."
+    },
+    {
+      "category": "DETECTION",
+      "id": 127,
+      "question": "A quoi correspond ce code danger 50 ?",
+      "answer": "Matière comburante (favorise l'incendie)."
+    },
+    {
+        "category": "DETECTION",
+        "id": 128,
+        "question": "A quoi correspond ce code danger 539 ?",
+        "answer": "Peroxyde organique inflammable."
+      },
+      {
+        "category": "DETECTION",
+        "id": 129,
+        "question": "A quoi correspond ce code danger 55 ?",
+        "answer": "Matière très comburante (favorise l'incendie)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 130,
+        "question": "A quoi correspond ce code danger 556 ?",
+        "answer": "Matière très comburante (favorise l'incendie), toxique."
+      },
+      {
+        "category": "DETECTION",
+        "id": 131,
+        "question": "A quoi correspond ce code danger 558 ?",
+        "answer": "Matière très comburante (favorise l'incendie) et corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 132,
+        "question": "A quoi correspond ce code danger 559 ?",
+        "answer": "Matière très comburante (favorise l'incendie) pouvant produire spontanément une réaction violente."
+      },
+      {
+        "category": "DETECTION",
+        "id": 133,
+        "question": "A quoi correspond ce code danger 56 ?",
+        "answer": "Matière comburante (favorise l'incendie), toxique."
+      },
+      {
+        "category": "DETECTION",
+        "id": 134,
+        "question": "A quoi correspond ce code danger 568 ?",
+        "answer": "Matière comburante (favorise l'incendie), toxique, corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 135,
+        "question": "A quoi correspond ce code danger 58 ?",
+        "answer": "Matière comburante (favorise l'incendie), corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 136,
+        "question": "A quoi correspond ce code danger 59 ?",
+        "answer": "Matière comburante (favorise l'incendie) pouvant produire spontanément une réaction violente."
+      },
+      {
+        "category": "DETECTION",
+        "id": 137,
+        "question": "A quoi correspond ce code danger 60 ?",
+        "answer": "Matière toxique ou présentant un degré mineur de toxicité."
+      },
+      {
+        "category": "DETECTION",
+        "id": 138,
+        "question": "A quoi correspond ce code danger 606 ?",
+        "answer": "Matière infectieuse."
+      },
+      {
+        "category": "DETECTION",
+        "id": 139,
+        "question": "A quoi correspond ce code danger 623 ?",
+        "answer": "Matière toxique liquide, réagissant avec l'eau, en dégageant des gaz inflammables."
+      },
+      {
+        "category": "DETECTION",
+        "id": 140,
+        "question": "A quoi correspond ce code danger 63 ?",
+        "answer": "Matière toxique et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 141,
+        "question": "A quoi correspond ce code danger 638 ?",
+        "answer": "Matière toxique et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises) et corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 142,
+        "question": "A quoi correspond ce code danger 639 ?",
+        "answer": "Matière toxique et inflammable (point d'éclair égal ou inférieur à 60 °C), pouvant produire spontanément une réaction violente."
+      },
+      {
+        "category": "DETECTION",
+        "id": 143,
+        "question": "A quoi correspond ce code danger 64 ?",
+        "answer": "Matière toxique solide, inflammable ou auto-échauffante."
+      },
+      {
+        "category": "DETECTION",
+        "id": 144,
+        "question": "A quoi correspond ce code danger 642 ?",
+        "answer": "Matière toxique solide, réagissant avec l'eau en dégageant des gaz inflammables."
+      },
+      {
+        "category": "DETECTION",
+        "id": 145,
+        "question": "A quoi correspond ce code danger 65 ?",
+        "answer": "Matière toxique et comburante (favorise l'incendie)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 146,
+        "question": "A quoi correspond ce code danger 66 ?",
+        "answer": "Matière très toxique."
+      },
+      {
+        "category": "DETECTION",
+        "id": 147,
+        "question": "A quoi correspond ce code danger 663 ?",
+        "answer": "Matière très toxique et inflammable (point d'éclair égal ou inférieur à 60 °C)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 148,
+        "question": "A quoi correspond ce code danger 664 ?",
+        "answer": "Matière très toxique solide, inflammable ou auto-échauffante."
+      },
+      {
+        "category": "DETECTION",
+        "id": 149,
+        "question": "A quoi correspond ce code danger 665 ?",
+        "answer": "Matière très toxique et comburante (favorise l'incendie)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 150,
+        "question": "A quoi correspond ce code danger 668 ?",
+        "answer": "Matière très toxique et corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 151,
+        "question": "A quoi correspond ce code danger X668 ?",
+        "answer": "Matière très toxique et corrosive, réagissant dangereusement avec l'eau."
+      },
+      {
+        "category": "DETECTION",
+        "id": 152,
+        "question": "A quoi correspond ce code danger 669 ?",
+        "answer": "Matière très toxique, pouvant produire spontanément une réaction violente."
+      },
+      {
+        "category": "DETECTION",
+        "id": 153,
+        "question": "A quoi correspond ce code danger 68 ?",
+        "answer": "Matière toxique et corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 154,
+        "question": "A quoi correspond ce code danger 69 ?",
+        "answer": "Matière toxique ou présentant un degré mineur de toxicité, pouvant produire spontanément une réaction violente."
+      },
+      {
+        "category": "DETECTION",
+        "id": 155,
+        "question": "A quoi correspond ce code danger 70 ?",
+        "answer": "Matière radioactive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 156,
+        "question": "A quoi correspond ce code danger 768 ?",
+        "answer": "Matière radioactive, toxique et corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 157,
+        "question": "A quoi correspond ce code danger 78 ?",
+        "answer": "Matière radioactive, corrosive."
+      },
+      {
+        "category": "DETECTION",
+        "id": 158,
+        "question": "A quoi correspond ce code danger 80 ?",
+        "answer": "Matière corrosive ou présentant un degré mineur de corrosivité."
+      },
+      {
+        "category": "DETECTION",
+        "id": 159,
+        "question": "A quoi correspond ce code danger X80 ?",
+        "answer": "Matière corrosive ou présentant un degré mineur de corrosivité réagissant dangereusement avec l'eau."
+      },
+      {
+        "category": "DETECTION",
+        "id": 160,
+        "question": "A quoi correspond ce code danger 823 ?",
+        "answer": "Matière corrosive liquide, réagissant avec l'eau en dégageant des gaz inflammables."
+      },
+      {
+        "category": "DETECTION",
+        "id": 161,
+        "question": "A quoi correspond ce code danger 83 ?",
+        "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises)."
+      },
+      {
+        "category": "DETECTION",
+        "id": 162,
+        "question": "A quoi correspond ce code danger X83 ?",
+        "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises), réagissant dangereusement avec l'eau."
+      },
+      {
+        "category": "DETECTION",
+        "id": 163,
+        "question": "A quoi correspond ce code danger 839 ?",
+        "answer": "Matière corrosive, inflammable (point d'éclair inférieur ou égal à 60 °C), pouvant produire spontanément une réaction violente."
+      },
+        {
+          "category": "DETECTION",
+          "id": 164,
+          "question": "A quoi correspond ce code danger X839 ?",
+          "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises), pouvant produire spontanément une réaction violente et réagissant dangereusement avec l'eau."
+        },
+        {
+          "category": "DETECTION",
+          "id": 165,
+          "question": "A quoi correspond ce code danger 84 ?",
+          "answer": "Matière corrosive solide, inflammable ou auto-échauffante."
+        },
+        {
+          "category": "DETECTION",
+          "id": 166,
+          "question": "A quoi correspond ce code danger 842 ?",
+          "answer": "Matière corrosive solide, réagissant avec l'eau en dégageant des gaz inflammables."
+        },
+        {
+          "category": "DETECTION",
+          "id": 167,
+          "question": "A quoi correspond ce code danger X842 ?",
+          "answer": "Matière corrosive solide réagissant dangereusement avec l'eau en dégageant des gaz inflammables."
+        },
+        {
+          "category": "DETECTION",
+          "id": 168,
+          "question": "A quoi correspond ce code danger 85 ?",
+          "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et comburante (favorise l'incendie)."
+        },
+        {
+          "category": "DETECTION",
+          "id": 169,
+          "question": "A quoi correspond ce code danger 856 ?",
+          "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et comburante (favorise l'incendie), toxique."
+        },
+        {
+          "category": "DETECTION",
+          "id": 170,
+          "question": "A quoi correspond ce code danger 86 ?",
+          "answer": "Matière corrosive ou présentant un degré mineur de corrosivité et toxique."
+        },
+        {
+          "category": "DETECTION",
+          "id": 171,
+          "question": "A quoi correspond ce code danger 88 ?",
+          "answer": "Matière très corrosive."
+        },
+        {
+          "category": "DETECTION",
+          "id": 172,
+          "question": "A quoi correspond ce code danger X88 ?",
+          "answer": "Matière très corrosive réagissant dangereusement avec l'eau."
+        },
+        {
+          "category": "DETECTION",
+          "id": 173,
+          "question": "A quoi correspond ce code danger 883 ?",
+          "answer": "Matière très corrosive et inflammable (point d'éclair de 23 °C à 60 °C, valeurs limites comprises)."
+        },
+        {
+          "category": "DETECTION",
+          "id": 174,
+          "question": "A quoi correspond ce code danger 884 ?",
+          "answer": "Matière très corrosive solide, inflammable ou auto-échauffante."
+        },
+        {
+          "category": "DETECTION",
+          "id": 175,
+          "question": "A quoi correspond ce code danger 885 ?",
+          "answer": "Matière très corrosive et comburante (favorise l'incendie)."
+        },
+        {
+          "category": "DETECTION",
+          "id": 176,
+          "question": "A quoi correspond ce code danger 886 ?",
+          "answer": "Matière très corrosive et toxique."
+        },
+        {
+          "category": "DETECTION",
+          "id": 177,
+          "question": "A quoi correspond ce code danger X886 ?",
+          "answer": "Matière très corrosive et toxique, réagissant dangereusement avec l'eau."
+        },
+        {
+          "category": "DETECTION",
+          "id": 178,
+          "question": "A quoi correspond ce code danger 89 ?",
+          "answer": "Matière corrosive ou présentant un degré mineur de corrosivité pouvant produire spontanément une réaction violente."
+        },
+        {
+          "category": "DETECTION",
+          "id": 179,
+          "question": "A quoi correspond ce code danger 90 ?",
+          "answer": "Matière dangereuse du point de vue de l'environnement, matières dangereuses diverses."
+        },
+        {
+          "category": "DETECTION",
+          "id": 180,
+          "question": "A quoi correspond ce code danger 99 ?",
+          "answer": "Matières dangereuses diverses transportées à chaud."
+        },
+      
+      
+    
+  
+
+  
+  {
+    "category": "INC",
+    "id": 181,
+    "question": "Quelles sont les conditions du port de l'ARI ?",
+    "answer": "<ul><li>oxy inf à 17%</li><li>qlité air inconnu</li><li>presence toxique</li><li>CO</li><li>risque embrassement/explo</li></ul>"
+  },
+  {
+    "category": "INC",
+    "id": 182,
+    "question": "Quelles sont les conditions du port de l'APRF ?",
+    "answer": "<ul><li>O² sup à 17%</li><li>&nbsp;polluant identifié et mesurer</li><li>concentration la plus élever connue</li><li>dispotif filtrant adapté au polluant</li><li>instabilité de l'atmosphere évalué</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 183,
+    "question": "Quelle est la MGO en cas d'intervention en présence de bouteille d'acetylene ?",
+    "answer": "<ul><li>Réaliser un périmètre de sécurité = 300 m de rayon.</li><li>Porter l’ARI dans la zone d’exclusion, même si le personnel n’est pas exposé aux fumées et aux gaz de combustion.</li><li>Refroidir la bouteille à distance grâce à des lances de 500 l/min à partir d’une zone protégée contre les éclats en cas d’explosion, ou en utilisant une lance sur trépied.</li><li>Solliciter l’avis du Chef de la CMIC (RCH3) d’astreinte et/ou conseiller technique risques chimiques (RCH4).</li><li>Toute approche et manœuvre de la bouteille sont strictement interdites si une autre bouteille située à proximité est soumise au flux thermique de la flamme, et/ou si la bouteille apparaît chaude lors du relevé thermique, et/ou l’eau projetée en jet diffusé s’évapore à la surface de la bouteille.</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 184,
+    "question": "Quelle est la MGO en cas d'intervention en présence d'une fuite enflammée sur une bouteille d'acetylene ?",
+    "answer": "<ul><li>Ne pas souffler la flamme.</li><li>S’assurer que la bouteille est froide (caméra thermique, thermomètre laser, court jet diffusé sur la bouteille).</li><li>Fermer le robinet si celui-ci est facilement manoeuvrable et si la bouteille n’a pas été soumise à un flux thermique de quelque nature que ce soit.</li></ul>"
+  },
+  {
+    "category": "TEST",
+    "id": 185,
+    "question": "Quelle est la MGO en cas d'intervention en présence d'une bouteile d'acetylene soumise à la chaleur ou à un flux thermique ?",
+    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./acetylene.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
   }
 ]
  
