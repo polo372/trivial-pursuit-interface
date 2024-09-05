@@ -1,14 +1,3 @@
-/*{"category": "PPABE-RTN",
-    "id": 341,
-    "question": "",
-    "answer": ""
-  },
-  {
-    "category": "PPABE-RTN",
-    "id": 342,
-    "question": "",
-    "answer": ""
-  },*/
 [
   {
     "category": "CAD",
@@ -2503,13 +2492,13 @@
   },
   {
     "category": "SR-FDF",
-    "id": 417,
+    "id": 342,
     "question": "Comment se réalise une défense de point sensible ?",
     "answer": "<p>Dans le cadre de ce type de manœuvres, les moyens de lutte prennent une position permettant d’attendre le feu et de mener une attaque dès son approche.</p><br><img src=\"./DPS.png\" alt=\"Une défense de point sensible\" aria-hidden=\"true\"/>"
   },
   {
     "category": "SR-FDF",
-    "id": 418,
+    "id": 341,
     "question": "Comment se réalise une ligne d'appuie ?",
     "answer": "<p>Destinée à combattre le sinistre sur une zone reconnue et préparée à l’avance, la ligne d’appui peut être statique ou dynamique.<ul><li>statique : les engins sont espacés sur ordre, en position statique, positionnés sur une zone préalablement choisie pour ses qualités naturelles favorisant l’arrêt du feu</li>li>dynamique : les engins progressent en colonne, espacés sur ordre, et utilisent les lances en roulant (lance canon ou lance depuis la cabine).</li></ul></p><br><img src=\"./ligne_appui.png\" alt=\"Une ligne d'appui\" aria-hidden=\"true\"/>"
   }
