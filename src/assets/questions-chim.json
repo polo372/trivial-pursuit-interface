@@ -1120,10 +1120,47 @@
     "id": 186,
     "question": "Qu'est ce qu'un boil-over ?",
     "answer": "<p>Moussage brutal important impliquant des reservoir atmosphériques et resultant de la transformation d'eau liquide contenue dans un reservoir en feu en vapeur</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 187,
+    "question": "Quels sont les caractéristiques du monoxyde de carbone ?",
+    "answer": "<ul><li>plus léger que l’air </li><li>incolore, insipide et inodore</li><li>toxique et inflammable</li><li>issu d’une combustion incomplète</li></ul>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 188,
+    "question": "Qu'est ce qu'un Bleve ?",
+    "answer": "<p>Boiling Liquid Expanding Vapour Explosion</p><p>Vaporisation explosive d'un liquide porté à ebulition</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 189,
+    "question": "Qu'est ce que la sublimation ?",
+    "answer": "<p>Le passage de l’état solide à l’état gazeux</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 190,
+    "question": "A quoi correspond le point N°2<br><img src=\"./temperature.png\" alt=\"Image des différents points de chaleur\" aria-hidden=\"true\"/>?",
+    "answer": "<p>Le point éclair</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 191,
+    "question": "A quoi correspond le point N°3<br><img src=\"./temperature.png\" alt=\"Image des différents points de chaleur\" aria-hidden=\"true\"/>?",
+    "answer": "<p>Le point d'inflammation</p>"
+  },
+  {
+    "category": "test",
+    "id": 192,
+    "question": "A quoi correspond le point N°4<br><img src=\"./temperature.png\" alt=\"Image des différents points de chaleur\" aria-hidden=\"true\"/>?",
+    "answer": "<p>Le point d'auto-inflammation</p>"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 193,
+    "question": "Quelles sont les principales voies de pénétration d'une substance toxique ?",
+    "answer": "<ul><li>Oculaires</li><li>Digestives</li><li>Digestives</li><li>Respiratoires<li></ul>"
   }
 ]
- 
-
- 
-
-
