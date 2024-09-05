@@ -1162,5 +1162,23 @@
     "id": 193,
     "question": "Quelles sont les principales voies de pénétration d'une substance toxique ?",
     "answer": "<ul><li>Oculaires</li><li>Digestives</li><li>Digestives</li><li>Respiratoires<li></ul>"
+  },
+  {
+    "category": "DETECTION",
+    "id": 194,
+    "question": "Que detecte le papier PDF1 lorsqu'il vire au Jaune ?",
+    "answer": "<p>La présence  de  GB  liquide</p>"
+  },
+  {
+    "category": "DETECTION",
+    "id": 195,
+    "question": "Que detecte le papier PDF1 lorsqu'il vire au Rouge ?",
+    "answer": "<p>La présence  de  HD  liquide</p>"
+  },
+  {
+    "category": "DETECTION",
+    "id": 196,
+    "question": "Que detecte le papier PDF1 lorsqu'il vire au Vert  foncé ?",
+    "answer": "<p>La présence  de  VX liquide</p>"
   }
 ]
