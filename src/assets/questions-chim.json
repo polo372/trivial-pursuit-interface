@@ -126,13 +126,13 @@
     "answer": "300m"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 22,
     "question": "Quelles sont les conditions nécessaires pour la réussite d’une pose de barrage ?",
     "answer": "<ul><li>produit polluant ayant une densité inférieure à l’eau</li><li>produit non miscible à l’eau</li><li>vitesse du courant inférieur à 1m/s</li></ul>"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 23,
     "question": "Vous êtes en présence d’une flaque d’acide, quel produit utilisez vous pour la neutraliser ?",
     "answer": "Le Trivorex"
@@ -204,37 +204,37 @@
     "answer": "On observe une formation d’hydrogène."
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 35,
     "question": "Quelle est la couleur  du Trivorex quand il est répandu sur une base ?",
     "answer": "BLEU"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 36,
     "question": "Quelle est la couleur  du Trivorex quand il est répandu sur un acide ?",
     "answer": "ROSE"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 37,
     "question": "Quelles sont les 5 voies (éléments détectés) par l’AP4C ?",
     "answer": "<ul><li>Phosphore</li><li>Soufre</li><li>Arsenic</li><li>Composés azotés</li><li>Explosimétrie</li></ul>"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 38,
     "question": "Quelles sont les cellules de l’ALTAIR 4X ?",
     "answer": "<ul><li>O2</li><li>H2S</li><li>CO</li><li>LIE</li></ul>"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 39,
     "question": "Quelle est l'alarme basse de la cellule explo de l’ALTAIR 4X ?",
     "answer": "10% LIE"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 40,
     "question": "Quelle est l'alarme haute de la cellule CO de l’ALTAIR 4X ?",
     "answer": "200 ppm"
@@ -420,7 +420,7 @@
     "answer": "<ol><li>O²</li><li>poussiere</li><li>suspension</li><li>domaine d'explosivité</li><li>source d'inflammation</li><li>confinement</li></ol>"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 70,
     "question": "Quelle est l'alarme haute de la cellule explo de l’ALTAIR 4X ?",
     "answer": "20% LIE"
@@ -450,7 +450,7 @@
     "answer": "Acure Exposure Guideline Levels concentration produisants des effets menaçant la vie et pouvant être mortels"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 75,
     "question": "Quelle est l'alarme basse de la cellule CO de l’ALTAIR 4X ?",
     "answer": "50 ppm"
@@ -492,7 +492,7 @@
     "answer": "Mercure"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 82,
     "question": "Qu'est ce que le Potentiel d'ionisation ?",
     "answer": "le potentiel d'ionisation ou énergie d'ionisation d'un atome ou d'une molécule est l'énergie nécessaire pour lui arracher un électron."
@@ -1086,13 +1086,13 @@
           "answer": "Matières dangereuses diverses transportées à chaud."
         },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 181,
     "question": "Quelles sont les conditions du port de l'ARI ?",
     "answer": "<ul><li>oxy inf à 17%</li><li>qlité air inconnu</li><li>presence toxique</li><li>CO</li><li>risque embrassement/explo</li></ul>"
   },
   {
-    "category": "MATERIELS ET MATERIELS ET EPI",
+    "category": "MATERIELS ET EPI",
     "id": 182,
     "question": "Quelles sont les conditions du port de l'APRF ?",
     "answer": "<ul><li>O² sup à 17%</li><li>&nbsp;polluant identifié et mesurer</li><li>concentration la plus élever connue</li><li>dispotif filtrant adapté au polluant</li><li>instabilité de l'atmosphere évalué</li></ul>"
