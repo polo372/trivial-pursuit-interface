@@ -967,7 +967,7 @@
     "answer": "Réglement départemental de défense extérieur contre l'incendie."
   },
   {
-    "category": "PPABE-RTN",
+    "category": "CAD",
     "id": 161,
     "question": "Que signifie ANTARES ?",
     "answer": "Adaptation nationale des transmissions aux risques et aux secours"
@@ -1549,13 +1549,13 @@
     "answer": "Volume de mousse / volume de solution moussante"
   },
   {
-    "category": "PPABE-RTN",
+    "category": "INC",
     "id": 258,
     "question": "Comment calcul t-on le pied d'échelle en mode secours ?",
     "answer": "4 grands pas pour 1er etage, 5 grands pas pour le 2eme"
   },
   {
-    "category": "PPABE-RTN",
+    "category": "INC",
     "id": 259,
     "question": "Comment calcul t-on le pied d'échelle ?",
     "answer": "1/5ème de la hauteur déployée"
@@ -2046,7 +2046,7 @@
     "question": "Comment s'appellent les appareils des primo-intervenants en cas de risque RAD ?",
     "answer": "Le MCB1 et le FH40"
   },
-  {
+  /*{
     "category": "PPABE-RTN",
     "id": 341,
     "question": "",
@@ -2057,7 +2057,7 @@
     "id": 342,
     "question": "",
     "answer": ""
-  },
+  },*/
   {
     "category": "PPABE-RTN",
     "id": 343,
@@ -2331,7 +2331,7 @@
   {
     "category": "PPABE-RTN",
     "id": 388,
-    "question": "Quelles sont les circulairs NRBCe ?",
+    "question": "Quelles sont les circulaires NRBCe ?",
     "answer": "<ul><li>700 - action terro arme chim</li><li>750 - pli et colis suspect</li><li>800 - attentat rad</li></ul>"
   },
   {

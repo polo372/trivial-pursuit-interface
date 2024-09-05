@@ -280,6 +280,144 @@
     "id": 47,
     "question": "Quelles sont les 4 valeurs toxicologiques françaises utilisées dans le cadre de la maîtrise de l’urbanisation autour des sites industriels ?",
     "answer": "<ul><li>SER</li><li>SEI</li><li>SEPL</li><li>SELS</li></ul>"
+  },
+  {
+    "category": "DETECTION",
+    "id": 48,
+    "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
+    "answer": "Jaune"
+  },
+  {
+    "category": "DETECTION",
+    "id": 49,
+    "question": "Quel est le gaz contenue dans une bouteile de couleur grise ?",
+    "answer": "Du dioxyde de carbone"
+  },
+  {
+    "category": "PPABE-RTN",
+    "id": 50,
+    "question": "Quel est le risque principale d'une bouteile de gaz de couleur rouge ?",
+    "answer": "Risque inflammable"
+  },
+  {
+    "category": "EPI",
+    "id": 51,
+    "question": "Quel est le pourcentage de filtration d'un filtre P3 ?",
+    "answer": "99,95%"
+  },
+  {
+    "category": "EPI",
+    "id": 52,
+    "question": "Quel est le pourcentage de filtration d'un filtre P2 ?",
+    "answer": "94%"
+  },
+  {
+    "category": "EPI",
+    "id": 53,
+    "question": "Quel est le pourcentage de filtration d'un filtre P1 ?",
+    "answer": "80%"
+  },
+  {
+    "category": "DETECTION",
+    "id": 54,
+    "question": "Que contient une bouteille de gaz blanche ?",
+    "answer": "De l'oxygène"
+  },
+  {
+    "category": "DETECTION",
+    "id": 55,
+    "question": "Quel est le gaz contenue dans une bouteile de couleur marron ?",
+    "answer": "De l'hélium."
+  },
+  {
+    "category": "DETECTION",
+    "id": 56,
+    "question": "Quel est le gaz contenue dans une bouteile de couleur chatain ?",
+    "answer": "L'acétylene"
+  },
+  {
+    "category": "DETECTION",
+    "id": 57,
+    "question": "A quel danger correspond une bouteille de couleur bleu ?",
+    "answer": "Produit oxydant ou comburant."
+  },
+  {
+    "category": "DETECTION",
+    "id": 58,
+    "question": "A quel danger correspond une bouteille de couleur vert ?",
+    "answer": "Produit inerte ou asphyxiant."
+  },
+  {
+    "category": "DETECTION",
+    "id": 59,
+    "question": "Quel est le gaz contenue dans une bouteile de couleur noire ?",
+    "answer": "L'azote"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 60,
+    "question": "Quel est la plage d'explosimétrie de l'acetylene ?",
+    "answer": "2,30 - 83%"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 61,
+    "question": "De quoi se compose une équipe RCH ?",
+    "answer": "<ul><li>1 CU RCH3</li><li>1 Eq inter&nbsp;<ul><li>1 Chef d'equipe rch 2</li><li>2 equipier rch 2</li></ul></li><li>1 Eq reco<ul><li>1 Chef d'equipe Rch 1</li><li>2 Equipier rch 1</li></ul></li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 62,
+    "question": "Qu'est ce que USINAID ?",
+    "answer": "<p>Un réseau de conseil en cas d'accident sur une substanche chimique</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 63,
+    "question": "Que signifie UVCE ?",
+    "answer": "<p>Unconfined Vapour Cloud Explosion.</p>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 64,
+    "question": "Qu'est ce que le CEDRE'  ?",
+    "answer": "<p><strong>CE</strong>ntre de <strong>D</strong>ocumentation de <strong>R</strong>echerche et d'<strong>E</strong>xpérimentation sur les pollutions accidentelles des eaux</p>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 65,
+    "question": "Qu'est ce que le CEFIC ?",
+    "answer": "<p>Fédération européenne de l'industrie chimique</p><p>=&gt; Produit les eri-cartes</p>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 66,
+    "question": "Qu'est ce que le CASU ?",
+    "answer": "<p>Cellule d'Appuie aux Situations d'Urgences</p><p>INERIS 24/24</p>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 66,
+    "question": "Qu'est ce que le TRANSAID ?",
+    "answer": "<p>Protocole d'aide aux service de secours en cas d'accident TMD qui s'appuie sur : <ul><li>La CASU</li><li>Le CEDRE</li><li>Le CEFIC</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 67,
+    "question": "Quelles sont les circulairs NRBCe ?",
+    "answer": "<ul><li>700 - action terroriste avec arme chimique/li><li>750 - découverte d'un pli et colis suspect</li><li>800 - attentat rad</li></ul>"
+  },
+  {
+    "category": "PROCEDURE",
+    "id": 68,
+    "question": "Qu'est ce qu'un ICPE ?",
+    "answer": "<p>Installation classé pour l'environnement&nbsp;</p><p>Exploitation industriel ou agricole - risque ou pollution / nuisance</p><ul><li>Non classé</li><li>déclaration</li><li>déclaration avec controle périodique</li><li>enregistrement</li><li>autorisation Seveso seuil Bas</li><li>autorisation avec servitude d'autorité publique Seveso Seuil Haut</li></ul>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 69,
+    "question": "Quels sont les éléments d'une explosion de poussière ?",
+    "answer": "<ol><li>O²</li><li>poussiere</li><li>suspension</li><li>domaine d'explosivité</li><li>source d'inflammation</li><li>confinement</li></ol>"
   }
 ]
  
