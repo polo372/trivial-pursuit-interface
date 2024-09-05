@@ -132,7 +132,7 @@
     "answer": "<ul><li>produit polluant ayant une densité inférieure à l’eau</li><li>produit non miscible à l’eau</li><li>vitesse du courant inférieur à 1m/s</li></ul>"
   },
   {
-    "category": "MATERIEL",
+    "category": "MATERIELS",
     "id": 23,
     "question": "Vous êtes en présence d’une flaque d’acide, quel produit utilisez vous pour la neutraliser ?",
     "answer": "Le Trivorex"
@@ -234,13 +234,13 @@
     "answer": "10% LIE"
   },
   {
-    "category": "MATERIELS ET EPI",
+    "category": "MATERIELS",
     "id": 40,
     "question": "Quelle est l'alarme haute de la cellule CO de l’ALTAIR 4X ?",
     "answer": "200 ppm"
   },
   {
-    "category": "MATERIELS ET EPI",
+    "category": "EPI",
     "id": 41,
     "question": "A quel rique correspond une tenue de catégorie 1 ?",
     "answer": "Risque minime"
