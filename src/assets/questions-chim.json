@@ -294,7 +294,7 @@
     "answer": "Du dioxyde de carbone"
   },
   {
-    "category": "PPABE-RTN",
+    "category": "DETECTION",
     "id": 50,
     "question": "Quel est le risque principale d'une bouteile de gaz de couleur rouge ?",
     "answer": "Risque inflammable"
@@ -1085,20 +1085,14 @@
           "question": "A quoi correspond ce code danger 99 ?",
           "answer": "Matières dangereuses diverses transportées à chaud."
         },
-      
-      
-    
-  
-
-  
   {
-    "category": "INC",
+    "category": "MATERIELS",
     "id": 181,
     "question": "Quelles sont les conditions du port de l'ARI ?",
     "answer": "<ul><li>oxy inf à 17%</li><li>qlité air inconnu</li><li>presence toxique</li><li>CO</li><li>risque embrassement/explo</li></ul>"
   },
   {
-    "category": "INC",
+    "category": "MATERIELS",
     "id": 182,
     "question": "Quelles sont les conditions du port de l'APRF ?",
     "answer": "<ul><li>O² sup à 17%</li><li>&nbsp;polluant identifié et mesurer</li><li>concentration la plus élever connue</li><li>dispotif filtrant adapté au polluant</li><li>instabilité de l'atmosphere évalué</li></ul>"
@@ -1119,7 +1113,7 @@
     "category": "TEST",
     "id": 185,
     "question": "Quelle est la MGO en cas d'intervention en présence d'une bouteile d'acetylene soumise à la chaleur ou à un flux thermique ?",
-    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./acetylene.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
+    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./home/codespace/trivial-pursuit-interface/public/acetyle.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
   }
 ]
  
