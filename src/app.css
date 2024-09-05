@@ -68,7 +68,7 @@ img {
   color: black;
 }
 
-.INC, .CODE DANGERS{
+.INC, .CODE_DANGERS{
   background-color: #7B3F00;
 }
 .CAD, .CHIMIE {
@@ -79,10 +79,10 @@ img {
   background-color: yellow;
   color: black;
 }
-.PPABE-RTN, .MATERIELS ET EPI {
+.PPABE-RTN, .MATERIELS_ET_EPI {
   background-color: blue;
 }
-.SR-FDF, .PROCEDURE ET DOCUMENTATION OPERATIONNELLE{
+.SR-FDF, .PROCEDURE_ET_DOCUMENTATION_OPERATIONNELLE{
   background-color: #FF00FF;
 }
 
