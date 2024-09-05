@@ -69,7 +69,7 @@ img {
 }
 
 .INC, .CODE DANGERS{
-  background-color: brown;
+  background-color: #7B3F00;
 }
 .CAD, .CHIMIE {
   background-color: orange;
@@ -83,7 +83,7 @@ img {
   background-color: blue;
 }
 .SR-FDF, .PROCEDURE ET DOCUMENTATION OPERATIONNELLE{
-  background-color: pink;
+  background-color: #FF00FF;
 }
 
 @keyframes rollDice {
