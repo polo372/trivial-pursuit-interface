@@ -1152,7 +1152,7 @@
     "answer": "<p>Le point d'inflammation</p>"
   },
   {
-    "category": "test",
+    "category": "CHIMIE",
     "id": 192,
     "question": "A quoi correspond le point N°4<br><img src=\"./temperature.png\" alt=\"Image des différents points de chaleur\" aria-hidden=\"true\"/>?",
     "answer": "<p>Le point d'auto-inflammation</p>"
