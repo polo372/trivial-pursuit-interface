@@ -75,14 +75,14 @@ img {
   background-color: orange;
   color: black;
 }
-.PRV-COD, .PROCEDURE{
+.PRV-COD, .PROCEDURE ET DOCUMENTATION OPERATIONNELLE {
   background-color: yellow;
   color: black;
 }
-.PPABE-RTN, .MATERIELS {
+.PPABE-RTN, .MATERIELS ET EPI {
   background-color: blue;
 }
-.SR-FDF, .EPI{
+.SR-FDF, CODE DANGERS {
   background-color: rgb(62, 3, 118);
 }
 
