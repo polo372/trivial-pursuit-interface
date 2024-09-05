@@ -69,21 +69,21 @@ img {
 }
 
 .INC, .DETECTION{
-  background-color: #ff0000a1;
+  background-color: brown;
 }
 .CAD, .CHIMIE {
   background-color: orange;
   color: black;
 }
-.PRV-COD, .PROCEDURE ET DOCUMENTATION OPERATIONNELLE {
+.PRV-COD, .PROCEDURE{
   background-color: yellow;
   color: black;
 }
-.PPABE-RTN, .MATERIELS ET EPI {
+.PPABE-RTN, .MATERIELS {
   background-color: blue;
 }
-.SR-FDF, CODE DANGERS {
-  background-color: rgb(62, 3, 118);
+.SR-FDF, .EPI{
+  background-color: pink;
 }
 
 @keyframes rollDice {
