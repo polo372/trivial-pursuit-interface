@@ -1113,7 +1113,7 @@
     "category": "TEST",
     "id": 185,
     "question": "Quelle est la MGO en cas d'intervention en présence d'une bouteile d'acetylene soumise à la chaleur ou à un flux thermique ?",
-    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./home/codespace/trivial-pursuit-interface/public/acetyle.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
+    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./acetyle.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
   }
 ]
  
