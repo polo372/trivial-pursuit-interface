@@ -68,21 +68,21 @@ img {
   color: black;
 }
 
-.INC, .CODE_DANGERS{
+.INC, .DETECTION{
   background-color: #7B3F00;
 }
 .CAD, .CHIMIE {
   background-color: orange;
   color: black;
 }
-.PRV-COD, .DETECTION{
+.PRV-COD, .PROCEDURES{
   background-color: yellow;
   color: black;
 }
-.PPABE-RTN, .MATERIELS_ET_EPI {
+.PPABE-RTN, .MATERIELS{
   background-color: blue;
 }
-.SR-FDF, .PROCEDURE_ET_DOCUMENTATION_OPERATIONNELLE{
+.SR-FDF, .EPI{
   background-color: #FF00FF;
 }
 
