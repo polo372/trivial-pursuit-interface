@@ -1180,5 +1180,41 @@
     "id": 196,
     "question": "Que detecte le papier PDF1 lorsqu'il vire au Vert  foncé ?",
     "answer": "<p>La présence  de  VX liquide</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 197,
+    "question": "De quelle famille chimique fait partie l'octane ?",
+    "answer": "<p>Les alcanes</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 198,
+    "question": "Quel est le nom de ce composé : CH<sub>4</sub>?",
+    "answer": "<p>Le méthane</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 199,
+    "question": "Quel est le nom de ce composé : C<sub>3</sub>H<sub>8</sub>?",
+    "answer": "<p>Le propane</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 200,
+    "question": "Quel est le nom de ce composé : C<sub>4</sub>H<sub>10</sub>?",
+    "answer": "<p>Le butane</p>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 201,
+    "question": "Quelles sont les grandes catégories de produits inflammables ?",
+    "answer": "<ul><li>Les hydrocarbures</li><li>Les solvants</li><li>Les alcools</li></ul>"
+  },
+  {
+    "category": "CHIMIE",
+    "id": 202,
+    "question": "Qu'est ce que la DAE ?",
+    "answer": "La décomposition auto-entretenu"
   }
 ]
