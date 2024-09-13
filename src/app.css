@@ -64,7 +64,7 @@ img {
 /* Couleurs des catégories */
 
 .SAP, .TOXICOLOGIE{
-  background-color: #0f0;
+  background-color: #03C03C;
   color: black;
 }
 
@@ -72,18 +72,18 @@ img {
   background-color: #7B3F00;
 }
 .CAD, .CHIMIE {
-  background-color: orange;
+  background-color: #FF8C00;
   color: black;
 }
 .PRV-COD, .PROCEDURES{
-  background-color: yellow;
+  background-color: #FFEF00;
   color: black;
 }
 .PPABE-RTN, .MATERIELS{
   background-color: blue;
 }
 .SR-FDF, .EPI{
-  background-color: #FF00FF;
+  background-color: #FFB7C5;
 }
 
 @keyframes rollDice {
