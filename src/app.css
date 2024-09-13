@@ -70,6 +70,7 @@ img {
 
 .INC, .DETECTION{
   background-color: #7B3F00;
+  color: black;
 }
 .CAD, .CHIMIE {
   background-color: #FF8C00;
@@ -81,9 +82,11 @@ img {
 }
 .PPABE-RTN, .MATERIELS{
   background-color: blue;
+  color: black;
 }
 .SR-FDF, .EPI{
-  background-color: #FFB7C5;
+  background-color: #df4665;
+  color: black;
 }
 
 @keyframes rollDice {
