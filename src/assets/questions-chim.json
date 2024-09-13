@@ -1216,5 +1216,83 @@
     "id": 202,
     "question": "Qu'est ce que la DAE ?",
     "answer": "La décomposition auto-entretenu"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 203,
+    "question": "A quelle famille appartient le charbon, bactérie, virus, toxine ou parasite ?",
+    "answer": "Bactérie"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 204,
+    "question": "A quelle famille appartient la peste, bactérie, virus, toxine ou parasite ?",
+    "answer": "Bactérie"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 205,
+    "question": "A quelle famille appartient la tularémie, bactérie, virus, toxine ou parasite ?",
+    "answer": "Bactérie"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 206,
+    "question": "A quelle famille appartient ebola, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 207,
+    "question": "A quelle famille appartient le botulisme, bactérie, virus, toxine ou parasite ?",
+    "answer": "Toxine de bactérie"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 208,
+    "question": "A quelle famille appartient la brucellose, bactérie, virus, toxine ou parasite ?",
+    "answer": "Bactérie"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 209,
+    "question": "A quelle famille appartient la ricine, bactérie, virus, toxine ou parasite ?",
+    "answer": "Toxique de plante"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 210,
+    "question": "A quelle famille appartient l' encéphalite à tiques, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 211,
+    "question": "A quelle famille appartient la gale, bactérie, virus, toxine ou parasite ?",
+    "answer": "Parasite"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 212,
+    "question": "A quelle famille appartient la varicelle, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 213,
+    "question": "A quelle famille appartient la rougeole, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 214,
+    "question": "A quelle famille appartient le SIDA, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 215,
+    "question": "A quelle famille appartient l'hépatite B, bactérie, virus, toxine ou parasite ?",
+    "answer": "Virus"
   }
 ]
