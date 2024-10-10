@@ -8,19 +8,19 @@
   {
     "category": "CHIMIE",
     "id": 2,
-    "question": "Combien valent 298 °Kelvin (°K) en °Celsius (°C) ?",
-    "answer": " 25 ° C (T° C = T° K – 273,15)"
+    "question": "Combien valent 298 Kelvin (K) en °Celsius (°C) ?",
+    "answer": " 25 °C (T° C = T° K – 273,15)"
   },
   {
     "category": "CHIMIE",
     "id": 3,
-    "question": "Comment s'appelle le changement d’état entre Solide-liquide ?",
+    "question": "Comment s'appelle le changement d’état entre solide et liquide ?",
     "answer": "La Fusion"
   },
   {
     "category": "CHIMIE",
     "id": 4,
-    "question": "Comment s'appelle le changement d’état entre Gaz - liquide ?",
+    "question": "Comment s'appelle le changement d’état entre gaz et liquide ?",
     "answer": "La liquéfaction"
   },
   {
@@ -146,14 +146,14 @@
   {
     "category": "TOXICOLOGIE",
     "id": 25,
-    "question": "Quelle est le Temps d’exposition des valeurs ERPG ?",
+    "question": "Quel est le Temps d’exposition des valeurs ERPG ?",
     "answer": " 60 min"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 26,
     "question": "Quelle est la Définition d'AEGL1 ?",
-    "answer": "Acure Exposure Guideline Levels, Concentration maximale dans l'air d'une substance au-dessus de laquelle il est prévu que la population en général, y compris les individus sensibles, pourrait éprouver une gêne notable, une irritation ou certains effets non sensoriels asymptomatiques."
+    "answer": "Acute Exposure Guideline Levels, Concentration maximale dans l'air d'une substance au-dessus de laquelle il est prévu que la population en général, y compris les individus sensibles, pourrait éprouver une gêne notable, une irritation ou certains effets non sensoriels asymptomatiques."
   },
   {
     "category": "TOXICOLOGIE",
@@ -242,7 +242,7 @@
   {
     "category": "EPI",
     "id": 41,
-    "question": "A quel rique correspond une tenue de catégorie 1 ?",
+    "question": "A quel rique correspond un EPI de catégorie 1 ?",
     "answer": "Risque minime"
   },
   {
@@ -290,7 +290,7 @@
   {
     "category": "DETECTION",
     "id": 49,
-    "question": "Quel est le gaz contenue dans une bouteile de couleur grise ?",
+    "question": "Quel est le gaz contenu dans une bouteile de couleur grise ?",
     "answer": "Du dioxyde de carbone"
   },
   {
@@ -326,13 +326,13 @@
   {
     "category": "DETECTION",
     "id": 55,
-    "question": "Quel est le gaz contenue dans une bouteile de couleur marron ?",
+    "question": "Quel est le gaz contenu dans une bouteile de couleur marron ?",
     "answer": "De l'hélium."
   },
   {
     "category": "DETECTION",
     "id": 56,
-    "question": "Quel est le gaz contenue dans une bouteile de couleur chatain ?",
+    "question": "Quel est le gaz contenu dans une bouteile de couleur chatain ?",
     "answer": "L'acétylene"
   },
   {
@@ -350,7 +350,7 @@
   {
     "category": "DETECTION",
     "id": 59,
-    "question": "Quel est le gaz contenue dans une bouteile de couleur noire ?",
+    "question": "Quel est le gaz contenu dans une bouteile de couleur noire ?",
     "answer": "L'azote"
   },
   {
@@ -369,7 +369,7 @@
     "category": "PROCEDURES",
     "id": 62,
     "question": "Qu'est ce que USINAID ?",
-    "answer": "<p>Un réseau de conseil en cas d'accident sur une substanche chimique</p>"
+    "answer": "<p>Un réseau de conseil en cas d'accident sur une substance chimique</p>"
   },
   {
     "category": "CHIMIE",
@@ -380,7 +380,7 @@
   {
     "category": "PROCEDURES",
     "id": 64,
-    "question": "Qu'est ce que le CEDRE'  ?",
+    "question": "Qu'est ce que le CEDRE ?",
     "answer": "<p><strong>CE</strong>ntre de <strong>D</strong>ocumentation de <strong>R</strong>echerche et d'<strong>E</strong>xpérimentation sur les pollutions accidentelles des eaux</p>"
   },
   {
@@ -405,7 +405,7 @@
     "category": "PROCEDURES",
     "id": 67,
     "question": "Quelles sont les circulairs NRBCe ?",
-    "answer": "<ul><li>700 - action terroriste avec arme chimique/li><li>750 - découverte d'un pli et colis suspect</li><li>800 - attentat rad</li></ul>"
+    "answer": "<ul><li>700 - action terroriste avec arme chimique</li><li>750 - découverte d'un pli et colis suspect</li><li>800 - attentat rad</li></ul>"
   },
   {
     "category": "PROCEDURES",
@@ -458,37 +458,37 @@
   {
     "category": "EPI",
     "id": 76,
-    "question": "A quel rique correspond une tenue de catégorie 2 ?",
+    "question": "A quel rique correspond un EPI de catégorie 2 ?",
     "answer": "Risque intermédiaire"
   },
   {
     "category": "EPI",
     "id": 77,
-    "question": "A quel rique correspond une tenue de catégorie 3 ?",
+    "question": "A quel rique correspond un EPI de catégorie 3 ?",
     "answer": "Risque mortel ou grave"
   },
   {
     "category": "EPI",
     "id": 78,
-    "question": "A quoi correspond la lettre B sur cartouches filtrantes ?",
+    "question": "A quoi correspond la lettre B sur les cartouches filtrantes ?",
     "answer": "Gaz et vapeur inorganiques"
   },
   {
     "category": "EPI",
     "id": 79,
-    "question": "A quoi correspond la lettre E sur cartouches filtrantes ?",
+    "question": "A quoi correspond la lettre E sur les cartouches filtrantes ?",
     "answer": "Acide chlorhydrique anhydride sulfureux"
   },
   {
     "category": "EPI",
     "id": 80,
-    "question": "A quoi correspond la lettre K sur cartouches filtrantes ?",
+    "question": "A quoi correspond la lettre K sur les cartouches filtrantes ?",
     "answer": "Ammoniac"
   },
   {
     "category": "EPI",
     "id": 81,
-    "question": "A quoi correspond les lettres Hg sur cartouches filtrantes ?",
+    "question": "A quoi correspond les lettres Hg sur les cartouches filtrantes ?",
     "answer": "Mercure"
   },
   {
@@ -1089,13 +1089,13 @@
     "category": "EPI",
     "id": 181,
     "question": "Quelles sont les conditions du port de l'ARI ?",
-    "answer": "<ul><li>oxy inf à 17%</li><li>qlité air inconnu</li><li>presence toxique</li><li>CO</li><li>risque embrassement/explo</li></ul>"
+    "answer": "<ul><li>oxy inf à 17%</li><li>qualité de l'air inconnue</li><li>présence de substances toxiques</li><li>CO</li><li>risque d'embrasement/explosion</li></ul>"
   },
   {
     "category": "EPI",
     "id": 182,
     "question": "Quelles sont les conditions du port de l'APRF ?",
-    "answer": "<ul><li>O² sup à 17%</li><li>&nbsp;polluant identifié et mesurer</li><li>concentration la plus élever connue</li><li>dispotif filtrant adapté au polluant</li><li>instabilité de l'atmosphere évalué</li></ul>"
+    "answer": "<ul><li>O² sup à 17%</li><li>polluant identifié et mesuré</li><li>concentration la plus élevée connue</li><li>dispositif filtrant adapté au polluant</li><li>instabilité de l'atmosphère évalué</li></ul>"
   },
   {
     "category": "PROCEDURES",
@@ -1113,7 +1113,7 @@
     "category": "PROCEDURES",
     "id": 185,
     "question": "Quelle est la MGO en cas d'intervention en présence d'une bouteile d'acetylene soumise à la chaleur ou à un flux thermique ?",
-    "answer": "<ul><li>Dans tout les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./acetylene.png\" alt=\"Procédure d'intervention phase à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
+    "answer": "<ul><li>Dans tous les cas, se munir d’une caméra thermique afin de pouvoir visualiser rapidement et à distance, l’existence de points chauds. </li><li>Ne pas s’approcher de la bouteille. Ne pas la déplacer. Respecter le périmètre de sécurité.</li><li>Se protéger. Eteindre le feu. Continuer à arroser abondamment la bouteille.</li></ul> <img src=\"./acetylene.png\" alt=\"Procédure d'intervention face à une bouteille d'acetylene en conctact de chaleur\" aria-hidden=\"true\"/>"
   },
   {
     "category": "CHIMIE",
@@ -1131,7 +1131,7 @@
     "category": "CHIMIE",
     "id": 188,
     "question": "Qu'est ce qu'un Bleve ?",
-    "answer": "<p>Boiling Liquid Expanding Vapour Explosion</p><p>Vaporisation explosive d'un liquide porté à ebulition</p>"
+    "answer": "<p>Boiling Liquid Expanding Vapour Explosion</p><p>Vaporisation explosive d'un liquide porté à ébullition</p>"
   },
   {
     "category": "CHIMIE",
@@ -1161,7 +1161,7 @@
     "category": "TOXICOLOGIE",
     "id": 193,
     "question": "Quelles sont les principales voies de pénétration d'une substance toxique ?",
-    "answer": "<ul><li>Oculaires</li><li>Digestives</li><li>Digestives</li><li>Respiratoires<li></ul>"
+    "answer": "<ul><li>Oculaires</li><li>Percutanée</li><li>Cutanée</li><li>Digestives</li><li>Respiratoires</li></ul>"
   },
   {
     "category": "DETECTION",
@@ -1215,84 +1215,90 @@
     "category": "CHIMIE",
     "id": 202,
     "question": "Qu'est ce que la DAE ?",
-    "answer": "La décomposition auto-entretenu"
+    "answer": "La décomposition auto-entretenue"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 203,
-    "question": "A quelle famille appartient le charbon? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet l'Anthrax ? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Bactérie"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 204,
-    "question": "A quelle famille appartient la peste? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet la peste ? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Bactérie"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 205,
-    "question": "A quelle famille appartient la tularémie? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet la Tularémie ? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Bactérie"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 206,
-    "question": "A quelle famille appartient ebola? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet Ebola : Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 207,
-    "question": "A quelle famille appartient le botulisme? Bactérie, Virus, Toxine ou Parasite ?",
-    "answer": "Toxine de Bactérie"
+    "question": "Quel est le type d'agent pathogène qui transmet le botulisme? Bactérie, Virus, Toxine ou Parasite ?",
+    "answer": "Toxine de Bactérienne"
  },
 {
   "category": "TOXICOLOGIE",
   "id": 208,
-  "question": "A quelle famille appartient la brucellose? Bactérie, Virus, Toxine ou Parasite ?",
+  "question": "Quel est le type d'agent pathogène qui transmet la brucellose? Bactérie, Virus, Toxine ou Parasite ?",
   "answer": "Bactérie"
  },
 {
     "category": "TOXICOLOGIE",
     "id": 209,
     "question": "A quelle famille appartient la ricine? Bactérie, Virus, Toxine ou Parasite ?",
-    "answer": "Toxique de plante"
+    "answer": "Toxine de plante"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 210,
-    "question": "A quelle famille appartient l' encéphalite à tiques? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet l' encéphalite à tiques? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 211,
-    "question": "A quelle famille appartient la gale? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet la gale? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Parasite"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 212,
-    "question": "A quelle famille appartient la varicelle? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet la varicelle? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 213,
-    "question": "A quelle famille appartient la rougeole? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet la rougeole? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 214,
-    "question": "A quelle famille appartient le SIDA? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet le SIDA? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   },
   {
     "category": "TOXICOLOGIE",
     "id": 215,
-    "question": "A quelle famille appartient l'hépatite B? Bactérie, Virus, Toxine ou Parasite ?",
+    "question": "Quel est le type d'agent pathogène qui transmet l'hépatite B? Bactérie, Virus, Toxine ou Parasite ?",
+    "answer": "Virus"
+  },
+  {
+    "category": "TOXICOLOGIE",
+    "id": 216,
+    "question": "Quel est le type d'agent pathogène qui transmet la variole ? Bactérie, Virus, Toxine ou Parasite ?",
     "answer": "Virus"
   }
 ]
