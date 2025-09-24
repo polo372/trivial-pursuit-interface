@@ -387,7 +387,7 @@
   {
     "category": "SAP",
     "id": 64,
-    "question": "Quel est l'objectif de l'oxygénation ?",
+    "question": "Quelles sont les valeurs cible de l'oxygénation ?",
     "answer": "94-98%"
   },
   {
@@ -459,7 +459,7 @@
   {
     "category": "SAP",
     "id": 76,
-    "question": "Quelles sont les différentes manoeuvres physiques ?",
+    "question": "Quelles sont les différentes manoeuvres physiques en cas de malaise vagale?",
     "answer": "<ul><li>Accroupissement</li><li>Croisement des membres inférieurs</li><li>Crochetage des doigts et tension des membres supérieurs</li></ul>"
   },
   {
