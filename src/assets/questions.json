@@ -39,7 +39,7 @@
     "category": "CAD",
     "id": 6,
     "question": "Qui est le ministre de l'intéreur ?",
-    "answer": "Bruno Retailleau"
+    "answer": "en attente du nouveau gouvernement"
   },
   {
     "category": "SAP",
@@ -244,13 +244,13 @@
     "category": "CAD",
     "id": 40,
     "question": "Qui est le ministre des armées ?",
-    "answer": "Sebastien Lecornu"
+    "answer": "en attente du nouveau gouvernement"
   },
   {
     "category": "CAD",
     "id": 41,
     "question": "Qui est le premier ministre ?",
-    "answer": "Francois Bayrou"
+    "answer": "Sebastien Lecornu"
   },
   {
     "category": "CAD",
