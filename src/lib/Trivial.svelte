@@ -5,6 +5,7 @@
   import Card from "./components/Card.svelte";
   import Statistics from "./components/Statistics.svelte";
   import { initQuestions, reloadGame, getCategories } from "./question";
+  import { gameStore } from '../stores/gameStore';
   import { createEventDispatcher } from "svelte";
   import { fade, fly } from 'svelte/transition';
 

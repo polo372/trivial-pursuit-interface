@@ -89,34 +89,39 @@ function createGameStore() {
 
         getQuestionByCategory: (category: string) => {
             update(state => {
-                // Filter questions for this category
-                const categoryQuestions = state.questions.filter(q => q.category === category);
+                let nextQuestion: Question | undefined;
+                let newQuestions: Question[] = [...state.questions];
 
-                let nextQuestion: Question;
-                let newQuestions: Question[];
+                // 1. Try to find a question of this category in the current pool
+                const index = newQuestions.findIndex(q => q.category === category);
 
-                if (categoryQuestions.length === 0) {
-                    // Reload this category from source
+                if (index !== -1) {
+                    // Found one in current pool
+                    nextQuestion = newQuestions[index];
+                    // Remove it
+                    newQuestions.splice(index, 1);
+                } else {
+                    // 2. Not found, reload from source
                     const allQuestions = questionsFromFile as Question[];
-                    const reloadedCategoryQuestions = shuffleArray(allQuestions.filter(q => q.category === category));
+                    const categoryQuestions = allQuestions.filter(q => q.category === category);
 
-                    if (reloadedCategoryQuestions.length === 0) {
-                        // Should not happen if category exists
+                    if (categoryQuestions.length === 0) {
+                        console.error(`No questions found for category: ${category}`);
                         return state;
                     }
 
-                    nextQuestion = reloadedCategoryQuestions[0];
-                    // Remaining from reloaded + existing (which were none) + others in state
-                    // Actually state.questions has other categories, we must keep them
-                    const otherCategories = state.questions.filter(q => q.category !== category);
+                    // Shuffle the reloaded questions
+                    const reloaded = shuffleArray(categoryQuestions);
 
-                    // New pool is other categories + reloaded minus the one we picked
-                    const remainingReloaded = reloadedCategoryQuestions.slice(1);
+                    // Pick the first one
+                    nextQuestion = reloaded[0];
+
+                    // Add the rest of the reloaded questions to our pool (so we don't reload every time)
+                    // We keep existing questions from OTHER categories
+                    const otherCategories = newQuestions.filter(q => q.category !== category);
+                    const remainingReloaded = reloaded.slice(1);
+
                     newQuestions = [...otherCategories, ...remainingReloaded];
-                } else {
-                    nextQuestion = categoryQuestions[0];
-                    // Remove this specific question instance from state.questions
-                    newQuestions = state.questions.filter(q => q.id !== nextQuestion.id);
                 }
 
                 // Save to local storage
@@ -125,7 +130,7 @@ function createGameStore() {
                 return {
                     ...state,
                     questions: newQuestions,
-                    currentQuestion: nextQuestion
+                    currentQuestion: nextQuestion || null
                 };
             });
         }
