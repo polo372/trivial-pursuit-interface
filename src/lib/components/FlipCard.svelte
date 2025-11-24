@@ -17,7 +17,7 @@
   .flip-container {
     perspective: 1000px;
     width: 100%;
-    min-height: 300px;
+    /* Remove fixed height constraints to allow growth */
   }
 
   .flipper {
@@ -25,8 +25,9 @@
     transform-style: preserve-3d;
     position: relative;
     width: 100%;
-    height: 100%;
-    min-height: 300px;
+    /* Use grid to stack faces while allowing content to dictate height */
+    display: grid;
+    grid-template-areas: "card";
   }
 
   .flipped .flipper {
@@ -34,12 +35,11 @@
   }
 
   .front, .back {
+    grid-area: card; /* Stack them on top of each other */
     backface-visibility: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
+    /* position: relative;  <-- Default for grid items, allows height to grow */
     width: 100%;
-    height: 100%;
+    min-height: 300px; /* Minimum height for consistency */
     display: flex;
     flex-direction: column;
     justify-content: center;

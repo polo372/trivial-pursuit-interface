@@ -202,8 +202,11 @@
     color: var(--color-text-primary);
     flex-grow: 1;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    padding: 0 var(--spacing-sm);
   }
 
   .reveal-btn {

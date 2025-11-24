@@ -125,11 +125,15 @@
     gap: var(--spacing-xl);
     width: 100%;
     max-width: 1000px;
+    justify-items: center; /* Center items in their grid cells */
+    margin: 0 auto; /* Ensure grid itself is centered */
   }
 
   .card-wrapper {
     cursor: pointer;
     height: 100%;
+    width: 100%;
+    max-width: 400px; /* Prevent cards from getting too wide on large screens if grid stretches */
   }
 
   .card-content {
