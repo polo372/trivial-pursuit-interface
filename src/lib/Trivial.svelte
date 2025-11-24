@@ -85,7 +85,10 @@
             <div in:fly={{ y: 20, delay: i * 50 }}>
               <CategoryCard 
                 {category} 
-                onClick={() => (categorySelected = category)}
+                onClick={() => {
+                  gameStore.clearCurrentQuestion(); // Force clear to ensure new question fetch
+                  categorySelected = category;
+                }}
               />
             </div>
           {/each}

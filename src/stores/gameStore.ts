@@ -83,36 +83,50 @@ function createGameStore() {
             await gameStore.init();
         },
 
+        clearCurrentQuestion: () => {
+            update(s => ({ ...s, currentQuestion: null }));
+        },
+
         getQuestionByCategory: (category: string) => {
             update(state => {
-                const index = state.questions.findIndex(q => q.category === category);
+                // Filter questions for this category
+                const categoryQuestions = state.questions.filter(q => q.category === category);
 
-                if (index === -1) {
-                    // No more questions, reload this category
-                    const allQuestions = questionsFromFile as Question[]; // Should ideally be the source of truth
-                    const categoryQuestions = shuffleArray(allQuestions.filter(q => q.category === category));
+                let nextQuestion: Question;
+                let newQuestions: Question[];
 
-                    const newQuestions = [...state.questions, ...categoryQuestions];
-                    localStorage.setItem(getQuestionsLocalStorageKey(), JSON.stringify(newQuestions));
+                if (categoryQuestions.length === 0) {
+                    // Reload this category from source
+                    const allQuestions = questionsFromFile as Question[];
+                    const reloadedCategoryQuestions = shuffleArray(allQuestions.filter(q => q.category === category));
 
-                    // Recursive call to get the first one from the reloaded batch
-                    // But since we are inside an update, we can't await or recurse easily without side effects
-                    // So we just return the first one from the new batch
-                    const nextQuestion = categoryQuestions[0] as Question;
-                    // Remove it from the pool
-                    const remaining = newQuestions.filter(q => q.id !== nextQuestion.id);
-                    localStorage.setItem(getQuestionsLocalStorageKey(), JSON.stringify(remaining));
+                    if (reloadedCategoryQuestions.length === 0) {
+                        // Should not happen if category exists
+                        return state;
+                    }
 
-                    return { ...state, questions: remaining, currentQuestion: nextQuestion };
+                    nextQuestion = reloadedCategoryQuestions[0];
+                    // Remaining from reloaded + existing (which were none) + others in state
+                    // Actually state.questions has other categories, we must keep them
+                    const otherCategories = state.questions.filter(q => q.category !== category);
+
+                    // New pool is other categories + reloaded minus the one we picked
+                    const remainingReloaded = reloadedCategoryQuestions.slice(1);
+                    newQuestions = [...otherCategories, ...remainingReloaded];
+                } else {
+                    nextQuestion = categoryQuestions[0];
+                    // Remove this specific question instance from state.questions
+                    newQuestions = state.questions.filter(q => q.id !== nextQuestion.id);
                 }
 
-                const question = state.questions[index];
-                const newQuestions = [...state.questions];
-                newQuestions.splice(index, 1);
-
+                // Save to local storage
                 localStorage.setItem(getQuestionsLocalStorageKey(), JSON.stringify(newQuestions));
 
-                return { ...state, questions: newQuestions, currentQuestion: question };
+                return {
+                    ...state,
+                    questions: newQuestions,
+                    currentQuestion: nextQuestion
+                };
             });
         }
     };

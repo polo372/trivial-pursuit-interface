@@ -49,11 +49,15 @@
   const nextQuestion = () => {
     showAnswer = false;
     answered = false;
-    dispatch("newQuestion");
     
-    if (continueAfterAnswer) {
-      gameStore.getQuestionByCategory(category);
-    }
+    // Delay fetching/dispatching to allow the card to flip back visually
+    setTimeout(() => {
+      dispatch("newQuestion");
+      
+      if (continueAfterAnswer) {
+        gameStore.getQuestionByCategory(category);
+      }
+    }, 600); // Match transition duration
   };
 
   export const changeCategory = () => {
