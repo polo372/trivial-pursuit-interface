@@ -9,10 +9,10 @@
   const getIcon = (cat: string) => {
     if (cat.includes('SAP') || cat.includes('TOXICOLOGIE')) return '🚑';
     if (cat.includes('INC') || cat.includes('DETECTION')) return '🔥';
-    if (cat.includes('CAD') || cat.includes('CHIMIE')) return '🧪';
+    if (cat.includes('CAD') || cat.includes('CHIMIE')) return '📚';
     if (cat.includes('PRV') || cat.includes('PROCEDURES')) return '📋';
     if (cat.includes('MATERIELS')) return '🚒';
-    if (cat.includes('SR') || cat.includes('EPI')) return '🪖';
+    if (cat.includes('SR') || cat.includes('EPI')) return '🚧';
     return '🎲';
   };
 
