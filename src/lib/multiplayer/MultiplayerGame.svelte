@@ -42,26 +42,37 @@
   import { createEventDispatcher } from 'svelte';
   import { gameStore } from '../../stores/gameStore';
 
+  // State variables
+  let categorySelected: string | null = null;
+  let lastAnswerCorrect = false;
+
+  console.log('MultiplayerGame component loaded');
+
   const dispatch = createEventDispatcher();
 
   initQuestions();
   const categoriesPromise = getCategories();
-  
-  let categorySelected: string | null = null;
 
   function handleQuestionResult(correct: boolean) {
+    lastAnswerCorrect = correct;
     if (correct) {
       const player = $playerStore.players[$playerStore.currentPlayerIndex];
       if (categorySelected) {
         playerStore.recordScore(player.id, categorySelected, 1);
       }
     }
-    // Next turn regardless of result? Or keep turn if correct?
-    // Standard rules: keep turn if correct.
-    if (!correct) {
+  }
+
+  function handleNextQuestion() {
+    // If answer was incorrect, pass turn
+    if (!lastAnswerCorrect) {
       playerStore.nextTurn();
     }
+    // If correct, player keeps turn (standard rules)
+    
+    // Return to board
     categorySelected = null;
+    lastAnswerCorrect = false; // Reset for next time
   }
 </script>
 
@@ -78,16 +89,9 @@
           <!-- We need to intercept the result from Question -->
           <!-- Question component handles its own state and statsStore. 
                We need it to notify us of the result for multiplayer score. -->
-          <!-- I'll need to update Question.svelte to dispatch 'answer' event with correctness -->
           <Question
             category={categorySelected}
-            on:newQuestion={() => {
-              // This event is triggered when "Question suivante" is clicked
-              // But we need to know if it was correct BEFORE this to update score.
-              // Question.svelte updates statsStore internally.
-              // We should probably listen to an event from Question.
-              // I will update Question.svelte to dispatch 'result' event.
-            }}
+            on:newQuestion={handleNextQuestion}
             on:result={(e) => handleQuestionResult(e.detail.correct)}
           />
         </div>

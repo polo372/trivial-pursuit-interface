@@ -5,9 +5,9 @@
   import Card from "./components/Card.svelte";
   import Statistics from "./components/Statistics.svelte";
   import { initQuestions, reloadGame, getCategories } from "./question";
-  import { gameStore } from '../stores/gameStore';
+  import { gameStore } from "../stores/gameStore";
   import { createEventDispatcher } from "svelte";
-  import { fade, fly } from 'svelte/transition';
+  import { fade, fly } from "svelte/transition";
 
   const dispatch = createEventDispatcher();
 
@@ -19,6 +19,7 @@
   // Sélection d'une catégorie de question
   let categorySelected: string | null = null;
   let showStats = false;
+  let questionKey = 0; // Counter to force Question component remount
 
   function download(url: string, filename: string): void {
     const link = document.createElement("a");
@@ -32,13 +33,15 @@
 
 {#await categoriesPromise then categories}
   {#if showStats}
-    <Statistics on:close={() => showStats = false} />
+    <Statistics on:close={() => (showStats = false)} />
   {:else if categorySelected}
     <div in:fade={{ duration: 300 }}>
-      <Question
-        category={categorySelected}
-        on:newQuestion={() => (categorySelected = null)}
-      />
+      {#key questionKey}
+        <Question
+          category={categorySelected}
+          on:newQuestion={() => (categorySelected = null)}
+        />
+      {/key}
     </div>
   {:else}
     <div class="game-container" in:fade={{ duration: 300 }}>
@@ -48,7 +51,9 @@
         </button>
         <h1 class="text-gradient">Plateau de Jeu</h1>
         <div class="actions">
-          <button on:click={() => showStats = true} class="stats-btn">📊 Statistiques</button>
+          <button on:click={() => (showStats = true)} class="stats-btn"
+            >📊 Statistiques</button
+          >
           <button on:click={() => reloadGame()}>Recharger le jeu</button>
         </div>
       </header>
@@ -74,7 +79,11 @@
               <a href="./regle.jpg" target="_blank" class="resource-link">
                 📜 Règles du jeu
               </a>
-              <a href="https://forms.gle/enz8CB7Qdb87GL377" target="_blank" class="resource-link">
+              <a
+                href="https://forms.gle/enz8CB7Qdb87GL377"
+                target="_blank"
+                class="resource-link"
+              >
                 💡 Suggestions
               </a>
             </div>
@@ -84,11 +93,12 @@
         <main class="categories-grid">
           {#each categories as category, i}
             <div in:fly={{ y: 20, delay: i * 50 }}>
-              <CategoryCard 
-                {category} 
+              <CategoryCard
+                {category}
                 onClick={() => {
                   gameStore.clearCurrentQuestion(); // Force clear to ensure new question fetch
                   categorySelected = category;
+                  questionKey++; // Increment key to force component remount
                 }}
               />
             </div>
@@ -163,11 +173,12 @@
     gap: var(--spacing-sm);
   }
 
-  .resources-list button, .resource-link {
+  .resources-list button,
+  .resource-link {
     width: 100%;
     text-align: left;
     padding: var(--spacing-sm) var(--spacing-md);
-    background: rgba(255,255,255,0.05);
+    background: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
     border: 1px solid transparent;
     transition: all 0.2s;
@@ -177,8 +188,9 @@
     box-sizing: border-box;
   }
 
-  .resources-list button:hover, .resource-link:hover {
-    background: rgba(255,255,255,0.1);
+  .resources-list button:hover,
+  .resource-link:hover {
+    background: rgba(255, 255, 255, 0.1);
     transform: translateX(5px);
   }
 
