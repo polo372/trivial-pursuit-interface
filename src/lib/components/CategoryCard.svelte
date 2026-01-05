@@ -13,7 +13,7 @@
     if (cat.includes('PRV') || cat.includes('PROCEDURES')) return '📋';
     if (cat.includes('MATERIELS')) return '🚒';
     if (cat.includes('SR') || cat.includes('EPI')) return '🚧';
-    return '🎲';
+    return '☣️';
   };
 
   const icon = getIcon(category);
