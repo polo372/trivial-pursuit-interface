@@ -117,7 +117,7 @@
   {
     "category": "CAD",
     "id": 19,
-    "question": "Quels sont les caractéristiques des européennes ?",
+    "question": "Quels sont les caractéristiques des éléction européennes ?",
     "answer": "Election tout les 5ans au suffrage universel direct."
   },
   {
@@ -316,7 +316,7 @@
     "category": "INC",
     "id": 52,
     "question": "Quelle est la longueur d'une voie échelle ?",
-    "answer": "10m"
+    "answer": "10m minimum"
   },
   {
     "category": "INC",
@@ -2107,7 +2107,7 @@
     "answer": "<p>Maniere dont va se comporter une matériau comme combustible</p>"
   },
   {
-    "category": "SAP",
+    "category": "CAD",
     "id": 353,
     "question": "Qu'est ce qu'à apporté le rapport Pourny ?",
     "answer": "<p>2003-developpement de la culture H&amp;S chez SP</p>"
@@ -2470,7 +2470,7 @@
     "category": "SR-FDF",
     "id": 413,
     "question": "Quels sont les différentes manœuvres tactiques defensives ?",
-    "answer": "<ul><li>La défense de points sensibles</li><li>L'établissement de lignes d'appui</li></ul>"
+    "answer": "<ul><li>La défense de points sensibles</li><li>L'établissement d'une ligne d'appui statique</li><li>L'établissement d'une ligne d'appui dynamique</li></ul>"
   },
   {
     "category": "SR-FDF",
@@ -2499,7 +2499,7 @@
   {
     "category": "SR-FDF",
     "id": 341,
-    "question": "Comment se réalise une ligne d'appuie ?",
+    "question": "Comment se réalise une ligne d'appui ?",
     "answer": "<p>Destinée à combattre le sinistre sur une zone reconnue et préparée à l’avance, la ligne d’appui peut être statique ou dynamique.<ul><li>statique : les engins sont espacés sur ordre, en position statique, positionnés sur une zone préalablement choisie pour ses qualités naturelles favorisant l’arrêt du feu</li>li>dynamique : les engins progressent en colonne, espacés sur ordre, et utilisent les lances en roulant (lance canon ou lance depuis la cabine).</li></ul></p><br><img src=\"./ligne_appui.png\" alt=\"Une ligne d'appui\" aria-hidden=\"true\"/>"
   }
 ]
