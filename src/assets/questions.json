@@ -820,7 +820,7 @@
     "category": "INC",
     "id": 136,
     "question": "Quelles sont les différentes techniques d'extinction ?",
-    "answer": "<ul><li>refroidissement des fumées (gas cooling, impulsion courtes/longues)</li><li>extinction direct (pencilinge, painting, ricochet)</li><li>extinction indirect (production de vapeur d'eau par les parois)</li><li>combiné massive (TZO)</li><li>situation pré-backdraft</li><li>repli sous protection hydraulique</li><li>feu soumis aux effets du vent et effets chalumeau</li><li>attaque d'atténuation</li><li>utilisation des moyens portatifs de projection d'agent extincteur</li></ul>"
+    "answer": "<ul><li>refroidissement des fumées (gas cooling, impulsion courtes/longues)</li><li>extinction direct (penciling, painting, ricochet)</li><li>extinction indirect (production de vapeur d'eau par les parois)</li><li>combiné massive (TZO)</li><li>situation pré-backdraft</li><li>repli sous protection hydraulique</li><li>feu soumis aux effets du vent et effets chalumeau</li><li>attaque d'atténuation</li><li>utilisation des moyens portatifs de projection d'agent extincteur</li></ul>"
   },
   {
     "category": "INC",
@@ -1558,7 +1558,7 @@
     "category": "INC",
     "id": 259,
     "question": "Comment calcul t-on le pied d'échelle ?",
-    "answer": "1/5ème de la hauteur déployée"
+    "answer": "1/5ème de la longueur développée<br>(GTO-Sauvetages-Mise-En-Securite-V2 p.18)"
   },
   {
     "category": "INC",
@@ -2501,5 +2501,96 @@
     "id": 341,
     "question": "Comment se réalise une ligne d'appui ?",
     "answer": "<p>Destinée à combattre le sinistre sur une zone reconnue et préparée à l’avance, la ligne d’appui peut être statique ou dynamique.<ul><li>statique : les engins sont espacés sur ordre, en position statique, positionnés sur une zone préalablement choisie pour ses qualités naturelles favorisant l’arrêt du feu</li>li>dynamique : les engins progressent en colonne, espacés sur ordre, et utilisent les lances en roulant (lance canon ou lance depuis la cabine).</li></ul></p><br><img src=\"./ligne_appui.png\" alt=\"Une ligne d'appui\" aria-hidden=\"true\"/>"
+  },
+   {
+    "category": "INC",
+    "id": 417,
+    "question": "Lors de votre reconnaissance sur incendie vous découvrez cette porte, que signifie ce marquage ?<br> <img src=\"./porte_1trait.png\" alt=\"une porte avec un trait en diagonale sur sa face avant\" aria-hidden=\"true\"/><br>",
+    "answer": "Un binome est en cours de reconnaissace dans cette pièce.<br>(GTO-Engagement-Milieux-Vicies-V2 p.51)"
+  },
+  {
+    "category": "INC",
+    "id": 418,
+    "question": "Lors de votre reconnaissance sur incendie vous découvrez cette porte, que signifie ce marquage ?<br> <img src=\"./porte_croix.png\" alt=\"une porte avec une croix sur sa face avant\" aria-hidden=\"true\"/><br>",
+    "answer": "Une première reconnaissance a été éffectuée.<br>(GTO-Engagement-Milieux-Vicies-V2 p.51)"
+  },
+  {
+    "category": "INC",
+    "id": 419,
+    "question": "Lors de votre reconnaissance sur incendie vous découvrez cette porte, que signifie ce marquage ?<br> <img src=\"./porte rond + croix.png\" alt=\"une porte avec une croix dans un cercle sur sa face avant\" aria-hidden=\"true\"/><br>",
+    "answer": "Une seconde reconnaissance a été effectuée dans ce local.<br>(GTO-Engagement-Milieux-Vicies-V2 p.51)"
+  },
+    {
+    "category": "INC",
+    "id": 420,
+    "question": "Quelle est la conduite à tenir du porte lance face à une situation proche du flashover (dans des conditions qui n'imposent pas un repli) ?",
+    "answer": "<ul><li>Passer en jet droit</li><li>Débit de 100 a 300 L/Min env</li><li>appliquer l’eau sur les parties hautes des parois latérales et sur le plafond en opérant un balayage(sweep) de droite a gauche (ou de gauche a droite) assez progressivement. La durée de l’application est a adapter au local a traiter. L’effet mécanique de l’eau n’ayant pas d’intérêt, il est nécessaire de n’ouvrir que partiellement le robinet de lance.</ul><br>(GTO-Etablissement-Techniques-Extinction p.87)"
+  },
+  {
+    "category": "INC",
+    "id": 421,
+    "question": "Qu'est ce que la classe de feu A",
+    "answer": "Un feu de solide de type Bois-Papier-Carton"
+  },
+  {
+    "category": "INC",
+    "id": 422,
+    "question": "Qu'est ce que la classe de feu B",
+    "answer": "Un feu liquide ou solide liquéfiable"
+  },
+  {
+    "category": "INC",
+    "id": 423,
+    "question": "Qu'est ce que la classe de feu C",
+    "answer": "Un feu de gaz"
+  },
+  {
+    "category": "INC",
+    "id": 424,
+    "question": "Qu'est ce que la classe de feu D",
+    "answer": "Un feu de métaux"
+  },
+  {
+    "category": "INC",
+    "id": 425,
+    "question": "Qu'est ce que la classe de feu F",
+    "answer": "Un feu d'auxiliaire de cuisson'"
+  },
+  {
+    "category": "INC",
+    "id": 426,
+    "question": "Qu'est ce que la classe de feu L",
+    "answer": "Un feu de lithium<br><a href=\"https://pnrs.ensosp.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=102395&documentId=102396&skipWatermark=true&skipCopyright=true\">Pour en savoir plus</a>"
+  },
+  {
+    "category": "INC",
+    "id": 427,
+    "question": "Que comprend l'enregistrement avant l'engagement auprès du contrôleur ou du chef d'agrès.",
+    "answer": "<ul><li>l'identification des porteurs et la pression d'engagement</li><li>l'inscription de l'heure d'entrée</li><li>la remise des 'clés' des balises de détresses avec les plaquettes d'enregistrements au chef d'agrès, au contrôleur ou laissées au point d'enregistrement.</li></ul><br>(GTO-Engagement-Milieux-Vicies-V2 p.34)"
+  },
+   {
+    "category": "INC",
+    "id": 428,
+    "question": "Quel est le ratio de répartition de transfert de chaleur dans une pièce en moyenne?",
+    "answer": "<ul><li>70% par convection</li><li>25% par rayonnement</li><li>5% par conduction</li></ul><br>(GDO-Interventions-Incendies-Structures p.31)"
+  },
+  {
+    "category": "PPABE-RTN",
+    "id": 429,
+    "question": "Quelle est la tension de pas dans un pas de 1m",
+    "answer": "1000V<br>(GDO-Operations-Presence-Electricite p.59)"
+  },
+  {
+    "category": "PPABE-RTN",
+    "id": 430,
+    "question": "Quelle est la tension de pas dans un pas de 0,5m",
+    "answer": "500V<br>(GDO-Operations-Presence-Electricite p.59)"
+  },
+    {
+    "category": "CAD",
+    "id": 431,
+    "question": "Que signifie SDS",
+    "answer": "Service De Santé"
   }
 ]
+
