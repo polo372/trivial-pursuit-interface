@@ -26,25 +26,25 @@
   {
     "category": "CAD",
     "id": 4,
-    "question": "Quels sont les compétences de la commune ?",
+    "question": "Quelles sont les compétences de la commune ?",
     "answer": "La commune est compétente en matière : <ul><li>d'urbanisme</li><li>logement</li><li>environnement</li><li>gestion des écoles préélémentaires et élémentaires.</li></ul>"
   },
   {
     "category": "CAD",
     "id": 5,
-    "question": "Quels sont les compétences du département ?",
+    "question": "Quelles sont les compétences du département ?",
     "answer": "Le département est compétent en matière : <ul><li>d'action  sociale</li><li>infrastructures</li><li>gestion des collèges</li><li>aide aux communes</li></ul>"
   },
   {
     "category": "CAD",
     "id": 6,
     "question": "Qui est le ministre de l'intérieur ?",
-    "answer": "en attente du nouveau gouvernement"
+    "answer": "Laurent Nuñez depuis le 12 Octobre 2025"
   },
   {
     "category": "SAP",
     "id": 7,
-    "question": "Quel type de BAVU utilisé pour un prématuré <2.5kg ?",
+    "question": "Quel type de d'insufflateur est utilisé pour un prématuré < 2.5kg ?",
     "answer": "200 à 250ml"
   },
   {
@@ -63,25 +63,25 @@
   {
     "category": "INC",
     "id": 10,
-    "question": "Quel est la largeur d'une voie échelle ?",
+    "question": "Quelle est la largeur d'une voie échelle ?",
     "answer": "4M"
   },
   {
     "category": "INC",
     "id": 11,
-    "question": "Quels sont les types de flammes ?",
+    "question": "Quelles sont les types de flammes ?",
     "answer": "Flammes de pré-mélange<br>Flammes de diffusion"
   },
   {
     "category": "PPABE-RTN",
     "id": 12,
-    "question": "Quel est la couleur d'une bouteille de gaz corrosif ou toxique ?",
+    "question": "Quelle est la couleur d'une bouteille de gaz corrosif ou toxique ?",
     "answer": "Jaune"
   },
   {
     "category": "CAD",
     "id": 13,
-    "question": "Quels sont les sanctions du 4eme groupe ?",
+    "question": "Quelles sont les sanctions du 4eme groupe ?",
     "answer": "Mise à la retraite<br>révocation"
   },
   {
@@ -111,13 +111,13 @@
   {
     "category": "CAD",
     "id": 18,
-    "question": "Quel technologie concerne la recherche d'avion civil ou militaire ?",
+    "question": "Quelle technologie concerne la recherche d'avion civil ou militaire ?",
     "answer": "La radiogoniométrie d'aéronef en dètresse."
   },
   {
     "category": "CAD",
     "id": 19,
-    "question": "Quels sont les caractéristiques des éléction européennes ?",
+    "question": "Quelles sont les caractéristiques des éléction européennes ?",
     "answer": "Election tout les 5ans au suffrage universel direct."
   },
   {
@@ -141,7 +141,7 @@
   {
     "category": "CAD",
     "id": 23,
-    "question": "Quelles sont les devoirs du fonctionnaire ?",
+    "question": "Quels sont les devoirs du fonctionnaire ?",
     "answer": "<ul><li>Diginité, impartialité, intégrité, probité</li><li>neutralité</li><li>satisfaire aux demandes d'information aux public</li><li>secret professionel, discrétion professionel,devoir de réserve</li><li>obéissance hiérarchique</li><li>obligation de desintéressement</li></ul>"
   },
   {
@@ -166,7 +166,7 @@
     "category": "CAD",
     "id": 27,
     "question": "Qui est la défenseuse des droits ?",
-    "answer": "Claire Hedon"
+    "answer": "François-Noël Buffet est le Défenseur des droits depuis le 23 juillet 2026"
   },
   {
     "category": "CAD",
@@ -244,7 +244,7 @@
     "category": "CAD",
     "id": 40,
     "question": "Qui est le ministre des armées ?",
-    "answer": "en attente du nouveau gouvernement"
+    "answer": "Catherine Vautrin"
   },
   {
     "category": "CAD",
@@ -297,19 +297,19 @@
   {
     "category": "INC",
     "id": 49,
-    "question": "Quels sont les caractéristiques d'une impulsion longue ?",
+    "question": "Quelles sont les caractéristiques d'une impulsion longue ?",
     "answer": "100 à 300 L/Min<br>ouverture de 20 à 30°"
   },
   {
     "category": "INC",
     "id": 50,
-    "question": "Quels sont les caractéristiques du Gaz cooling ?",
+    "question": "Quelles sont les caractéristiques du Gaz cooling ?",
     "answer": "100 à 250 L/min<br>ouverture 30 à 60°"
   },
   {
     "category": "PRV-COD",
     "id": 51,
-    "question": "Quel est la dimension d'une baie accessible ?",
+    "question": "Quelle est la dimension d'une baie accessible ?",
     "answer": "1,30 de haut par 0,90 de large."
   },
   {
@@ -321,7 +321,7 @@
   {
     "category": "INC",
     "id": 53,
-    "question": "Quel est la longueur d'une voie engin ?",
+    "question": "Quelle est la longueur d'une voie engin ?",
     "answer": "8m mini"
   },
   {
@@ -339,7 +339,7 @@
   {
     "category": "INC",
     "id": 56,
-    "question": "Quel est la nomemclature d'une commande ?",
+    "question": "Quelle est la nomemclature d'une commande ?",
     "answer": "7mm de diamètre<br>30m de longueur"
   },
   {
@@ -351,7 +351,7 @@
   {
     "category": "SAP",
     "id": 58,
-    "question": "Quels sont les différentes réaction d'un état de crise ?",
+    "question": "Quelles sont les différentes réaction d'un état de crise ?",
     "answer": "Réaction silencieuse ou Réaction Bruyante"
   },
   {
@@ -393,7 +393,7 @@
   {
     "category": "SAP",
     "id": 65,
-    "question": "Quels sont les techniques de stabilisation de l'état physiologique d'une victime ?",
+    "question": "Quelles sont les techniques de stabilisation de l'état physiologique d'une victime ?",
     "answer": "<ul><li>Focalisation attentionnel</li><li>Défocalisation attentionnel</li><li>Technique de respiration</li></ul>"
   },
   {
@@ -423,25 +423,25 @@
   {
     "category": "INC",
     "id": 70,
-    "question": "Comment est représentée une bouche à incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
+    "question": "Comment est représenté une bouche à incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
     "answer": "Un carré bleu colorisé au 1/4"
   },
   {
     "category": "INC",
     "id": 71,
-    "question": "Comment est représentée une bouche à incendie sur un plan DFCI ?",
+    "question": "Comment est représenté une bouche à incendie sur un plan DFCI ?",
     "answer": "Un carré bleu"
   },
   {
     "category": "INC",
     "id": 72,
-    "question": "Comment est représentée un poteau d'incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
+    "question": "Comment est représenté un poteau d'incendie débitant entre 30 et 60m3/H sur un plan DFCI ?",
     "answer": "Un rond bleu colorié au 1/4"
   },
   {
     "category": "INC",
     "id": 73,
-    "question": "Comment est représentée un poteau d'incendie sur un plan DFCI ?",
+    "question": "Comment est représenté un poteau d'incendie sur un plan DFCI ?",
     "answer": "Un rond bleu"
   },
   {
@@ -513,7 +513,7 @@
   {
     "category": "INC",
     "id": 85,
-    "question": "Quelles sont les objectifs de la ventilation ?",
+    "question": "Quels sont les objectifs de la ventilation ?",
     "answer": "<ul><li>Attaquer</li><li>Protéger</li><li>Désenfumer</li></ul>"
   },
   {
@@ -562,7 +562,7 @@
     "category": "CAD",
     "id": 93,
     "question": "Que signifie SINUS ?",
-    "answer": "Systeme d'information numérique standardisé"
+    "answer": "Systeme d'Information NUmérique Standardisé"
   },
   {
     "category": "PPABE-RTN",
@@ -742,13 +742,13 @@
     "category": "CAD",
     "id": 123,
     "question": "Que signifie COGIC ?",
-    "answer": "centre opérationnel des gestion interministeriel de crise"
+    "answer": "Centre Opérationnel des Gestion Interministeriel de Crise"
   },
   {
     "category": "CAD",
     "id": 124,
     "question": "Que signifie CIC ?",
-    "answer": "centre interministériel de crise"
+    "answer": "Centre Interministériel de Crise"
   },
   {
     "category": "INC",
@@ -814,7 +814,7 @@
     "category": "INC",
     "id": 135,
     "question": "Quelles sont les différentes tactiques opérationnel en Incendie ?",
-    "answer": "<ul><li>repli sur position defensive</li><li>lutte contre les propag inter</li><li>lutte contre les propag externe</li><li>attaque feu naissant</li><li>attque en ventilation +</li><li>attaque en antiventilation</li><li>attaque de transition</li><li>attaque massive de l'exterieur</li><li>attaque en antiventilation depuis l'extérieur</li></ul>"
+    "answer": "<ul><li>repli sur position defensive</li><li>lutte contre les propagations interne</li><li>lutte contre les propagations externe</li><li>attaque de feu naissant</li><li>attaque en ventilation positif</li><li>attaque en antiventilation</li><li>attaque de transition</li><li>attaque massive de l'extérieur</li><li>attaque en antiventilation depuis l'extérieur</li></ul>"
   },
   {
     "category": "INC",
@@ -838,7 +838,7 @@
     "category": "SAP",
     "id": 139,
     "question": "Quels sont les actes réalisable par les SP sans avis médicale ?",
-    "answer": "<ul><li>prise de température,</li><li>pulsation cardiaque,</li><li>pression artériel</li><li>recueil glycémie</li><li>administration d'aerosol non médicamenteux</li><li>etablissment score de gravité</li><li>recueil sat</li></ul>"
+    "answer": "<ul><li>prise de température</li><li>pulsation cardiaque</li><li>pression artériel</li><li>recueil glycémie</li><li>administration d'aerosol non médicamenteux</li><li>etablissment score de gravité</li><li>recueil sat</li></ul>"
   },
   {
     "category": "PPABE-RTN",
@@ -867,20 +867,20 @@
   {
     "category": "INC",
     "id": 144,
-    "question": "Quels sont les caractéristiques techniques de l'échelle à crochet pliable?",
+    "question": "Quelles sont les caractéristiques techniques de l'échelle à crochet pliable?",
     "answer": "<ul><li>Poids : 9kg</li><li>Longueur déployée : 4,25m</li><li>Longueur reployée : 2,40m</li></ul>"
   },
   {
     "category": "INC",
     "id": 145,
-    "question": "Quels sont les caractéristiques techniques de l'échelle à coulisse petit modele ?",
+    "question": "Quelles sont les caractéristiques techniques de l'échelle à coulisse petit modele ?",
     "answer": "<ul><li>Poids : 20kg</li><li>Longueur déployée : 5,60m</li><li>Longueur reployée 3,60m</li></ul>"
   },
   {
     "category": "INC",
     "id": 146,
     "question": "Qu'est ce que la combustion ?",
-    "answer": "Une réaction chimique induisant la présence de réactif et la necessité d'un initiateur. réaction exothermique d'oxydoréduction"
+    "answer": "Une réaction chimique induisant la présence de réactif et la necessité d'un initiateur. C'est une réaction exothermique d'oxydoréduction"
   },
   {
     "category": "INC",
@@ -903,7 +903,7 @@
   {
     "category": "INC",
     "id": 150,
-    "question": "Quelle est la définition de la condution ?",
+    "question": "Quelle est la définition de la conduction ?",
     "answer": "transfert d'énergie dans le matériaux en lui meme de proche en proche."
   },
   {
@@ -945,13 +945,13 @@
   {
     "category": "SAP",
     "id": 157,
-    "question": "Quel type de BAVU utilisé pour un enfant de  2.5kg à 25kg ?",
+    "question": "Quel type d'insufflateur est utilisé pour un enfant de  2.5kg à 25kg ?",
     "answer": "400 à 500ml"
   },
   {
     "category": "SAP",
     "id": 158,
-    "question": "Quel type de BAVU utilisé pour un adulte de plus de 25kg ?",
+    "question": "Quel type d'insufflateur est utilisé pour un adulte de plus de 25kg ?",
     "answer": "1400 à 2500ml"
   },
   {
@@ -964,7 +964,7 @@
     "category": "INC",
     "id": 160,
     "question": "Que signifie RDDECI ?",
-    "answer": "Réglement départemental de défense extérieur contre l'incendie."
+    "answer": "Réglement Départemental de Défense Extérieur Contre l'Incendie."
   },
   {
     "category": "CAD",
@@ -976,7 +976,7 @@
     "category": "CAD",
     "id": 162,
     "question": "Quels sont les principes du commandement en opération ?",
-    "answer": "<ul><li>Je peux commander 4maxi</li><li>je commande mes subordonnées directs</li><li>je réponds à mon supérieur directs</li><li>controle l'execution des mes ordres</li></ul>"
+    "answer": "<ul><li>Je peux commander 4 personnes maximum</li><li>je commande mes subordonnées directs</li><li>je réponds à mon supérieur directs</li><li>controle l'execution des mes ordres</li></ul>"
   },
   {
     "category": "INC",
@@ -987,7 +987,7 @@
   {
     "category": "INC",
     "id": 164,
-    "question": "Quel est la définition de l'énergie calorifique ?",
+    "question": "Quelle est la définition de l'énergie calorifique ?",
     "answer": "energie concrétement dégagée au cours de la combustion d'un matériau."
   },
   {
@@ -1234,7 +1234,7 @@
     "category": "CAD",
     "id": 205,
     "question": "Que signifie l'acronyme AIDES ?",
-    "answer": "<ul><li>accédés</li><li>isoler</li><li>désenfumer</li><li>explorer</li><li>sauver / sortir</li></ul>"
+    "answer": "<ul><li>Accéder</li><li>Isoler</li><li>Désenfumer</li><li>Explorer</li><li>Sauver / Sortir</li></ul>"
   },
   {
     "category": "PPABE-RTN",
@@ -1432,7 +1432,7 @@
     "category": "CAD",
     "id": 238,
     "question": "Qu'est ce qu'un OTAU ?",
-    "answer": "Un opérateur de traitement des appels d'urgence."
+    "answer": "Un Opérateur de Traitement des Appels d'Urgence."
   },
   {
     "category": "CAD",
@@ -1443,8 +1443,8 @@
   {
     "category": "CAD",
     "id": 240,
-    "question": "Que signifie COTTRIM ?",
-    "answer": "Contrat territoriaux de reponse aux risque et aux effets de menace."
+    "question": "Que signifie COTRRIM ?",
+    "answer": "COntrat Territoriaux de Reponse aux Risque et aux effets potentiels de Menace."
   },
   {
     "category": "SAP",
@@ -1491,8 +1491,8 @@
   {
     "category": "INC",
     "id": 248,
-    "question": "Que signifie l'acronyme AAAEERTER ?",
-    "answer": "<ul><li>AIR</li><li>alarme</li><li>alerte</li><li>Economiser l'ai</li><li>Eclairer</li><li>rester pres du sol</li><li>taper</li><li>explorer</li><li>remonter la cagoule</li></ul>"
+    "question": "Que signifie l'acronyme AAAlEERTER ?",
+    "answer": "<ul><li>Air</li><li>Alarme</li><li>Alerte</li><li>Economiser l'air</li><li>Eclairer</li><li>Rester pres du sol</li><li>taper</li><li>explorer</li><li>remonter la cagoule</li></ul>"
   },
   {
     "category": "INC",
@@ -1569,13 +1569,13 @@
   {
     "category": "INC",
     "id": 261,
-    "question": "Quels sont les actions de l'eau ?",
+    "question": "Quelles sont les actions de l'eau ?",
     "answer": "<ul><li>Refroidissement</li><li>Etouffement</li><li>Dispersion</li><li>Inertage</li><li>Soufflage</li></ul>"
   },
   {
     "category": "SAP",
     "id": 262,
-    "question": "Quels sont les cas de réponses non fiables ?",
+    "question": "Quelles sont les cas de réponses non fiables ?",
     "answer": "<ul><li>detresse vital</li><li>alcool ou drogue</li><li>alteration conscience</li><li>atteinte traumatique severe (dlrs de distraction)</li><li>non coopération, difficulté de communication</li></ul>"
   },
   {
@@ -1762,7 +1762,7 @@
     "category": "PRV-COD",
     "id": 293,
     "question": "Quelle est la dimension de l'angle de fuite ?",
-    "answer": "Supérieur ou égale à l'angle d'attaque."
+    "answer": "Supérieur ou égal à l'angle d'attaque."
   },
   {
     "category": "PRV-COD",
@@ -2025,7 +2025,7 @@
   {
     "category": "PPABE-RTN",
     "id": 337,
-    "question": "Qu'est ce que le CEDRE'  ?",
+    "question": "Qu'est ce que le CEDRE  ?",
     "answer": "<p><strong>CE</strong>ntre de <strong>D</strong>ocumentation de <strong>R</strong>echerche et d'<strong>E</strong>xpérimentation sur les pollutions accidentelles des eaux</p>"
   },
   {
@@ -2356,12 +2356,12 @@
     "category": "PPABE-RTN",
     "id": 394,
     "question": "Qu'est ce qu'un ICPE ?",
-    "answer": "<p>Installation classé pour l'environnement&nbsp;</p><p>Exploitation industriel ou agricole - risque ou pollution / nuisance</p><ul><li>Non classé</li><li>déclaration</li><li>déclaration avec controle périodique</li><li>enregistrement</li><li>autorisation Seveso seuil Bas</li><li>autorisation avec servitude d'autorité publique Seveso Seuil Haut</li></ul>"
+    "answer": "<p>Installation classé pour l'environnement&nbsp;</p><p>Exploitation industrielle ou agricole - risque ou pollution / nuisance</p><ul><li>Non classé</li><li>déclaration</li><li>déclaration avec controle périodique</li><li>enregistrement</li><li>autorisation Seveso seuil Bas</li><li>autorisation avec servitude d'autorité publique Seveso Seuil Haut</li></ul>"
   },
   {
     "category": "PPABE-RTN",
     "id": 395,
-    "question": "Quels sont les éléments d'une explosion de poussière ?",
+    "question": "Quels sont les 6 éléments d'une explosion de poussière ?",
     "answer": "<ol><li>O²</li><li>poussiere</li><li>suspension</li><li>domaine d'explosivité</li><li>source d'inflammation</li><li>confinement</li></ol>"
   },
   {
@@ -2433,8 +2433,8 @@
   {
     "category": "SR-FDF",
     "id": 407,
-    "question": "Qu'est-ce que le guet aérien armé retardant ?",
-    "answer": "<p>C'est une technique utilisant des avions pour larguer des retardants sur les zones à risque afin de ralentir la progression du feu.​​​​​</p>"
+    "question": "Qu'est-ce que le G.A.A.R ?",
+    "answer": "<p>C'est le guet aérien armé de retardant, il s'agit d'une technique utilisant des avions pour larguer des retardants sur les zones à risque afin de ralentir la progression du feu.​​​​​</p>"
   },
   {
     "category": "SR-FDF",
@@ -2535,62 +2535,116 @@
   {
     "category": "INC",
     "id": 422,
-    "question": "Qu'est ce que la classe de feu B",
+    "question": "Qu'est ce que la classe de feu B ?",
     "answer": "Un feu liquide ou solide liquéfiable"
   },
   {
     "category": "INC",
     "id": 423,
-    "question": "Qu'est ce que la classe de feu C",
+    "question": "Qu'est ce que la classe de feu C ?",
     "answer": "Un feu de gaz"
   },
   {
     "category": "INC",
     "id": 424,
-    "question": "Qu'est ce que la classe de feu D",
+    "question": "Qu'est ce que la classe de feu D ?",
     "answer": "Un feu de métaux"
   },
   {
     "category": "INC",
     "id": 425,
-    "question": "Qu'est ce que la classe de feu F",
+    "question": "Qu'est ce que la classe de feu F ?",
     "answer": "Un feu d'auxiliaire de cuisson'"
   },
   {
     "category": "INC",
     "id": 426,
-    "question": "Qu'est ce que la classe de feu L",
+    "question": "Qu'est ce que la classe de feu L ?",
     "answer": "Un feu de lithium<br><a href=\"https://pnrs.ensosp.fr/digitalCollection/DigitalCollectionAttachmentDownloadHandler.ashx?parentDocumentId=102395&documentId=102396&skipWatermark=true&skipCopyright=true\">Pour en savoir plus</a>"
   },
   {
     "category": "INC",
     "id": 427,
-    "question": "Que comprend l'enregistrement avant l'engagement auprès du contrôleur ou du chef d'agrès.",
+    "question": "Que comprend l'enregistrement avant l'engagement auprès du contrôleur ou du chef d'agrès ?",
     "answer": "<ul><li>l'identification des porteurs et la pression d'engagement</li><li>l'inscription de l'heure d'entrée</li><li>la remise des 'clés' des balises de détresses avec les plaquettes d'enregistrements au chef d'agrès, au contrôleur ou laissées au point d'enregistrement.</li></ul><br>(GTO-Engagement-Milieux-Vicies-V2 p.34)"
   },
    {
     "category": "INC",
     "id": 428,
-    "question": "Quel est le ratio de répartition de transfert de chaleur dans une pièce en moyenne?",
+    "question": "Quel est le ratio de répartition de transfert de chaleur dans une pièce en moyenne ?",
     "answer": "<ul><li>70% par convection</li><li>25% par rayonnement</li><li>5% par conduction</li></ul><br>(GDO-Interventions-Incendies-Structures p.31)"
   },
   {
     "category": "PPABE-RTN",
     "id": 429,
-    "question": "Quelle est la tension de pas dans un pas de 1m",
+    "question": "Quelle est la tension de pas dans un pas de 1m ?",
     "answer": "1000V<br>(GDO-Operations-Presence-Electricite p.59)"
   },
   {
     "category": "PPABE-RTN",
     "id": 430,
-    "question": "Quelle est la tension de pas dans un pas de 0,5m",
+    "question": "Quelle est la tension de pas dans un pas de 0,5m ?",
     "answer": "500V<br>(GDO-Operations-Presence-Electricite p.59)"
   },
     {
     "category": "CAD",
     "id": 431,
-    "question": "Que signifie SDS",
+    "question": "Que signifie SDS ?",
     "answer": "Service De Santé"
+  },
+  {
+    "category": "SAP",
+    "id": 432,
+    "question": "A quoi sert le score de Malinas ?",
+    "answer": "Le score de MALINAS est une évaluation chiffrée qui permet de déterminer si une femme enceinte va bientôt accoucher.<br>Dans un cadre extra-hospitalier, cela donne une indication sur l’imminence d’un accouchement.<br>Il permet donc de savoir si un transport peut se réaliser ou non.<br>Le score de MALINAS est la somme de 5 critères évalués chacun entre 0 et 2.  "
+  },
+  {
+    "category": "SAP",
+    "id": 433,
+    "question": "Quels sont les critères du score de Malinas ?",
+    "answer": "<ul><li>Le nombre de Parité</li><li>La durée du travail</li><li>La durée des contractions</li><li>La durée des intervalles entre les contractions</li><li>La perte des eaux</li></ul>"
+  },
+  {
+    "category": "SAP",
+    "id": 434,
+    "question": "Quels élements prendre en compte dans la prise en charge de la femme enceinte",
+    "answer": "<ul><li>Le nombre de grossesses : toutes les grossesses, même si elles ne sont pas arrivées à terme. IVG, fausse couche, à terme mort-né, …. </li><li>Le nombre de parité : grossesses arrivées à terme en comptant celle pour laquelle nous sommes appelé. Pas de zéro pour ce champ.</li><li>La date des dernières règles</li><li>La date du terme</li><li>L'Intervalle et la durée des contractions</li><li>La perte des eaux (Non/Oui, depuis combien de temps?</li><li>La quantité du saignement estimé (ml)</li><li>L'envie de pousser</li></ul>"
+  },
+  {
+    "category": "SAP",
+    "id": 435,
+    "question": "A quoi sert le score d'APGAR ?",
+    "answer": "Le score d'APGAR est une évaluation chiffrée qui permet d'évaluer l'état des fonctions vitales du nouveau-né et son adaptation à la vie extra-utérine.<br>Il est la somme de 5 critères évalués chacun entre 0 et 2.<br>Les 5 lettres d’Apgar ont servi d’acronyme comme moyen mnémotechnique pour Aspect (coloration), Pouls, Grimace (à l’excitation), Activité (tonus), Respiration.<br>Il est évalué à 1 minutes, à 5 minutes et à 10 minutes de vie. "
+  },
+  {
+    "category": "SAP",
+    "id": 436,
+    "question": "Quels sont les critères du score d'APGAR ?",
+    "answer": "Aspect (coloration), Pouls, Grimace (à l’excitation), Activité (tonus), Respiration."
+  },
+   {
+    "category": "PPABE-RTN",
+    "id": 437,
+    "question": "De quoi est composé principalement un LSPCC",
+    "answer": "<ul><li>Une corde semi-statique de 30m pour un lot 'engin' et 60m pour un lot 'echelle'</li><li>Un dispositif manuel permettant de freiner la charge et destiné à reguler la descente d'une personne</li><li>D'anneaux de sangles cousus</li><li>De connecteurs</li><li>D'une poulie</li><li>D'un harnais</li><li>D'un triangle d'évacuation</li></ul>"
+  },
+  {
+    "category": "PRV-COD",
+    "id": 438,
+    "question": "Qu'est ce que la porté théorique ?",
+    "answer": "C'est la distance exprimée en meètre, entre le point projeté du dernier échelon du premier plan au point le plus saillant du véhicule"
+  },
+  {
+    "category": "PRV-COD",
+    "id": 439,
+    "question": "Qu'est ce que le polygone de sustentation ?",
+    "answer": "C'est une figure géométrique dessinée par l'appui des stabilisateurs du moyen élévateur aérien au sol. Le ou les essieux arrière ne sont pas pris en copte dans le polygone"
+  },
+  {
+    "category": "CAD",
+    "id": 440,
+    "question": "Qu'est ce que l'ONSAS ?",
+    "answer": "L'Observatoire national de la santé des agents des SIS"
   }
 ]
 
